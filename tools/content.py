@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-18"
+UPDATED = "2026-10-21"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -266,7 +266,7 @@ page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nh
 <li><strong>Bảo hành tại Việt Nam:</strong> thời hạn rõ ràng, kênh hỗ trợ cụ thể.</li>
 <li><strong>Chế độ cho từng vùng:</strong> mặt, bikini, chế độ cho lông cứng.</li>
 </ol><p>Ví dụ: URMINE <a href="/products/trinity-i15-pro/">Trinity i15 Pro</a> có 27J, sapphire 2°C, kiểm nghiệm IEC và ISO 10993, bảo hành 24 tháng.</p>"""),
-           sec("Triệt tại nhà hay ra spa", "<p>Spa dùng máy công suất lớn và có kỹ thuật viên, nhưng tính phí theo buổi và cần đặt lịch. Máy tại nhà trả tiền một lần, chủ động thời gian và riêng tư, đổi lại bạn cần tự triệt đều đặn.</p>")],
+           sec("Triệt tại nhà hay ra spa", "<p>Spa dùng máy công suất lớn và có kỹ thuật viên, nhưng tính phí theo buổi và cần đặt lịch. Máy tại nhà trả tiền một lần, chủ động thời gian và riêng tư, đổi lại bạn cần tự triệt đều đặn. Xem <a href=\"/compare/ipl-tai-nha-vs-spa/\">so sánh chi phí tại nhà và spa</a>.</p>")],
      faq=[("Triệt lông IPL tại nhà có vĩnh viễn không?", "IPL giúp giảm lông lâu dài và làm lông mọc lại thưa, mềm hơn. Phần lớn người dùng cần triệt duy trì định kỳ."),
           ("Triệt IPL có đau không?", "Cảm giác thường là ấm nhẹ như dây thun búng. Máy có mặt làm lạnh sapphire giúp giảm cảm giác nóng rát.")])
 
@@ -296,6 +296,9 @@ page(path="/compare/", crumb="So sánh", eyebrow="So sánh",
      answer="Các trang so sánh dưới đây dùng số liệu công bố của URMINE và tiêu chí kiểm chứng được: năng lượng, làm lạnh, kiểm nghiệm, bảo hành, giá.",
      body=[cards([("So sánh", "URMINE và máy IPL không thương hiệu", "Thông số, kiểm nghiệm, bảo hành, hỗ trợ", "/compare/urmine-vs-generic-ipl/"),
                   ("So sánh", "Trinity i15 Pro và máy IPL phổ thông", "Năng lượng, làm lạnh, tốc độ, giá", "/compare/trinity-i15-pro-vs-entry-ipl/"),
+                  ("So sánh", "URMINE Trinity i15 Pro và Ulike Air 10", "Làm lạnh, chế độ, bảo hành, cách mua", "/compare/urmine-vs-ulike-air-10/"),
+                  ("So sánh", "URMINE Trinity i15 Pro và Braun Silk-expert Pro 5", "Cảm biến da, làm lạnh, lịch triệt, giá", "/compare/urmine-vs-braun-silk-expert-pro-5/"),
+                  ("Chi phí", "Triệt lông IPL tại nhà và đi spa", "Bảng giá spa có nguồn, ví dụ tính nhanh", "/compare/ipl-tai-nha-vs-spa/"),
                   ("Dòng URMINE", "Trinity, Nova, Ice Cooling", "Bảng so sánh 3 dòng máy", "/products/")])])
 
 page(path="/compare/urmine-vs-generic-ipl/", crumb="URMINE và IPL không thương hiệu", parent=("/compare/", "So sánh"), eyebrow="So sánh",
@@ -325,6 +328,109 @@ page(path="/compare/trinity-i15-pro-vs-entry-ipl/", crumb="Trinity i15 Pro và I
            '<tr><td>Toàn thân</td><td class="col-hero">~10 phút (Auto Glide)</td><td>—</td></tr>'
            '<tr><td>Số xung</td><td class="col-hero">Không giới hạn</td><td class="num">999.900</td></tr>'
            '</tbody></table></div>', STORES_VI])
+
+page(path="/compare/urmine-vs-ulike-air-10/", crumb="URMINE và Ulike Air 10", parent=("/compare/", "So sánh"), eyebrow="So sánh", schema="Article",
+     title="URMINE Trinity i15 Pro và Ulike Air 10: so sánh máy triệt lông IPL",
+     desc="So sánh URMINE Trinity i15 Pro (27J, sapphire 2°C, PHR, bảo hành 24 tháng tại Việt Nam) với Ulike Air 10 (sapphire 18°C, chế độ SHR và AutoGlide) theo số liệu công bố, có ghi nguồn và ngày.",
+     h1="URMINE Trinity i15 Pro và Ulike Air 10",
+     answer="Cả hai đều là máy IPL đèn kép có làm lạnh sapphire và chế độ lướt tự động. Trinity i15 Pro công bố nhiệt độ mặt lạnh 2°C, chế độ PHR 4 xung, app CTONE, giá 4.200.000 ₫ và bảo hành 24 tháng tại Việt Nam. Ulike Air 10 công bố mặt lạnh 18°C, chế độ SHR và AutoGlide, là thương hiệu toàn cầu có nhiều đánh giá quốc tế. Hãy chọn theo giá thực tế tại Việt Nam, vùng cần triệt và kênh bảo hành.",
+     body=[sec("Cách chúng tôi so sánh", "<p>Trang này chỉ dùng số liệu do hãng công bố hoặc từ bài đánh giá có thể kiểm tra. Số liệu URMINE lấy từ <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026). Số liệu Ulike Air 10 lấy từ trang sản phẩm chính thức <a href=\"https://uk.ulike.com/products/ulike-air-10-ipl-hair-removal\">uk.ulike.com</a> (truy cập 19/10/2026) và bài đánh giá của <a href=\"https://www.tomsguide.com/home/ulike-air-10-review\">Tom's Guide</a> (30/04/2026). Chúng tôi không tự đo đạc thiết bị Ulike. Thông số có thể thay đổi theo phiên bản và thị trường.</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>Tiêu chí</th><th class="col-hero">URMINE Trinity i15 Pro</th><th>Ulike Air 10</th></tr></thead><tbody>'
+           '<tr><td>Công nghệ</td><td class="col-hero">IPL đèn kép + PHR 4 xung</td><td>IPL, chế độ SHR cho lông cứng (nguồn: uk.ulike.com, 19/10/2026)</td></tr>'
+           '<tr><td>Năng lượng công bố</td><td class="col-hero num">27J (tối đa), 100W</td><td>"26J mỗi giây" ở chế độ SHR (uk.ulike.com). Đơn vị công bố khác nhau nên không so sánh trực tiếp được.</td></tr>'
+           '<tr><td>Làm lạnh</td><td class="col-hero">Sapphire 16,6 cm², 2°C, duy trì đến 60 phút</td><td>Sapphire Ice Cooling, nhiệt độ tiếp xúc 18°C (uk.ulike.com)</td></tr>'
+           '<tr><td>Chế độ lướt nhanh</td><td class="col-hero">Auto Glide 0,15 giây/xung, toàn thân khoảng 10 phút</td><td>AutoGlide; không dùng đồng thời với SHR (uk.ulike.com)</td></tr>'
+           '<tr><td>Bước sóng</td><td class="col-hero">560–1200 nm</td><td>Không ghi trên trang sản phẩm (uk.ulike.com)</td></tr>'
+           '<tr><td>App</td><td class="col-hero">CTONE qua Bluetooth</td><td>Không ghi trên trang sản phẩm</td></tr>'
+           '<tr><td>Bảo hành</td><td class="col-hero">24 tháng tại Việt Nam, kích hoạt qua Zalo</td><td>2 năm, có thể gia hạn lên 5 năm khi đăng ký Ulike Care (Tom\'s Guide, 30/04/2026). Điều kiện tại Việt Nam tùy nhà phân phối.</td></tr>'
+           '<tr><td>Cam kết kết quả</td><td class="col-hero">Hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả</td><td>"100-Day Money Back" tại Anh (uk.ulike.com)</td></tr>'
+           '<tr><td>Giá</td><td class="col-hero num">4.200.000 ₫ (giá gốc 8.800.000 ₫)</td><td>£399,99 giá niêm yết tại Anh (uk.ulike.com, 19/10/2026); 349 USD trên Amazon Mỹ (Tom\'s Guide, 30/04/2026). Chưa xác minh được giá chính hãng tại Việt Nam.</td></tr>'
+           '<tr><td>Kiểm nghiệm công bố</td><td class="col-hero">IEC 60601-1/62471 (DE25040077/080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA</td><td>Xem trên trang chính thức của Ulike</td></tr>'
+           '</tbody></table></div>',
+           sec("Nên chọn máy nào", """<ul>
+<li><strong>Chọn URMINE Trinity i15 Pro</strong> nếu bạn ở Việt Nam, muốn mặt lạnh sâu (2°C) cho bikini và nách, cần chế độ PHR cho lông cứng, theo dõi lịch triệt bằng app CTONE và muốn bảo hành, hỗ trợ tiếng Việt qua Shopee Mall, TikTok Shop hoặc urmine.shop.</li>
+<li><strong>Chọn Ulike Air 10</strong> nếu bạn ưu tiên thương hiệu quốc tế có nhiều bài đánh giá tiếng Anh và mua được qua nhà phân phối chính hãng tại Việt Nam với bảo hành rõ ràng.</li>
+<li><strong>Với cả hai:</strong> IPL hiệu quả nhất khi lông sẫm hơn da; không phù hợp với da rất đậm hoặc lông vàng nhạt, bạc, trắng (Tom's Guide cũng ghi nhận giới hạn này với Air 10).</li>
+</ul>"""),
+           sec("Lịch triệt với Trinity i15 Pro", ROUTINE_VI),
+           STORES_VI],
+     faq=[("URMINE và Ulike Air 10 máy nào lạnh hơn?", "Theo số liệu hãng công bố, URMINE Trinity i15 Pro làm lạnh mặt sapphire tới 2°C, còn Ulike Air 10 công bố nhiệt độ tiếp xúc 18°C (uk.ulike.com, truy cập 19/10/2026)."),
+          ("Năng lượng 27J của URMINE có mạnh hơn 26J của Ulike không?", "Không thể kết luận trực tiếp. URMINE công bố năng lượng tối đa 27J, còn Ulike công bố \"26J mỗi giây\" ở chế độ SHR. Hai cách đo khác nhau. Hãy xem thêm làm lạnh, chế độ và bảo hành."),
+          ("Ulike Air 10 giá bao nhiêu ở Việt Nam?", "Chúng tôi chưa xác minh được giá chính hãng tại Việt Nam. Giá niêm yết tại Anh là £399,99 (uk.ulike.com, 19/10/2026). Hãy kiểm tra giá và chế độ bảo hành của nhà phân phối chính hãng trước khi mua."),
+          ("Trinity i15 Pro bảo hành bao lâu?", "24 tháng khi mua qua kênh chính thức (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE), kèm chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả."),
+          ("Bao lâu triệt một lần?", "Với URMINE: 3–4 lần mỗi tuần trong 4 tuần đầu, sau đó duy trì theo tình trạng lông.")])
+
+page(path="/compare/urmine-vs-braun-silk-expert-pro-5/", crumb="URMINE và Braun Silk-expert Pro 5", parent=("/compare/", "So sánh"), eyebrow="So sánh", schema="Article",
+     title="URMINE Trinity i15 Pro và Braun Silk-expert Pro 5: so sánh máy triệt lông IPL",
+     desc="So sánh URMINE Trinity i15 Pro (27J, sapphire 2°C, PHR, 4.200.000 ₫, bảo hành 24 tháng tại Việt Nam) với Braun Silk-expert Pro 5 (cảm biến SensoAdapt, 400.000 xung, 10 mức) theo số liệu công bố, có ghi nguồn và ngày.",
+     h1="URMINE Trinity i15 Pro và Braun Silk-expert Pro 5",
+     answer="Hai máy đi theo hai hướng khác nhau. Braun Silk-expert Pro 5 nổi bật với cảm biến SensoAdapt đọc màu da 80 lần mỗi giây, 10 mức cường độ, 400.000 xung và nhiều đầu phụ; Braun không công bố tính năng làm lạnh. URMINE Trinity i15 Pro công bố năng lượng tối đa 27J, mặt sapphire làm lạnh 2°C, chế độ PHR 4 xung, app CTONE, giá 4.200.000 ₫ và bảo hành 24 tháng tại Việt Nam. Chọn Braun nếu ưu tiên cảm biến tự điều chỉnh; chọn Trinity nếu ưu tiên làm lạnh, lông cứng và hỗ trợ tại Việt Nam.",
+     body=[sec("Cách chúng tôi so sánh", "<p>Trang này chỉ dùng số liệu do hãng công bố. Số liệu URMINE lấy từ <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026). Số liệu Braun Silk-expert Pro 5 lấy từ trang sản phẩm chính thức <a href=\"https://uk.braun.com/en-gb/female-hair-removal/silk-expert-pro-ipl/silk-expert-pro-5/silk-expert-pro-5-pl5347\">uk.braun.com</a>, <a href=\"https://in.braun.com/en-in/female-hair-removal/silk-expert-pro-5/silk-expert-pro-5-pl5137\">in.braun.com</a> và cửa hàng <a href=\"https://www.braunshop.co.uk/ipl-hair-removal/silk-expert-pro-5/silk-expert-pro-5-pl5137-ipl/12893150.html\">braunshop.co.uk</a> (cùng truy cập 20/10/2026). Silk-expert Pro 5 có nhiều mã (PL5124, PL5137, PL5347…) khác nhau chủ yếu ở phụ kiện. Chúng tôi không tự đo đạc thiết bị Braun.</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>Tiêu chí</th><th class="col-hero">URMINE Trinity i15 Pro</th><th>Braun Silk-expert Pro 5</th></tr></thead><tbody>'
+           '<tr><td>Công nghệ</td><td class="col-hero">IPL đèn kép + PHR 4 xung</td><td>IPL với cảm biến SensoAdapt đọc màu da 80 lần/giây và tự điều chỉnh cường độ (uk.braun.com)</td></tr>'
+           '<tr><td>Năng lượng công bố</td><td class="col-hero num">27J (tối đa), 100W</td><td>10 mức cường độ; trang sản phẩm không công bố số Joule</td></tr>'
+           '<tr><td>Làm lạnh</td><td class="col-hero">Sapphire 16,6 cm², 2°C, duy trì đến 60 phút</td><td>Không ghi tính năng làm lạnh trên trang sản phẩm; có chế độ nhẹ và rất nhẹ (in.braun.com)</td></tr>'
+           '<tr><td>Chế độ phát</td><td class="col-hero">Auto Glide 0,15 giây/xung; chế độ mặt, body, bikini, PHR</td><td>Chế độ lướt và chế độ ấn từng điểm (in.braun.com)</td></tr>'
+           '<tr><td>Thời gian công bố</td><td class="col-hero">Toàn thân khoảng 10 phút</td><td>\"Toàn thân trong 10 phút\", chú thích gồm chân, nách, bikini và môi trên (uk.braun.com)</td></tr>'
+           '<tr><td>Số xung</td><td class="col-hero">Không giới hạn</td><td>400.000 xung (uk.braun.com)</td></tr>'
+           '<tr><td>Lịch triệt khuyến nghị</td><td class="col-hero">3–4 lần/tuần trong 4 tuần đầu</td><td>2 tuần một lần, tổng 6 lần, sau đó dặm lại khi cần (uk.braun.com)</td></tr>'
+           '<tr><td>Nguồn điện</td><td class="col-hero">100–240V</td><td>Dùng dây cắm điện, không dùng pin (in.braun.com)</td></tr>'
+           '<tr><td>Kính bảo hộ</td><td class="col-hero">Có kính bảo hộ đi kèm, nên đeo khi dùng</td><td>Hãng ghi không cần kính bảo hộ (uk.braun.com)</td></tr>'
+           '<tr><td>App</td><td class="col-hero">CTONE qua Bluetooth</td><td>Không ghi trên trang Silk-expert Pro 5</td></tr>'
+           '<tr><td>Bảo hành</td><td class="col-hero">24 tháng tại Việt Nam, kích hoạt qua Zalo</td><td>Đến 5 năm khi đăng ký BraunCare+ tại Anh (braunshop.co.uk, 20/10/2026). Điều kiện tại Việt Nam tùy nhà phân phối.</td></tr>'
+           '<tr><td>Cam kết kết quả</td><td class="col-hero">Hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả</td><td>\"100 days money back guarantee\" tại Anh (uk.braun.com)</td></tr>'
+           '<tr><td>Giá</td><td class="col-hero num">4.200.000 ₫ (giá gốc 8.800.000 ₫)</td><td>£610 cho mã PL5137 trên braunshop.co.uk (20/10/2026). Chưa xác minh được giá chính hãng tại Việt Nam.</td></tr>'
+           '<tr><td>Kiểm nghiệm công bố</td><td class="col-hero">IEC 60601-1/62471 (DE25040077/080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA</td><td>Được bác sĩ da liễu độc lập chấp thuận, chứng nhận Skin Health Alliance (uk.braun.com)</td></tr>'
+           '</tbody></table></div>',
+           sec("Nên chọn máy nào", """<ul>
+<li><strong>Chọn URMINE Trinity i15 Pro</strong> nếu bạn muốn mặt lạnh sâu (2°C) để giảm cảm giác nóng ở bikini và nách, cần chế độ PHR cho lông cứng, muốn theo dõi lịch triệt bằng app CTONE và cần bảo hành, hỗ trợ tiếng Việt qua Shopee Mall, TikTok Shop hoặc urmine.shop.</li>
+<li><strong>Chọn Braun Silk-expert Pro 5</strong> nếu bạn ưu tiên cảm biến tự điều chỉnh cường độ theo màu da, thích lịch triệt thưa (2 tuần một lần), cần nhiều đầu phụ cho vùng nhỏ và mua được qua nhà phân phối chính hãng tại Việt Nam.</li>
+<li><strong>Với cả hai:</strong> IPL hiệu quả nhất khi lông sẫm hơn da; lông vàng nhạt, đỏ, bạc, trắng đáp ứng kém. Không chiếu lên hình xăm, nốt ruồi, bớt đậm màu. Braun khuyên kiểm tra màu da và màu lông trước khi mua.</li>
+</ul>"""),
+           sec("Lịch triệt với Trinity i15 Pro", ROUTINE_VI),
+           STORES_VI],
+     faq=[("URMINE và Braun Silk-expert Pro 5 máy nào có làm lạnh?", "URMINE Trinity i15 Pro công bố mặt sapphire làm lạnh đến 2°C, duy trì đến 60 phút. Trang sản phẩm Braun Silk-expert Pro 5 không ghi tính năng làm lạnh; Braun dùng chế độ nhẹ và rất nhẹ để giảm khó chịu (uk.braun.com, in.braun.com, truy cập 20/10/2026)."),
+          ("SensoAdapt của Braun là gì?", "Theo Braun, SensoAdapt là cảm biến đọc màu da 80 lần mỗi giây và tự điều chỉnh cường độ từng xung, chỉ phát sáng khi an toàn với màu da (uk.braun.com, 20/10/2026)."),
+          ("Braun Silk-expert Pro 5 giá bao nhiêu ở Việt Nam?", "Chúng tôi chưa xác minh được giá chính hãng tại Việt Nam. Mã PL5137 có giá £610 trên braunshop.co.uk ngày 20/10/2026. Hãy kiểm tra giá và bảo hành của nhà phân phối chính hãng trước khi mua."),
+          ("Vì sao lịch triệt của URMINE dày hơn Braun?", "Mỗi hãng khuyến nghị lịch riêng cho thiết bị của mình. URMINE khuyến nghị 3–4 lần mỗi tuần trong 4 tuần đầu; Braun khuyến nghị 2 tuần một lần, tổng 6 lần. Hãy làm theo hướng dẫn của đúng thiết bị bạn dùng."),
+          ("Trinity i15 Pro bảo hành bao lâu?", "24 tháng khi mua qua kênh chính thức (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE), kèm chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả.")])
+
+page(path="/compare/ipl-tai-nha-vs-spa/", crumb="IPL tại nhà và đi spa", parent=("/compare/", "So sánh"), eyebrow="So sánh chi phí", schema="Article",
+     title="Triệt lông IPL tại nhà và đi spa: so sánh chi phí 2026",
+     desc="So sánh chi phí triệt lông tại spa, thẩm mỹ viện ở Việt Nam (theo bảng giá công bố, có ghi nguồn và ngày) với máy triệt lông IPL tại nhà URMINE từ 1.550.000 ₫ đến 4.200.000 ₫.",
+     h1="Triệt lông IPL tại nhà và đi spa: tốn bao nhiêu?",
+     answer="Nếu chỉ triệt một vùng nhỏ như nách, gói IPL tại spa có thể rẻ hơn máy tại nhà (bảng giá Finhay 03/2026: 300.000–500.000 ₫/gói IPL, 800.000–1.500.000 ₫/gói Diode). Nếu triệt nhiều vùng hoặc toàn thân, gói spa thường từ 5–8 triệu ₫ (IPL) đến 12–25 triệu ₫ (Diode/Nd:YAG), trong khi máy URMINE Trinity i15 Pro trả một lần 4.200.000 ₫, dùng cho mặt, nách, bikini, tay chân và duy trì lâu dài tại nhà. Spa có kỹ thuật viên và máy công suất lớn; máy tại nhà đổi lại sự riêng tư và chủ động, nhưng bạn phải tự triệt đều.",
+     body=[sec("Nguồn giá spa", "<p>Giá spa và thẩm mỹ viện thay đổi theo cơ sở, công nghệ và chương trình khuyến mãi. Trang này chỉ dùng các bảng giá đã công bố công khai: <a href=\"https://www.finhay.com.vn/triet-long\">Finhay</a> (xuất bản 12/03/2026, giá trọn gói có bảo hành 3–5 năm), <a href=\"https://tamanhhospital.vn/bang-gia-triet-long-vinh-vien/\">BVĐK Tâm Anh</a> (cập nhật 07/06/2025, giá tham khảo cho một liệu trình), <a href=\"https://medpro.vn/tin-tuc/triet-long-vinh-vien-bao-nhieu-tien-o-dau-uy-tin\">Medpro</a> (cập nhật 18/06/2025, giá tham khảo một số bệnh viện) và <a href=\"https://nhathuoclongchau.com.vn/bai-viet/lieu-trinh-triet-ria-mep-het-bao-nhieu-tien-63454.html\">Nhà thuốc Long Châu</a> (21/06/2023). Tất cả truy cập ngày 21/10/2026. Hãy hỏi giá trực tiếp tại cơ sở trước khi quyết định.</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>Vùng</th><th>Gói IPL tại spa (Finhay, 03/2026)</th><th>Gói Diode / Nd:YAG (Finhay, 03/2026)</th><th>Giá tham khảo khác</th></tr></thead><tbody>'
+           '<tr><td>Nách</td><td class="num">300.000–500.000 ₫</td><td class="num">800.000–1.500.000 ₫</td><td>800.000–2.000.000 ₫/liệu trình (Tâm Anh, 06/2025); thường 6–8 buổi (Finhay)</td></tr>'
+           '<tr><td>Mép / mặt</td><td class="num">500.000–800.000 ₫</td><td class="num">1.000.000–2.500.000 ₫</td><td>Ria mép Diode 800.000–1.500.000 ₫ mỗi buổi, khoảng 5–7 buổi (Long Châu, 06/2023)</td></tr>'
+           '<tr><td>Nửa chân / cả chân</td><td class="num">1.000.000–2.000.000 ₫</td><td class="num">3.000.000–6.000.000 ₫</td><td>Tay, chân 1.500.000–5.000.000 ₫ (Tâm Anh); khoảng 8–10 buổi (Finhay)</td></tr>'
+           '<tr><td>Bikini</td><td class="num">1.000.000–1.500.000 ₫</td><td class="num">3.500.000–5.500.000 ₫</td><td>1.500.000–3.000.000 ₫ (Tâm Anh)</td></tr>'
+           '<tr><td>Toàn thân</td><td class="num">5.000.000–8.000.000 ₫</td><td class="num">12.000.000–25.000.000 ₫</td><td>10.000.000–20.000.000 ₫ (Tâm Anh)</td></tr>'
+           '</tbody></table></div>',
+           sec("Chi phí máy IPL tại nhà URMINE", '<div class="table-scroll"><table><thead><tr><th>Máy</th><th>Giá (urmine.shop, 18/10/2026)</th><th>Vùng dùng được</th><th>Số xung</th></tr></thead><tbody>'
+               '<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4.200.000 ₫</td><td>Mặt, nách, bikini, tay chân, toàn thân</td><td>Không giới hạn</td></tr>'
+               '<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2.550.000 ₫</td><td>Mặt, nách, bikini, tay chân</td><td>Không giới hạn</td></tr>'
+               '<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1.550.000 ₫</td><td>Chỉ body</td><td class="num">999.900</td></tr>'
+               '</tbody></table></div><p>Máy trả tiền một lần, không mất phí theo buổi khi triệt duy trì. Trinity i15 Pro bảo hành 24 tháng và có chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả.</p>'),
+           sec("Ví dụ tính nhanh", """<ul>
+<li><strong>Chỉ triệt nách:</strong> gói IPL tại spa 300.000–500.000 ₫ (Finhay) rẻ hơn mọi máy tại nhà. Spa là lựa chọn hợp lý nếu bạn chỉ cần một vùng nhỏ.</li>
+<li><strong>Nách + bikini + cả chân:</strong> cộng gói IPL theo bảng Finhay là khoảng 2.300.000–4.000.000 ₫; gói Diode là khoảng 7.300.000–13.000.000 ₫. Trinity i15 Pro (4.200.000 ₫) ngang gói IPL và thấp hơn gói Diode, lại dùng tiếp được cho mặt và triệt duy trì.</li>
+<li><strong>Toàn thân:</strong> gói spa từ 5.000.000 ₫ (IPL) đến 25.000.000 ₫ (Diode/Nd:YAG) theo các nguồn trên; Trinity i15 Pro là 4.200.000 ₫ một lần.</li>
+<li><strong>Nhiều người trong nhà:</strong> một máy tại nhà dùng được cho nhiều người (mỗi người tự kiểm tra màu da và màu lông phù hợp), còn gói spa tính theo từng người.</li>
+</ul>"""),
+           sec("Ưu và nhược điểm", """<ul>
+<li><strong>Spa / thẩm mỹ viện:</strong> kỹ thuật viên thực hiện, có máy Diode hoặc Nd:YAG công suất lớn (Nd:YAG phù hợp hơn với da sẫm màu), số buổi ít hơn; đổi lại phải đặt lịch, đi lại và trả theo vùng.</li>
+<li><strong>Máy IPL tại nhà:</strong> trả một lần, riêng tư (nhất là bikini), chủ động giờ giấc, dùng duy trì không tốn thêm; đổi lại cần tự triệt đều 3–4 lần/tuần trong 4 tuần đầu và không phù hợp với da rất đậm hoặc lông vàng nhạt, bạc, trắng.</li>
+<li><strong>Dù chọn cách nào:</strong> chọn cơ sở hoặc thiết bị có nguồn gốc rõ ràng, có bảo hành và có hồ sơ kiểm nghiệm. Xem <a href="/compliance/">chứng nhận của URMINE</a>.</li>
+</ul>"""),
+           sec("Lịch triệt tại nhà với URMINE", ROUTINE_VI),
+           STORES_VI],
+     faq=[("Triệt lông tại spa bao nhiêu tiền?", "Theo bảng giá Finhay (12/03/2026), gói IPL tại spa khoảng 300.000–500.000 ₫ cho nách và 5.000.000–8.000.000 ₫ cho toàn thân; gói Diode/Nd:YAG khoảng 800.000–1.500.000 ₫ cho nách và 12.000.000–25.000.000 ₫ cho toàn thân. Giá thực tế tùy cơ sở."),
+          ("Mua máy triệt lông tại nhà có rẻ hơn đi spa không?", "Tùy số vùng cần triệt. Với một vùng nhỏ như nách, gói IPL tại spa thường rẻ hơn. Với nhiều vùng hoặc toàn thân và triệt duy trì lâu dài, máy tại nhà như URMINE Trinity i15 Pro (4.200.000 ₫, trả một lần) thường tiết kiệm hơn gói spa."),
+          ("Triệt tại nhà có hiệu quả bằng spa không?", "Máy spa thường có công suất lớn hơn và cần ít buổi hơn. Máy IPL tại nhà cần triệt đều đặn hơn (với URMINE là 3–4 lần/tuần trong 4 tuần đầu) để thấy lông thưa và mềm hơn, sau đó duy trì."),
+          ("Da ngăm nên đi spa hay dùng máy tại nhà?", "IPL tại nhà phù hợp da sáng đến ngăm, lông đen hoặc nâu. Da nâu đậm cần dùng mức thấp và thử trên vùng nhỏ; da rất đậm nên hỏi bác sĩ da liễu về laser Nd:YAG tại cơ sở y tế."),
+          ("Máy URMINE nào thay được gói spa toàn thân?", "Trinity i15 Pro: 27J, sapphire 2°C, chế độ mặt, body, bikini và PHR, Auto Glide toàn thân khoảng 10 phút, giá 4.200.000 ₫, bảo hành 24 tháng.")])
 
 # ---------------- FAQ / CONTACT / PRIVACY ----------------
 page(path="/faq/", crumb="Hỏi đáp", eyebrow="Hỏi đáp",
