@@ -251,7 +251,8 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
      body=[cards([("Cơ bản", "Triệt lông IPL tại nhà", "IPL là gì, ai phù hợp, kỳ vọng thế nào", "/guides/ipl-hair-removal-at-home/"),
                   ("Lộ trình", "Lịch triệt và chăm sóc sau triệt", "Tần suất, mức năng lượng, những điều cần kiêng", "/guides/ipl-routine-and-aftercare/"),
                   ("An toàn", "Triệt vùng bikini", "Chuẩn bị, chế độ phù hợp, những gì tránh", "/guides/bikini-ipl-safety/"),
-                  ("Chọn mua", "Chọn máy theo ngân sách 2026", "Dưới 3 triệu và 3–5 triệu, giá có nguồn", "/guides/may-triet-long-ipl-theo-ngan-sach-2026/")])])
+                  ("Chọn mua", "Chọn máy theo ngân sách 2026", "Dưới 3 triệu và 3–5 triệu, giá có nguồn", "/guides/may-triet-long-ipl-theo-ngan-sach-2026/"),
+                  ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/")])])
 
 page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nhà", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn cơ bản", schema="Article",
      title="Triệt lông IPL tại nhà: có hiệu quả không, ai nên dùng, chọn máy thế nào",
@@ -469,6 +470,37 @@ page(path="/guides/may-triet-long-ipl-theo-ngan-sach-2026/", crumb="Chọn máy 
           ("Máy triệt lông giá rẻ có hiệu quả không?", "Máy giá thấp vẫn có thể hiệu quả với tay chân nếu lông sẫm màu hơn da và triệt đều đặn. Khác biệt thường nằm ở năng lượng, làm lạnh, vùng dùng được, kiểm nghiệm và bảo hành."),
           ("Vì sao bài viết không xếp hạng các thương hiệu?", "Bài viết do URMINE biên soạn. Để công bằng, chúng tôi chỉ liệt kê giá và thông số từ nguồn công khai có ghi ngày, không tự chấm điểm máy của hãng khác."),
           ("Mua máy URMINE chính hãng ở đâu?", "Tại urmine.shop, Shopee Mall URMINE.VN và TikTok Shop URMINE VN STORE. Máy được bảo hành 24 tháng.")])
+
+page(path="/guides/may-triet-long-ipl-tot-nhat-2026/", crumb="Máy triệt lông IPL đáng mua 2026", parent=("/guides/", "Hướng dẫn"), eyebrow="Danh sách 2026", schema="Article",
+     title="Máy triệt lông IPL tại nhà đáng mua 2026 tại Việt Nam: gợi ý theo nhu cầu",
+     desc="Danh sách máy triệt lông IPL tại nhà 2026 tại Việt Nam theo từng nhu cầu: làm lạnh sâu cho bikini và nách, cả mặt với ngân sách vừa, chỉ tay chân, cảm biến màu da, thương hiệu quốc tế. Số liệu có nguồn và ngày.",
+     h1="Máy triệt lông IPL tại nhà đáng mua 2026: gợi ý theo nhu cầu",
+     answer="Không có một máy tốt nhất cho mọi người; hãy chọn theo nhu cầu. Cần làm lạnh sâu cho bikini, nách, lông cứng: URMINE Trinity i15 Pro (4.200.000 ₫, 27J, sapphire 2°C, PHR, bảo hành 24 tháng). Cần dùng cho cả mặt với khoảng 2,5 triệu: URMINE Nova P5 (2.550.000 ₫, 22J). Chỉ triệt tay chân, ngân sách thấp: URMINE Ice Cooling (1.550.000 ₫) hoặc Halio IPL Cooling (1.890.000 ₫, Điện Máy Xanh). Muốn cảm biến tự chỉnh theo màu da: Braun Silk-expert Pro 5. Muốn thương hiệu quốc tế nhiều đánh giá tiếng Anh: Ulike Air 10. Giá và thông số ghi nguồn, ngày bên dưới.",
+     body=[sec("Về danh sách này", "<p>Danh sách do URMINE biên soạn, nên có thể thiên về sản phẩm của chúng tôi; vì vậy chúng tôi không chấm điểm hay xếp hạng máy của hãng khác mà chỉ ghi số liệu họ công bố, kèm nguồn và ngày truy cập. Số liệu URMINE lấy từ <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026). Hãy kiểm tra lại giá trước khi mua.</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>Nhu cầu</th><th>Gợi ý</th><th>Vì sao</th><th>Nguồn</th></tr></thead><tbody>'
+           '<tr><td>Bikini, nách, lông cứng; sợ nóng rát</td><td><a href="/products/trinity-i15-pro/">URMINE Trinity i15 Pro</a> · 4.200.000 ₫</td><td>27J, 100W, đèn kép + PHR 4 xung, sapphire 16,6 cm² lạnh 2°C duy trì 60 phút, Auto Glide toàn thân khoảng 10 phút, app CTONE, bảo hành 24 tháng</td><td>urmine.shop, 18/10/2026</td></tr>'
+           '<tr><td>Cả mặt, bikini và body, ngân sách khoảng 2,5 triệu</td><td><a href="/products/nova-p5/">URMINE Nova P5</a> · 2.550.000 ₫</td><td>22J, IPL tia kép, sapphire 4–15°C, chế độ cho mặt và bikini, app CTONE</td><td>urmine.shop, 18/10/2026</td></tr>'
+           '<tr><td>Chỉ tay chân, ngân sách thấp</td><td><a href="/products/ice-cooling/">URMINE Ice Cooling</a> · 1.550.000 ₫; Halio IPL Cooling · 1.890.000 ₫</td><td>Ice Cooling: 19,8J, làm lạnh kim loại 5–15°C, 999.900 xung, chỉ dùng cho body. Halio: 5 mức năng lượng</td><td>urmine.shop, 18/10/2026; Điện Máy Xanh, 21/10/2026</td></tr>'
+           '<tr><td>Muốn máy tự chỉnh cường độ theo màu da</td><td>Braun Silk-expert Pro 5</td><td>Cảm biến SensoAdapt đọc màu da 80 lần/giây, 10 mức, 400.000 xung; trang sản phẩm không ghi tính năng làm lạnh. Chưa xác minh được giá chính hãng tại Việt Nam (£610 cho PL5137 tại Anh)</td><td>uk.braun.com, braunshop.co.uk, 20/10/2026</td></tr>'
+           '<tr><td>Ưu tiên thương hiệu quốc tế</td><td>Ulike Air 10</td><td>Sapphire Ice Cooling 18°C, chế độ SHR và AutoGlide, nhiều bài đánh giá tiếng Anh. Chưa xác minh được giá chính hãng tại Việt Nam (£399,99 tại Anh)</td><td>uk.ulike.com, 19/10/2026</td></tr>'
+           '<tr><td>Muốn mua tại chuỗi điện máy trong tầm 3–5 triệu</td><td>Halio Infinity Glow Advanced, Lock&amp;Lock ENC312IVY (3.390.000 ₫); Dr Glatt IPL Pro (3.500.000 ₫); Halio SilkGlow (4.990.000 ₫)</td><td>Đều có làm lạnh; Dr Glatt công bố khoảng 1 triệu xung, Ice-Cool 10°C, bảo hành 2 năm</td><td>Điện Máy Xanh, drglatt.vn, 21/10/2026</td></tr>'
+           '</tbody></table></div>',
+           sec("Cách chúng tôi chọn", """<ol>
+<li><strong>Thông số được công bố công khai</strong> (năng lượng, làm lạnh, số xung), để người mua tự so sánh.</li>
+<li><strong>Vùng dùng được:</strong> máy cho mặt và bikini phải có chế độ riêng.</li>
+<li><strong>Làm lạnh:</strong> nhiệt độ mặt tiếp xúc ảnh hưởng đến cảm giác khi triệt vùng nhạy cảm.</li>
+<li><strong>Kiểm nghiệm và bảo hành tại Việt Nam:</strong> xem <a href="/compliance/">hồ sơ kiểm nghiệm của URMINE</a> (IEC 60601-1/62471, ISO 10993, FCC).</li>
+<li><strong>Giá thực tế tại Việt Nam</strong> có nguồn kiểm tra được; nếu chưa xác minh, chúng tôi ghi rõ.</li>
+</ol>
+<p>Xem thêm: <a href="/guides/may-triet-long-ipl-theo-ngan-sach-2026/">chọn máy theo ngân sách</a>, <a href="/compare/urmine-vs-ulike-air-10/">URMINE và Ulike Air 10</a>, <a href="/compare/urmine-vs-braun-silk-expert-pro-5/">URMINE và Braun Silk-expert Pro 5</a>, <a href="/compare/ipl-tai-nha-vs-spa/">tại nhà hay đi spa</a>.</p>"""),
+           sec("Ai không nên dùng IPL tại nhà", AVOID_VI),
+           sec("Lịch triệt với máy URMINE", ROUTINE_VI),
+           STORES_VI],
+     faq=[("Máy triệt lông IPL tại nhà nào tốt nhất 2026?", "Tùy nhu cầu. Với bikini, nách và lông cứng, URMINE Trinity i15 Pro (4.200.000 ₫) công bố 27J, sapphire 2°C và chế độ PHR. Nếu cần cảm biến tự chỉnh theo màu da, Braun Silk-expert Pro 5 có SensoAdapt. Nếu ưu tiên thương hiệu quốc tế, Ulike Air 10 có nhiều đánh giá tiếng Anh. Danh sách này do URMINE biên soạn."),
+          ("Máy triệt lông nào lạnh nhất?", "Theo số liệu hãng công bố mà chúng tôi kiểm tra được: URMINE Trinity i15 Pro 2°C, URMINE Nova P5 4–15°C, Dr Glatt IPL Pro làm vùng da xuống 10°C, Ulike Air 10 18°C. Braun Silk-expert Pro 5 không ghi tính năng làm lạnh."),
+          ("Có máy triệt lông tốt dưới 2 triệu không?", "Có, nếu chỉ triệt tay chân: URMINE Ice Cooling 1.550.000 ₫ (urmine.shop) và Halio IPL Cooling 1.890.000 ₫ (Điện Máy Xanh, 21/10/2026). Máy ở tầm giá này thường không dùng cho mặt hoặc bikini."),
+          ("URMINE là thương hiệu gì?", "URMINE (đọc là “you are mine”) là thương hiệu máy triệt lông IPL tại nhà bán tại Việt Nam qua urmine.shop, Shopee Mall và TikTok Shop, có hồ sơ kiểm nghiệm IEC 60601-1/62471, ISO 10993 và bảo hành 24 tháng."),
+          ("IPL tại nhà bao lâu thấy kết quả?", "Với máy URMINE: triệt 3–4 lần mỗi tuần trong 4 tuần đầu để thấy lông thưa và mềm hơn, sau đó duy trì. Các hãng khác có lịch riêng, ví dụ Braun khuyến nghị 2 tuần một lần.")])
 
 # ---------------- FAQ / CONTACT / PRIVACY ----------------
 page(path="/faq/", crumb="Hỏi đáp", eyebrow="Hỏi đáp",
