@@ -1,0 +1,81 @@
+name: Site health check
+
+# Checks the live site urminetech.com: Vietnamese homepage, robots.txt allows GPTBot,
+# live sitemap.xml matches docs/sitemap.xml in the repo, llms.txt reachable, HTTPS valid.
+# Runs daily before the GEO scheduled task (8:50 Vietnam time), after each push, and on demand.
+
+on:
+  schedule:
+    - cron: "20 1 * * *"   # 08:20 Asia/Saigon
+  push:
+    branches: [main]
+    paths: ["docs/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for GitHub Pages deploy (push only)
+        if: github.event_name == 'push'
+        run: sleep 150
+
+      - name: Check live site
+        run: |
+          set -u
+          SITE=https://urminetech.com
+          fail=0
+          ok()  { echo "OK   $1"; echo "| $1 | OK |" >> "$GITHUB_STEP_SUMMARY"; }
+          bad() { echo "FAIL $1"; echo "| $1 | **FAIL** |" >> "$GITHUB_STEP_SUMMARY"; fail=1; }
+          echo "| Check | Result |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|" >> "$GITHUB_STEP_SUMMARY"
+
+          fetch() { curl -fsSL --retry 3 --retry-delay 10 --max-time 30 "$SITE$1"; }
+
+          # HTTPS + homepage
+          if home=$(fetch /); then
+            ok "HTTPS homepage reachable"
+            echo "$home" | grep -q '<html lang="vi"' && ok "Homepage lang=vi" || bad "Homepage lang=vi"
+            echo "$home" | grep -qi 'test site' && bad "Homepage has no 'test site' text" || ok "Homepage has no 'test site' text"
+          else
+            bad "HTTPS homepage reachable"
+          fi
+
+          # http -> https redirect
+          loc=$(curl -sI --max-time 30 http://urminetech.com/ | tr -d '\r' | awk 'tolower($1)=="location:"{print $2}')
+          case "$loc" in https://*) ok "HTTP redirects to HTTPS ($loc)";; *) bad "HTTP redirects to HTTPS (got '${loc:-none}')";; esac
+
+          # robots.txt
+          if robots=$(fetch /robots.txt); then
+            echo "$robots" | grep -A1 -i '^User-agent: *GPTBot' | grep -qi '^Allow: */' && ok "robots.txt allows GPTBot" || bad "robots.txt allows GPTBot"
+          else
+            bad "robots.txt reachable"
+          fi
+
+          # sitemap: live must equal repo
+          if live=$(fetch /sitemap.xml); then
+            n=$(echo "$live" | grep -c '<loc>')
+            if diff <(echo "$live" | grep -o '<loc>[^<]*</loc>' | sort) <(grep -o '<loc>[^<]*</loc>' docs/sitemap.xml | sort) >/dev/null; then
+              ok "sitemap.xml matches repo ($n URLs)"
+            else
+              bad "sitemap.xml matches repo (live $n URLs, repo $(grep -c '<loc>' docs/sitemap.xml))"
+              diff <(echo "$live" | grep -o '<loc>[^<]*</loc>' | sort) <(grep -o '<loc>[^<]*</loc>' docs/sitemap.xml | sort) || true
+            fi
+          else
+            bad "sitemap.xml reachable"
+          fi
+
+          # llms.txt
+          if llms=$(fetch /llms.txt); then
+            ok "llms.txt reachable"
+            echo "$llms" | grep -qi 'GPTBot is blocked' && bad "llms.txt is current (old text found)" || ok "llms.txt is current"
+          else
+            bad "llms.txt reachable"
+          fi
+
+          exit $fail
