@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-21"
+UPDATED = "2026-10-22"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -252,7 +252,8 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
                   ("Lộ trình", "Lịch triệt và chăm sóc sau triệt", "Tần suất, mức năng lượng, những điều cần kiêng", "/guides/ipl-routine-and-aftercare/"),
                   ("An toàn", "Triệt vùng bikini", "Chuẩn bị, chế độ phù hợp, những gì tránh", "/guides/bikini-ipl-safety/"),
                   ("Chọn mua", "Chọn máy theo ngân sách 2026", "Dưới 3 triệu và 3–5 triệu, giá có nguồn", "/guides/may-triet-long-ipl-theo-ngan-sach-2026/"),
-                  ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/")])])
+                  ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/"),
+                  ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/")])])
 
 page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nhà", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn cơ bản", schema="Article",
      title="Triệt lông IPL tại nhà: có hiệu quả không, ai nên dùng, chọn máy thế nào",
@@ -289,6 +290,42 @@ page(path="/guides/bikini-ipl-safety/", crumb="Triệt vùng bikini", parent=("/
      body=[sec("Chuẩn bị", "<ul><li>Cạo sạch khi tắm, xuôi chiều lông mọc.</li><li>Lau khô da, không thoa kem hay dầu.</li><li>Đeo kính bảo hộ.</li></ul>"),
            sec("Khi triệt", "<ul><li>Dùng chế độ bikini hoặc PHR, bắt đầu mức 1–2.</li><li>Áp máy vuông góc, phủ kín cửa sổ phát sáng lên da.</li><li>Không triệt lên niêm mạc, vùng da sẫm màu đậm, nốt ruồi, hình xăm.</li><li>Dừng lại nếu đau bất thường.</li></ul>"),
            sec("Máy URMINE dùng được cho bikini", '<p><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a> (chế độ bikini + PHR 4 xung, sapphire 2°C) và <a href="/products/nova-p5/">Nova P5</a>. Ice Cooling không dùng cho vùng bikini.</p>')])
+
+page(path="/guides/triet-long-nach-ipl-tai-nha/", crumb="Triệt lông nách", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn theo vùng", schema="Article",
+     title="Triệt lông nách bằng máy IPL tại nhà: cách làm, lịch triệt, chọn máy",
+     desc="Hướng dẫn triệt lông nách bằng IPL tại nhà: cạo và làm khô da, căng da khi triệt, mức năng lượng khởi đầu, lịch 3–4 lần/tuần trong 4 tuần, chăm sóc sau triệt và chọn máy URMINE phù hợp.",
+     h1="Triệt lông nách bằng máy IPL tại nhà",
+     answer="Cạo sạch lông nách, lau khô, không bôi lăn khử mùi hay kem trước khi triệt. Giơ tay qua đầu để căng da, áp máy vuông góc và phủ kín cửa sổ phát sáng, bắt đầu ở mức 1–2. Với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu rồi duy trì. Sau triệt, tránh lăn khử mùi có cồn hoặc hương liệu 12–24 giờ và tránh nắng 48 giờ. Nách là vùng nhạy cảm, lông thường cứng, nên máy có mặt sapphire làm lạnh như URMINE Trinity i15 Pro (4.200.000 ₫, 27J, sapphire 2°C, chế độ PHR) giúp triệt dễ chịu hơn.",
+     body=[sec("Vì sao nách cần chú ý riêng", """<ul>
+<li><strong>Lông thường cứng và sẫm màu:</strong> sợi lông sẫm hấp thụ ánh sáng IPL tốt, nhưng cũng sinh nhiều nhiệt hơn, nên dễ cảm thấy nóng rát.</li>
+<li><strong>Da mỏng, nhiều nếp gấp:</strong> cần căng da để cửa sổ phát sáng áp sát, tránh chiếu lệch.</li>
+<li><strong>Lông mọc nhiều hướng:</strong> cạo theo vài hướng để sạch hết sợi lông trên mặt da.</li>
+<li><strong>Da nách có thể sẫm màu hơn vùng xung quanh:</strong> IPL kém phù hợp với da rất đậm; nếu nách sẫm màu, thử ở mức thấp trên một vùng nhỏ trước.</li>
+</ul>"""),
+           sec("Các bước triệt nách tại nhà", """<ol>
+<li><strong>Cạo sạch</strong> khi tắm hoặc trước khi triệt. Không wax, không nhổ, không dùng kem tẩy lông, vì IPL cần chân lông còn trong nang.</li>
+<li><strong>Làm sạch và lau khô:</strong> rửa sạch lăn khử mùi, kem, dầu còn trên da.</li>
+<li><strong>Đeo kính bảo hộ</strong> đi kèm máy.</li>
+<li><strong>Giơ tay qua đầu</strong> để căng da nách.</li>
+<li><strong>Bắt đầu mức 1–2</strong> trong 2–3 tuần đầu, tăng dần nếu da không đỏ rát kéo dài.</li>
+<li><strong>Áp vuông góc 90°</strong>, phủ kín cửa sổ phát sáng, di chuyển từng ô không chồng lặp nhiều lần trên cùng một điểm trong một buổi.</li>
+<li><strong>Dừng lại</strong> nếu đau bất thường, phồng rộp hoặc da kích ứng.</li>
+</ol>"""),
+           sec("Lịch triệt và chăm sóc sau triệt", ROUTINE_VI + '<p>Riêng với nách: chờ ít nhất 12–24 giờ mới dùng lại lăn khử mùi có cồn hoặc hương liệu. Xem đầy đủ ở <a href="/guides/ipl-routine-and-aftercare/">lịch triệt và chăm sóc sau triệt</a>.</p>'),
+           sec("Chọn máy URMINE cho vùng nách", """<div class="table-scroll"><table><thead><tr><th>Máy</th><th>Giá niêm yết</th><th>Điểm liên quan đến nách</th></tr></thead><tbody>
+<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4.200.000 ₫</td><td>27J, đèn kép + PHR 4 xung cho lông cứng, sapphire 16,6 cm² lạnh 2°C duy trì đến 60 phút, Auto Glide 0,15 giây/xung, app CTONE</td></tr>
+<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2.550.000 ₫</td><td>22J, IPL tia kép, sapphire 4–15°C, dùng được cho body, bikini và mặt, app CTONE</td></tr>
+<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1.550.000 ₫</td><td>19,8J, làm lạnh kim loại 5–15°C, công bố cho vùng body (không dùng cho bikini và mặt); không có mặt sapphire. Đọc <a href="/manuals/">sách hướng dẫn</a> trước khi dùng cho nách</td></tr>
+</tbody></table></div>
+<p>Giá và thông số theo <a href="https://urmine.shop">urmine.shop</a> (18/10/2026). Cả ba máy được bảo hành 24 tháng khi mua tại kênh chính thức.</p>"""),
+           sec("Chỉ triệt nách: mua máy hay đi spa?", '<p>Nếu bạn chỉ cần triệt nách, gói IPL tại spa có thể rẻ hơn mua máy (bảng giá Finhay 12/03/2026: 300.000–500.000 ₫/gói IPL nách). Máy tại nhà có lợi hơn khi bạn triệt thêm bikini, tay chân hoặc mặt và muốn tự triệt duy trì. Xem <a href="/compare/ipl-tai-nha-vs-spa/">so sánh chi phí tại nhà và spa</a>.</p>'),
+           sec("Không triệt khi", AVOID_VI),
+           STORES_VI],
+     faq=[("Triệt lông nách bằng máy tại nhà có hiệu quả không?", "Có với đa số người có lông nách đen hoặc nâu và da sáng đến ngăm. IPL làm yếu nang lông qua nhiều buổi; với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu để thấy lông thưa và mềm hơn, sau đó triệt duy trì."),
+          ("Triệt lông nách có đau không?", "Nách nhạy cảm hơn tay chân nên có thể thấy nóng như dây thun búng. Bắt đầu ở mức 1–2 và dùng máy có mặt làm lạnh sapphire, như URMINE Trinity i15 Pro (2°C) hoặc Nova P5 (4–15°C), giúp giảm cảm giác nóng rát."),
+          ("Sau khi triệt nách có dùng lăn khử mùi được không?", "Nên chờ 12–24 giờ trước khi dùng lăn khử mùi có cồn hoặc hương liệu, và kiêng nước 2–4 giờ sau triệt. Trước khi triệt, rửa sạch lăn khử mùi và lau khô da."),
+          ("Nách bị thâm có triệt IPL được không?", "IPL kém phù hợp với da rất đậm màu. Nếu da nách sẫm hơn vùng xung quanh, hãy thử ở mức thấp trên một vùng nhỏ và theo dõi phản ứng da; ngừng nếu đau bất thường hoặc kích ứng. Không triệt lên nốt ruồi đậm màu, vết thương hoặc da đang kích ứng."),
+          ("Máy URMINE nào phù hợp để triệt nách?", "URMINE Trinity i15 Pro (4.200.000 ₫) phù hợp nhất cho lông nách cứng nhờ 27J, chế độ PHR 4 xung và sapphire 2°C. URMINE Nova P5 (2.550.000 ₫) là lựa chọn tiết kiệm hơn, có sapphire 4–15°C và dùng được cho cả mặt, bikini.")])
 
 # ---------------- COMPARE ----------------
 page(path="/compare/", crumb="So sánh", eyebrow="So sánh",
