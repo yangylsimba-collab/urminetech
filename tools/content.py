@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-22"
+UPDATED = "2026-10-23"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -253,7 +253,8 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
                   ("An toàn", "Triệt vùng bikini", "Chuẩn bị, chế độ phù hợp, những gì tránh", "/guides/bikini-ipl-safety/"),
                   ("Chọn mua", "Chọn máy theo ngân sách 2026", "Dưới 3 triệu và 3–5 triệu, giá có nguồn", "/guides/may-triet-long-ipl-theo-ngan-sach-2026/"),
                   ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/"),
-                  ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/")])])
+                  ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/"),
+                  ("Theo vùng", "Triệt lông mặt và ria mép", "Vùng được và không được triệt, mức năng lượng, chọn máy", "/guides/triet-long-mat-ria-mep-ipl-tai-nha/")])])
 
 page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nhà", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn cơ bản", schema="Article",
      title="Triệt lông IPL tại nhà: có hiệu quả không, ai nên dùng, chọn máy thế nào",
@@ -326,6 +327,49 @@ page(path="/guides/triet-long-nach-ipl-tai-nha/", crumb="Triệt lông nách", p
           ("Sau khi triệt nách có dùng lăn khử mùi được không?", "Nên chờ 12–24 giờ trước khi dùng lăn khử mùi có cồn hoặc hương liệu, và kiêng nước 2–4 giờ sau triệt. Trước khi triệt, rửa sạch lăn khử mùi và lau khô da."),
           ("Nách bị thâm có triệt IPL được không?", "IPL kém phù hợp với da rất đậm màu. Nếu da nách sẫm hơn vùng xung quanh, hãy thử ở mức thấp trên một vùng nhỏ và theo dõi phản ứng da; ngừng nếu đau bất thường hoặc kích ứng. Không triệt lên nốt ruồi đậm màu, vết thương hoặc da đang kích ứng."),
           ("Máy URMINE nào phù hợp để triệt nách?", "URMINE Trinity i15 Pro (4.200.000 ₫) phù hợp nhất cho lông nách cứng nhờ 27J, chế độ PHR 4 xung và sapphire 2°C. URMINE Nova P5 (2.550.000 ₫) là lựa chọn tiết kiệm hơn, có sapphire 4–15°C và dùng được cho cả mặt, bikini.")])
+
+page(path="/guides/triet-long-mat-ria-mep-ipl-tai-nha/", crumb="Triệt lông mặt và ria mép", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn theo vùng", schema="Article",
+     title="Triệt lông mặt và ria mép bằng máy IPL tại nhà: vùng nào được, cách làm, chọn máy",
+     desc="Hướng dẫn triệt lông mặt, ria mép (lông môi trên), cằm và tóc mai bằng IPL tại nhà: vùng tuyệt đối tránh quanh mắt, chế độ mặt, mức năng lượng khởi đầu, lịch triệt, chăm sóc da và máy URMINE nào dùng được cho mặt.",
+     h1="Triệt lông mặt và ria mép bằng máy IPL tại nhà",
+     answer="Có thể triệt lông ria mép (môi trên), cằm, quai hàm và tóc mai bằng máy IPL có chế độ mặt, nhưng tuyệt đối không chiếu vào hoặc quanh mắt và lông mày. Cạo sạch, lau khô, đeo kính bảo hộ, chọn chế độ mặt và bắt đầu ở mức thấp nhất. Với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu rồi duy trì; sau triệt tránh mỹ phẩm có cồn, AHA, BHA, Retinol 12–24 giờ và thoa SPF 30+. Máy URMINE dùng được cho mặt: Trinity i15 Pro (4.200.000 ₫, có chế độ mặt, sapphire 2°C) và Nova P5 (2.550.000 ₫, sapphire 4–15°C). URMINE Ice Cooling không dùng cho mặt. Lông tơ màu nhạt trên mặt thường đáp ứng kém với IPL.",
+     body=[sec("Vùng nào trên mặt được triệt, vùng nào phải tránh", """<div class="table-scroll"><table><thead><tr><th>Vùng</th><th>Triệt IPL tại nhà</th><th>Lưu ý</th></tr></thead><tbody>
+<tr><td>Ria mép (môi trên)</td><td>Được, với máy có chế độ mặt</td><td>Không chiếu lên môi đỏ (niêm mạc); mím môi để căng da</td></tr>
+<tr><td>Cằm, quai hàm</td><td>Được</td><td>Lông thường cứng hơn; giữ mức thấp trong 2–3 tuần đầu</td></tr>
+<tr><td>Tóc mai, má (dưới gò má)</td><td>Được</td><td>Chỉ triệt vùng dưới gò má, cách xa mắt</td></tr>
+<tr><td>Quanh mắt, mí mắt, lông mày</td><td><strong>Không</strong></td><td>Ánh sáng mạnh có thể gây hại cho mắt</td></tr>
+<tr><td>Trong mũi, trong tai, môi đỏ</td><td><strong>Không</strong></td><td>Niêm mạc và vùng không phải da ngoài</td></tr>
+<tr><td>Nốt ruồi, bớt đậm màu, da đang mụn viêm hoặc tổn thương</td><td><strong>Không</strong></td><td>Che lại hoặc bỏ qua vùng đó</td></tr>
+</tbody></table></div>"""),
+           sec("Các bước triệt lông mặt tại nhà", """<ol>
+<li><strong>Thử trước trên một vùng nhỏ</strong> (ví dụ góc cằm) ở mức thấp nhất, chờ 24 giờ xem da có đỏ rát kéo dài không.</li>
+<li><strong>Cạo sạch</strong> bằng dao cạo mặt. Không nhổ, không wax, không dùng kem tẩy lông, vì IPL cần chân lông còn trong nang.</li>
+<li><strong>Tẩy trang, rửa mặt và lau khô:</strong> không để kem dưỡng, kem chống nắng, trang điểm trên vùng triệt.</li>
+<li><strong>Đeo kính bảo hộ</strong> đi kèm máy.</li>
+<li><strong>Chọn chế độ mặt</strong> và bắt đầu ở mức 1. Da mặt mỏng hơn tay chân, nên tăng mức chậm hơn.</li>
+<li><strong>Áp máy vuông góc 90°</strong>, phủ kín cửa sổ phát sáng lên da, mỗi điểm một xung trong một buổi. Với ria mép, mím môi để da căng phẳng.</li>
+<li><strong>Dừng lại</strong> nếu đau bất thường, phồng rộp hoặc da kích ứng.</li>
+</ol>"""),
+           sec("Lịch triệt và chăm sóc sau triệt", ROUTINE_VI + '<p>Riêng với mặt: chờ 12–24 giờ mới dùng lại serum có AHA, BHA, Retinol hoặc toner có cồn; trang điểm nhẹ sau khi da hết ửng đỏ. Thoa kem chống nắng SPF 30+ mỗi sáng, vì da mặt tiếp xúc nắng nhiều nhất. Xem đầy đủ ở <a href="/guides/ipl-routine-and-aftercare/">lịch triệt và chăm sóc sau triệt</a>.</p>'),
+           sec("Ai có thể không đạt kết quả như mong đợi", """<ul>
+<li><strong>Lông tơ màu nhạt:</strong> lông mặt mảnh, vàng nhạt hoặc rất sáng ít melanin nên IPL tác động kém. Lông ria mép đen, cằm sẫm màu đáp ứng tốt hơn.</li>
+<li><strong>Da rất đậm màu:</strong> IPL kém phù hợp; thử ở mức thấp trên vùng nhỏ hoặc hỏi ý kiến bác sĩ da liễu.</li>
+<li><strong>Lông mặt mọc nhiều hoặc tăng nhanh bất thường</strong> (ví dụ lông cằm cứng, mọc dày ở nữ giới): có thể liên quan đến nội tiết. Nên khám bác sĩ để tìm nguyên nhân; IPL chỉ giúp giảm lông, không điều trị nguyên nhân.</li>
+<li><strong>Da đang điều trị:</strong> đang dùng thuốc trị mụn đường uống, thuốc gây nhạy cảm ánh sáng hoặc vừa peel da, hãy hỏi bác sĩ trước khi triệt.</li>
+</ul>"""),
+           sec("Máy URMINE nào dùng được cho mặt", """<div class="table-scroll"><table><thead><tr><th>Máy</th><th>Giá niêm yết</th><th>Dùng cho mặt</th><th>Điểm liên quan</th></tr></thead><tbody>
+<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4.200.000 ₫</td><td>Có (chế độ mặt)</td><td>Mức năng lượng 1–5, sapphire 16,6 cm² lạnh 2°C duy trì đến 60 phút, app CTONE theo dõi lịch triệt</td></tr>
+<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2.550.000 ₫</td><td>Có</td><td>22J, IPL tia kép, sapphire 4–15°C, app CTONE, nhẹ 188 g</td></tr>
+<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1.550.000 ₫</td><td><strong>Không</strong></td><td>Chỉ dành cho body (không dùng cho mặt và bikini)</td></tr>
+</tbody></table></div>
+<p>Giá và thông số theo <a href="https://urmine.shop">urmine.shop</a> (18/10/2026). Cả ba máy được bảo hành 24 tháng khi mua tại kênh chính thức. Đọc <a href="/manuals/">sách hướng dẫn</a> trước buổi triệt đầu tiên.</p>"""),
+           sec("Không triệt khi", AVOID_VI),
+           STORES_VI],
+     faq=[("Triệt lông ria mép bằng máy IPL tại nhà được không?", "Được, nếu máy có chế độ mặt và lông ria mép sẫm màu hơn da. Cạo sạch, lau khô, đeo kính bảo hộ, bắt đầu ở mức thấp nhất và không chiếu lên môi đỏ. Với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu rồi duy trì."),
+          ("Có được dùng máy IPL gần mắt hay triệt lông mày không?", "Không. Không chiếu IPL vào hoặc quanh mắt, mí mắt và lông mày. Chỉ triệt vùng dưới gò má, ria mép, cằm, quai hàm và tóc mai."),
+          ("Lông tơ trên mặt có triệt IPL được không?", "Lông tơ mảnh và màu nhạt chứa ít melanin nên thường đáp ứng kém với IPL. IPL hiệu quả hơn với lông sẫm màu như ria mép đen hoặc lông cằm."),
+          ("Triệt lông mặt bằng IPL có làm lông mọc dày hơn không?", "IPL làm yếu nang lông nên lông mọc lại thưa và mềm hơn theo thời gian. Nếu lông mặt mọc nhiều hoặc tăng nhanh bất thường, nên khám bác sĩ vì có thể liên quan đến nội tiết."),
+          ("Máy URMINE nào dùng được cho mặt?", "URMINE Trinity i15 Pro (4.200.000 ₫, có chế độ mặt, sapphire 2°C) và URMINE Nova P5 (2.550.000 ₫, sapphire 4–15°C) dùng được cho mặt. URMINE Ice Cooling (1.550.000 ₫) chỉ dành cho body, không dùng cho mặt và bikini.")])
 
 # ---------------- COMPARE ----------------
 page(path="/compare/", crumb="So sánh", eyebrow="So sánh",
