@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-23"
+UPDATED = "2026-10-24"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -254,7 +254,8 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
                   ("Chọn mua", "Chọn máy theo ngân sách 2026", "Dưới 3 triệu và 3–5 triệu, giá có nguồn", "/guides/may-triet-long-ipl-theo-ngan-sach-2026/"),
                   ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/"),
                   ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/"),
-                  ("Theo vùng", "Triệt lông mặt và ria mép", "Vùng được và không được triệt, mức năng lượng, chọn máy", "/guides/triet-long-mat-ria-mep-ipl-tai-nha/")])])
+                  ("Theo vùng", "Triệt lông mặt và ria mép", "Vùng được và không được triệt, mức năng lượng, chọn máy", "/guides/triet-long-mat-ria-mep-ipl-tai-nha/"),
+                  ("Theo đối tượng", "Triệt lông cho nam", "Ngực, lưng, tay chân; vùng không triệt; chọn máy cho lông cứng", "/guides/triet-long-cho-nam-ipl-tai-nha/")])])
 
 page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nhà", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn cơ bản", schema="Article",
      title="Triệt lông IPL tại nhà: có hiệu quả không, ai nên dùng, chọn máy thế nào",
@@ -371,8 +372,53 @@ page(path="/guides/triet-long-mat-ria-mep-ipl-tai-nha/", crumb="Triệt lông m�
           ("Triệt lông mặt bằng IPL có làm lông mọc dày hơn không?", "IPL làm yếu nang lông nên lông mọc lại thưa và mềm hơn theo thời gian. Nếu lông mặt mọc nhiều hoặc tăng nhanh bất thường, nên khám bác sĩ vì có thể liên quan đến nội tiết."),
           ("Máy URMINE nào dùng được cho mặt?", "URMINE Trinity i15 Pro (4.200.000 ₫, có chế độ mặt, sapphire 2°C) và URMINE Nova P5 (2.550.000 ₫, sapphire 4–15°C) dùng được cho mặt. URMINE Ice Cooling (1.550.000 ₫) chỉ dành cho body, không dùng cho mặt và bikini.")])
 
+page(path="/guides/triet-long-cho-nam-ipl-tai-nha/", crumb="Triệt lông cho nam", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn theo đối tượng", schema="Article",
+     title="Triệt lông cho nam bằng máy IPL tại nhà: ngực, lưng, tay chân, nách và chọn máy",
+     desc="Hướng dẫn nam giới triệt lông bằng IPL tại nhà: vùng nên triệt (ngực, bụng, lưng, tay, chân, nách), vùng không triệt (râu, bìu, hình xăm), cách cạo và chọn mức năng lượng, lịch 3–4 lần/tuần trong 4 tuần và máy URMINE phù hợp với lông nam cứng, dày.",
+     h1="Triệt lông cho nam bằng máy IPL tại nhà",
+     answer="Nam giới có thể triệt lông ngực, bụng, lưng, tay, chân và nách bằng máy IPL tại nhà nếu lông sẫm màu hơn da. Lông nam thường cứng và dày nên cần cạo thật sạch, bắt đầu ở mức 1–2 và tăng dần; với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu rồi duy trì. Không triệt vùng râu nếu không muốn mất râu lâu dài, không triệt bìu và vùng sinh dục ngoài, không chiếu lên hình xăm, nốt ruồi đậm màu. Máy phù hợp với lông nam cứng là URMINE Trinity i15 Pro (4.200.000 ₫, 27J, đèn kép + PHR 4 xung, sapphire 2°C, Auto Glide khoảng 10 phút toàn thân). URMINE Nova P5 (2.550.000 ₫, 22J) tiết kiệm hơn; URMINE Ice Cooling (1.550.000 ₫, 19,8J) chỉ dành cho body.",
+     body=[sec("Lông nam khác gì và ảnh hưởng thế nào khi triệt IPL", """<ul>
+<li><strong>Lông cứng, dày, mọc trên diện tích lớn:</strong> ngực, bụng, lưng, chân có nhiều nang lông. Sợi lông đen hấp thụ ánh sáng tốt, nhưng mật độ cao làm da nóng nhanh hơn, nên mặt làm lạnh và việc tăng mức chậm rất quan trọng.</li>
+<li><strong>Cần nhiều buổi hơn ở vùng lông dày:</strong> IPL làm yếu nang lông qua nhiều buổi theo chu kỳ mọc lông. Lông thưa dần chứ không hết ngay sau vài lần.</li>
+<li><strong>Thời gian triệt lâu hơn:</strong> diện tích lớn nên tốc độ phát xung có ý nghĩa. Máy có Auto Glide giúp một buổi toàn thân gọn hơn.</li>
+<li><strong>Lông bạc, vàng nhạt hoặc đỏ</strong> đáp ứng kém với IPL, kể cả ở nam giới.</li>
+</ul>"""),
+           sec("Vùng nên và không nên triệt", """<div class="table-scroll"><table><thead><tr><th>Vùng</th><th>Triệt IPL tại nhà</th><th>Lưu ý</th></tr></thead><tbody>
+<tr><td>Ngực, bụng</td><td>Được</td><td>Cạo theo nhiều hướng vì lông mọc xoáy; tránh núm vú</td></tr>
+<tr><td>Lưng, vai</td><td>Được</td><td>Khó tự với tới; nhờ người khác hỗ trợ, cả hai cùng đeo kính bảo hộ</td></tr>
+<tr><td>Tay, chân</td><td>Được</td><td>Diện tích lớn, phù hợp chế độ trượt liên tục (Auto Glide)</td></tr>
+<tr><td>Nách</td><td>Được</td><td>Xem <a href="/guides/triet-long-nach-ipl-tai-nha/">hướng dẫn triệt nách</a></td></tr>
+<tr><td>Vùng râu (cằm, má, môi trên)</td><td><strong>Không khuyến nghị</strong></td><td>IPL giảm lông lâu dài và có thể làm râu mọc lại lổ chổ; nếu muốn tạo viền râu, hãy hỏi bác sĩ da liễu</td></tr>
+<tr><td>Bìu, vùng sinh dục ngoài</td><td><strong>Không</strong></td><td>Da mỏng, sẫm màu, rất nhạy cảm</td></tr>
+<tr><td>Hình xăm, nốt ruồi, bớt đậm màu</td><td><strong>Không</strong></td><td>Che lại hoặc bỏ qua; mực xăm hấp thụ ánh sáng và có thể gây bỏng</td></tr>
+<tr><td>Quanh mắt, lông mày</td><td><strong>Không</strong></td><td>Ánh sáng mạnh có thể gây hại cho mắt</td></tr>
+</tbody></table></div>"""),
+           sec("Các bước triệt lông cho nam", """<ol>
+<li><strong>Tỉa ngắn rồi cạo sạch:</strong> lông dài nên tỉa bằng tông đơ trước, sau đó cạo sát khi tắm. Không wax, không nhổ, không dùng kem tẩy lông, vì IPL cần chân lông còn trong nang.</li>
+<li><strong>Lau khô da</strong>, không thoa kem, dầu, nước hoa hay lăn khử mùi lên vùng triệt.</li>
+<li><strong>Thử trên một vùng nhỏ</strong> ở mức thấp nhất, chờ 24 giờ.</li>
+<li><strong>Đeo kính bảo hộ</strong> đi kèm máy.</li>
+<li><strong>Bắt đầu mức 1–2</strong> trong 2–3 tuần đầu. Lông dày làm da nóng nhanh, nên tăng mức từ từ.</li>
+<li><strong>Áp vuông góc 90°</strong>, phủ kín cửa sổ phát sáng, mỗi điểm một lần trong một buổi; vùng rộng như chân, lưng có thể dùng chế độ trượt.</li>
+<li><strong>Dừng lại</strong> nếu đau bất thường, phồng rộp hoặc da kích ứng.</li>
+</ol>"""),
+           sec("Lịch triệt và chăm sóc sau triệt", ROUTINE_VI + '<p>Sau khi tập gym hoặc chơi thể thao ra nhiều mồ hôi, nên tắm và để da nguội trước khi triệt; sau triệt tránh xông hơi và tập nặng gây nóng da trong ngày. Xem đầy đủ ở <a href="/guides/ipl-routine-and-aftercare/">lịch triệt và chăm sóc sau triệt</a>.</p>'),
+           sec("Chọn máy URMINE cho nam", """<div class="table-scroll"><table><thead><tr><th>Máy</th><th>Giá niêm yết</th><th>Điểm liên quan đến lông nam</th></tr></thead><tbody>
+<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4.200.000 ₫</td><td>27J, 100W, đèn kép + PHR 4 xung cho lông cứng, sapphire 16,6 cm² lạnh 2°C duy trì đến 60 phút, Auto Glide 0,15 giây/xung (toàn thân khoảng 10 phút), số xung không giới hạn, app CTONE</td></tr>
+<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2.550.000 ₫</td><td>22J, 78W, IPL tia kép, sapphire 4–15°C, số xung không giới hạn, app CTONE</td></tr>
+<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1.550.000 ₫</td><td>19,8J, 35W, IPL 1 tia, làm lạnh kim loại 5–15°C, 999.900 xung; chỉ dành cho body, phù hợp tay chân lông không quá dày</td></tr>
+</tbody></table></div>
+<p>Giá và thông số theo <a href="https://urmine.shop">urmine.shop</a> (18/10/2026). Cả ba máy được bảo hành 24 tháng khi mua tại kênh chính thức. Đọc <a href="/manuals/">sách hướng dẫn</a> trước buổi triệt đầu tiên. Nếu muốn so sánh với thương hiệu khác, xem <a href="/compare/">các trang so sánh</a>.</p>"""),
+           sec("Không triệt khi", AVOID_VI),
+           STORES_VI],
+     faq=[("Nam giới có dùng máy triệt lông IPL tại nhà được không?", "Được. IPL tác động lên melanin trong sợi lông, không phân biệt nam hay nữ. Nam giới có lông đen hoặc nâu và da sáng đến ngăm thường đáp ứng tốt ở ngực, bụng, lưng, tay, chân và nách."),
+          ("Có nên triệt râu bằng máy IPL tại nhà không?", "Không khuyến nghị. IPL giảm lông lâu dài, râu có thể mọc lại lổ chổ và khó khôi phục như cũ. Nếu chỉ muốn tạo viền râu gọn, hãy hỏi bác sĩ da liễu."),
+          ("Lông ngực, lông chân nam dày thì bao lâu thấy kết quả?", "Với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu để thấy lông thưa và mềm hơn, sau đó triệt duy trì. Vùng lông dày có thể cần thời gian lâu hơn vùng lông thưa."),
+          ("Có triệt lông vùng kín cho nam được không?", "Có thể triệt phần lông mu phía trên ở mức thấp, nhưng không triệt bìu và vùng sinh dục ngoài vì da mỏng, sẫm màu và rất nhạy cảm."),
+          ("Máy URMINE nào phù hợp cho nam?", "URMINE Trinity i15 Pro (4.200.000 ₫) phù hợp nhất cho lông nam cứng và diện tích lớn nhờ 27J, PHR 4 xung, sapphire 2°C và Auto Glide khoảng 10 phút toàn thân. URMINE Nova P5 (2.550.000 ₫, 22J) là lựa chọn tiết kiệm hơn; URMINE Ice Cooling (1.550.000 ₫) chỉ dành cho body.")])
+
 # ---------------- COMPARE ----------------
-page(path="/compare/", crumb="So sánh", eyebrow="So sánh",
+page(path="/compare/",crumb="So sánh", eyebrow="So sánh",
      title="So sánh máy triệt lông IPL | URMINE",
      desc="So sánh URMINE với máy IPL không thương hiệu, với máy IPL phổ thông và với triệt lông tại spa.",
      h1="So sánh trước khi mua",
