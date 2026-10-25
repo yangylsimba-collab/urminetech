@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-24"
+UPDATED = "2026-10-25"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -255,7 +255,8 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
                   ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/"),
                   ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/"),
                   ("Theo vùng", "Triệt lông mặt và ria mép", "Vùng được và không được triệt, mức năng lượng, chọn máy", "/guides/triet-long-mat-ria-mep-ipl-tai-nha/"),
-                  ("Theo đối tượng", "Triệt lông cho nam", "Ngực, lưng, tay chân; vùng không triệt; chọn máy cho lông cứng", "/guides/triet-long-cho-nam-ipl-tai-nha/")])])
+                  ("Theo đối tượng", "Triệt lông cho nam", "Ngực, lưng, tay chân; vùng không triệt; chọn máy cho lông cứng", "/guides/triet-long-cho-nam-ipl-tai-nha/"),
+                  ("Theo đối tượng", "Rậm lông và PCOS", "Khi nào cần đi khám, vì sao lông mọc lại, lịch duy trì", "/guides/triet-long-ram-long-pcos-ipl-tai-nha/")])])
 
 page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nhà", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn cơ bản", schema="Article",
      title="Triệt lông IPL tại nhà: có hiệu quả không, ai nên dùng, chọn máy thế nào",
@@ -416,6 +417,50 @@ page(path="/guides/triet-long-cho-nam-ipl-tai-nha/", crumb="Triệt lông cho na
           ("Lông ngực, lông chân nam dày thì bao lâu thấy kết quả?", "Với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu để thấy lông thưa và mềm hơn, sau đó triệt duy trì. Vùng lông dày có thể cần thời gian lâu hơn vùng lông thưa."),
           ("Có triệt lông vùng kín cho nam được không?", "Có thể triệt phần lông mu phía trên ở mức thấp, nhưng không triệt bìu và vùng sinh dục ngoài vì da mỏng, sẫm màu và rất nhạy cảm."),
           ("Máy URMINE nào phù hợp cho nam?", "URMINE Trinity i15 Pro (4.200.000 ₫) phù hợp nhất cho lông nam cứng và diện tích lớn nhờ 27J, PHR 4 xung, sapphire 2°C và Auto Glide khoảng 10 phút toàn thân. URMINE Nova P5 (2.550.000 ₫, 22J) là lựa chọn tiết kiệm hơn; URMINE Ice Cooling (1.550.000 ₫) chỉ dành cho body.")])
+
+page(path="/guides/triet-long-ram-long-pcos-ipl-tai-nha/", crumb="Rậm lông và PCOS", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn theo đối tượng", schema="Article",
+     title="Rậm lông, buồng trứng đa nang (PCOS) và máy triệt lông IPL tại nhà: dùng thế nào cho đúng",
+     desc="Người rậm lông hoặc có buồng trứng đa nang (PCOS) có dùng máy triệt lông IPL tại nhà được không? Khi nào cần đi khám trước, vì sao lông dễ mọc lại, cách kết hợp với điều trị của bác sĩ, lịch triệt 3–4 lần/tuần và chọn máy URMINE.",
+     h1="Rậm lông, PCOS và triệt lông IPL tại nhà",
+     answer="Máy triệt lông IPL tại nhà có thể giúp giảm lông sẫm màu ở người rậm lông hoặc có buồng trứng đa nang (PCOS), nhưng không điều trị nguyên nhân. Rậm lông thường liên quan đến nội tiết tố androgen, vì vậy nên đi khám bác sĩ nội tiết, sản phụ khoa hoặc da liễu trước, nhất là khi lông mọc nhiều đột ngột, kèm kinh nguyệt không đều, mụn nặng hoặc giọng trầm đi. Khi nội tiết chưa được kiểm soát, lông có thể mọc lại và cần triệt duy trì lâu hơn. Với máy URMINE, triệt 3–4 lần mỗi tuần trong 4 tuần đầu rồi duy trì; URMINE Trinity i15 Pro (4.200.000 ₫, 27J, PHR 4 xung, sapphire 2°C) phù hợp cho lông cứng ở mặt, cằm, bụng; URMINE Ice Cooling chỉ dành cho body.",
+     body=[sec("Rậm lông và PCOS là gì", """<p><strong>Rậm lông</strong> (hirsutism) là tình trạng phụ nữ mọc lông sẫm, cứng theo kiểu phân bố của nam giới: cằm, môi trên, ngực, bụng dưới, lưng. Nguyên nhân thường gặp nhất là <strong>hội chứng buồng trứng đa nang (PCOS)</strong>, khi cơ thể có nhiều androgen hơn bình thường; ngoài ra còn có các nguyên nhân nội tiết khác, tác dụng phụ của thuốc hoặc yếu tố di truyền.</p>
+<p>Chẩn đoán và điều trị nguyên nhân thuộc về bác sĩ. Bài viết này chỉ hướng dẫn phần <em>giảm lông tại nhà</em> và không thay thế tư vấn y khoa. Tham khảo thêm: <a href="https://www.vinmec.com/vie/bai-viet/khac-phuc-chung-ram-long-o-phu-nu-vi" rel="nofollow">Vinmec – Khắc phục chứng rậm lông ở phụ nữ</a>, <a href="https://111.wales.nhs.uk/Hirsutism/" rel="nofollow">NHS 111 Wales – Hirsutism</a> (truy cập 25/10/2026).</p>"""),
+           sec("Khi nào cần đi khám trước khi triệt", """<ul>
+<li>Lông mọc nhiều lên <strong>nhanh, đột ngột</strong> trong vài tháng.</li>
+<li>Kèm <strong>kinh nguyệt không đều</strong>, mất kinh, khó có thai.</li>
+<li>Kèm mụn trứng cá nặng, rụng tóc kiểu nam, giọng trầm đi, tăng cân nhanh.</li>
+<li>Bạn đang mang thai, cho con bú hoặc đang dùng thuốc làm da nhạy cảm với ánh sáng.</li>
+</ul>
+<p>Những dấu hiệu này cần được bác sĩ kiểm tra nội tiết. Triệt lông có thể thực hiện song song với điều trị khi bác sĩ đồng ý.</p>"""),
+           sec("IPL tại nhà giúp được gì và không giúp được gì", """<div class="table-scroll"><table><thead><tr><th>IPL tại nhà</th><th>Thực tế</th></tr></thead><tbody>
+<tr><td>Giảm lông sẫm màu ở cằm, môi trên, bụng, ngực, chân</td><td>Có thể giúp nếu lông sẫm hơn da; lông thưa và mềm dần qua nhiều buổi</td></tr>
+<tr><td>Chữa PCOS hay cân bằng nội tiết</td><td><strong>Không.</strong> IPL chỉ tác động lên nang lông</td></tr>
+<tr><td>Ngăn lông mới mọc do androgen</td><td><strong>Không hoàn toàn.</strong> Lông mới có thể tiếp tục xuất hiện, cần triệt duy trì</td></tr>
+<tr><td>Lông tơ nhạt, lông bạc, vàng, đỏ</td><td>Đáp ứng kém với IPL</td></tr>
+</tbody></table></div>
+<p>Vì vậy, người có PCOS nên kỳ vọng <strong>giảm lông và dễ kiểm soát hơn</strong>, không phải hết lông vĩnh viễn, và nên coi lịch duy trì là một phần lâu dài.</p>"""),
+           sec("Các bước triệt lông khi bị rậm lông", """<ol>
+<li><strong>Đi khám và hỏi bác sĩ</strong> xem có thể triệt lông song song với điều trị không, nhất là khi đang dùng thuốc bôi hoặc thuốc uống.</li>
+<li><strong>Cạo sạch</strong> trước buổi triệt; không wax, nhổ hay dùng kem tẩy lông trong suốt liệu trình.</li>
+<li><strong>Thử trên một vùng nhỏ</strong> ở mức thấp nhất, chờ 24 giờ.</li>
+<li><strong>Đeo kính bảo hộ</strong>; với vùng mặt, chỉ triệt dưới gò má, cằm, môi trên, không triệt quanh mắt. Xem <a href="/guides/triet-long-mat-ria-mep-ipl-tai-nha/">hướng dẫn triệt lông mặt</a>.</li>
+<li><strong>Bắt đầu mức 1–2</strong>, tăng dần khi da quen.</li>
+<li><strong>Chụp ảnh và ghi lại tiến trình</strong> (ví dụ trong app CTONE) để trao đổi với bác sĩ ở lần tái khám.</li>
+</ol>"""),
+           sec("Lịch triệt và duy trì", ROUTINE_VI + '<p>Với rậm lông do nội tiết, sau 4 tuần đầu hãy tiếp tục triệt duy trì mỗi khi thấy lông mới mọc thay vì dừng hẳn. Xem chi tiết ở <a href="/guides/ipl-routine-and-aftercare/">lịch triệt và chăm sóc sau triệt</a>.</p>'),
+           sec("Chọn máy URMINE", """<div class="table-scroll"><table><thead><tr><th>Máy</th><th>Giá niêm yết</th><th>Phù hợp</th></tr></thead><tbody>
+<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4.200.000 ₫</td><td>Lông cứng ở cằm, môi trên, bụng, ngực: 27J, đèn kép + PHR 4 xung, sapphire 16,6 cm² lạnh 2°C, dùng được cho body, bikini và mặt, số xung không giới hạn cho lịch duy trì dài, app CTONE</td></tr>
+<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2.550.000 ₫</td><td>22J, 78W, IPL tia kép, sapphire 4–15°C, số xung không giới hạn, app CTONE</td></tr>
+<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1.550.000 ₫</td><td>19,8J, làm lạnh kim loại 5–15°C, 999.900 xung; <strong>chỉ dành cho body, không dùng cho mặt</strong></td></tr>
+</tbody></table></div>
+<p>Giá và thông số theo <a href="https://urmine.shop">urmine.shop</a> (18/10/2026). Bảo hành 24 tháng khi mua tại kênh chính thức. Máy triệt lông URMINE là thiết bị làm đẹp gia dụng, không phải thiết bị điều trị PCOS.</p>"""),
+           sec("Không triệt khi", AVOID_VI),
+           STORES_VI],
+     faq=[("Bị buồng trứng đa nang (PCOS) có dùng máy triệt lông IPL tại nhà được không?", "Thường là được nếu lông sẫm màu hơn da và bác sĩ không có chỉ định khác. IPL giúp giảm lông nhưng không điều trị PCOS, nên lông có thể mọc lại và cần triệt duy trì."),
+          ("Vì sao triệt lông rồi mà lông vẫn mọc lại khi bị rậm lông?", "Rậm lông thường do androgen kích thích nang lông. Khi nội tiết chưa được kiểm soát, nang lông mới vẫn có thể hoạt động, vì vậy nên kết hợp điều trị của bác sĩ với triệt lông duy trì."),
+          ("Rậm lông có cần đi khám không?", "Nên đi khám, đặc biệt khi lông mọc nhiều đột ngột hoặc kèm kinh nguyệt không đều, mụn nặng, rụng tóc, giọng trầm đi. Bác sĩ nội tiết, sản phụ khoa hoặc da liễu sẽ tìm nguyên nhân."),
+          ("Có triệt lông cằm, ria mép do PCOS bằng IPL được không?", "Được ở vùng cằm và môi trên với máy dùng được cho mặt như URMINE Trinity i15 Pro, bắt đầu ở mức thấp và đeo kính bảo hộ. Không triệt quanh mắt, lông mày. URMINE Ice Cooling không dùng cho mặt."),
+          ("Máy URMINE nào phù hợp cho người rậm lông?", "URMINE Trinity i15 Pro (4.200.000 ₫) phù hợp nhất cho lông cứng ở mặt và thân nhờ 27J, PHR 4 xung, sapphire 2°C và số xung không giới hạn. URMINE Nova P5 (2.550.000 ₫) là lựa chọn tiết kiệm hơn.")])
 
 # ---------------- COMPARE ----------------
 page(path="/compare/",crumb="So sánh", eyebrow="So sánh",
