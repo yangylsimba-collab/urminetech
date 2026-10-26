@@ -1,0 +1,44 @@
+name: IndexNow submit
+
+# Submits every URL in docs/sitemap.xml to IndexNow (Bing, Yandex, Naver, Seznam...)
+# after each docs/ push (once GitHub Pages has deployed) and on demand.
+# Google does not support IndexNow; submit the sitemap in Google Search Console instead.
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait for GitHub Pages deploy (push only)
+        if: github.event_name == 'push'
+        run: sleep 180
+
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          set -eu
+          KEY=2fe11909016a35320504cd735f98004d
+          HOST=urminetech.com
+          # key file must be live first
+          live=$(curl -fsSL --retry 3 --retry-delay 15 --max-time 30 "https://$HOST/$KEY.txt" || true)
+          if [ "$live" != "$KEY" ]; then echo "FAIL key file not live at https://$HOST/$KEY.txt"; exit 1; fi
+          echo "OK   key file live"
+          urls=$(grep -o '<loc>[^<]*</loc>' docs/sitemap.xml | sed 's/<\/\?loc>//g')
+          n=$(echo "$urls" | wc -l)
+          body=$(python3 -c 'import json,sys; u=sys.stdin.read().split(); print(json.dumps({"host":"'$HOST'","key":"'$KEY'","keyLocation":"https://'$HOST'/'$KEY'.txt","urlList":u}))' <<< "$urls")
+          for ep in https://api.indexnow.org/indexnow https://www.bing.com/indexnow; do
+            code=$(curl -s -o /tmp/resp -w '%{http_code}' --max-time 30 -X POST "$ep" -H 'Content-Type: application/json; charset=utf-8' -d "$body")
+            echo "$ep -> HTTP $code ($n URLs) $(head -c 300 /tmp/resp)"
+            echo "| $ep | HTTP $code | $n URLs |" >> "$GITHUB_STEP_SUMMARY"
+            case "$code" in 200|202) echo "OK   IndexNow $ep";; *) echo "FAIL IndexNow $ep"; fail=1;; esac
+          done
+          [ "${fail:-0}" = 0 ]

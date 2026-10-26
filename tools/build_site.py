@@ -169,6 +169,9 @@ open("docs/robots.txt", "w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for 
 open("docs/sitemap.xml", "w", encoding="utf-8").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"  <url><loc>{BASE}{u}</loc><lastmod>{C.UPDATED}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls) + "</urlset>\n")
 open("docs/CNAME", "w").write("urminetech.com\n")
+# IndexNow key (Bing/Yandex/Naver/Seznam); used by .github/workflows/indexnow.yml
+INDEXNOW_KEY = "2fe11909016a35320504cd735f98004d"
+open(f"docs/{INDEXNOW_KEY}.txt", "w").write(INDEXNOW_KEY)
 open("docs/.nojekyll", "w").write("")
 open("docs/assets/favicon.svg", "w").write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#12070c"/><text x="32" y="44" font-family="Georgia,serif" font-size="34" font-style="italic" fill="#e89cb0" text-anchor="middle">U</text></svg>')
 
