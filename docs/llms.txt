@@ -7,9 +7,9 @@
 - Markets: Vietnam (official sales), Thailand, Malaysia, Indonesia
 - Official stores: https://urmine.shop · Shopee Mall URMINE.VN https://vn.shp.ee/a4t6J42Q · TikTok Shop URMINE VN STORE https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop
 - Support email: jlmcompany2024@gmail.com
-- Last updated: 2026-10-25
+- Last updated: 2026-10-26
 
-## Products (prices in VND, urmine.shop, 2026-10-25)
+## Products (prices in VND, urmine.shop, 2026-10-26)
 - URMINE Trinity i15 Pro (DT015 Pro) — 4,200,000 VND. 27J max energy, 100W, dual lamp + PHR 4-pulse, sapphire contact 16.6 cm² cooled to 2°C for up to 60 min, 560–1200 nm, 5 levels, face/body/bikini/PHR modes, Auto Glide 0.15 s per flash (full body ~10 min), unlimited flashes, CTONE app via Bluetooth, Rose Gold, 24-month warranty, 30-day no-result refund program.
 - URMINE Nova P5 — 2,550,000 VND. 22J, 78W, dual-beam IPL, sapphire 4–15°C, body/bikini/face, CTONE app, purple/blue/black, 24-month warranty.
 - URMINE Ice Cooling — 1,550,000 VND. 19.8J, 35W, single-beam IPL, metal cooling 5–15°C, 999,900 flashes, body only (not bikini or face), Pro version connects to CTONE, 24-month warranty.
@@ -40,6 +40,7 @@
 - https://urminetech.com/guides/triet-long-mat-ria-mep-ipl-tai-nha/: Hướng dẫn triệt lông mặt, ria mép (lông môi trên), cằm và tóc mai bằng IPL tại nhà: vùng tuyệt đối tránh quanh mắt, chế độ mặt, mức năng lượng khởi đầu, lịch triệt, chăm sóc da và máy URMINE nào dùng được cho mặt.
 - https://urminetech.com/guides/triet-long-cho-nam-ipl-tai-nha/: Hướng dẫn nam giới triệt lông bằng IPL tại nhà: vùng nên triệt (ngực, bụng, lưng, tay, chân, nách), vùng không triệt (râu, bìu, hình xăm), cách cạo và chọn mức năng lượng, lịch 3–4 lần/tuần trong 4 tuần và máy URMINE phù hợp với lông nam cứng, dày.
 - https://urminetech.com/guides/triet-long-ram-long-pcos-ipl-tai-nha/: Người rậm lông hoặc có buồng trứng đa nang (PCOS) có dùng máy triệt lông IPL tại nhà được không? Khi nào cần đi khám trước, vì sao lông dễ mọc lại, cách kết hợp với điều trị của bác sĩ, lịch triệt 3–4 lần/tuần và chọn máy URMINE.
+- https://urminetech.com/guides/triet-long-da-nhay-cam-ipl-tai-nha/: Hướng dẫn triệt lông IPL tại nhà cho da nhạy cảm, dễ đỏ, dễ kích ứng: thử trên vùng nhỏ, bắt đầu mức 1–2, làm lạnh, chăm sóc sau triệt, khi nào nên ngừng và đi khám, chọn máy URMINE.
 - https://urminetech.com/compare/: So sánh URMINE với máy IPL không thương hiệu, với máy IPL phổ thông và với triệt lông tại spa.
 - https://urminetech.com/compare/urmine-vs-generic-ipl/: So sánh URMINE với máy triệt lông IPL không thương hiệu trên sàn: thông số công bố, hồ sơ kiểm nghiệm, sách hướng dẫn tiếng Việt, bảo hành và hỗ trợ.
 - https://urminetech.com/compare/trinity-i15-pro-vs-entry-ipl/: So sánh URMINE Trinity i15 Pro (27J, sapphire 2°C, PHR, Auto Glide) với máy IPL phổ thông như URMINE Ice Cooling (19,8J, kim loại 5°C).

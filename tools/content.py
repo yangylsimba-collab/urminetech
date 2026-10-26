@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-25"
+UPDATED = "2026-10-26"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -256,7 +256,8 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
                   ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/"),
                   ("Theo vùng", "Triệt lông mặt và ria mép", "Vùng được và không được triệt, mức năng lượng, chọn máy", "/guides/triet-long-mat-ria-mep-ipl-tai-nha/"),
                   ("Theo đối tượng", "Triệt lông cho nam", "Ngực, lưng, tay chân; vùng không triệt; chọn máy cho lông cứng", "/guides/triet-long-cho-nam-ipl-tai-nha/"),
-                  ("Theo đối tượng", "Rậm lông và PCOS", "Khi nào cần đi khám, vì sao lông mọc lại, lịch duy trì", "/guides/triet-long-ram-long-pcos-ipl-tai-nha/")])])
+                  ("Theo đối tượng", "Rậm lông và PCOS", "Khi nào cần đi khám, vì sao lông mọc lại, lịch duy trì", "/guides/triet-long-ram-long-pcos-ipl-tai-nha/"),
+                  ("Theo đối tượng", "Da nhạy cảm", "Thử vùng nhỏ, mức năng lượng, chăm sóc, khi nào ngừng", "/guides/triet-long-da-nhay-cam-ipl-tai-nha/")])])
 
 page(path="/guides/ipl-hair-removal-at-home/", crumb="Triệt lông IPL tại nhà", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn cơ bản", schema="Article",
      title="Triệt lông IPL tại nhà: có hiệu quả không, ai nên dùng, chọn máy thế nào",
@@ -461,6 +462,49 @@ page(path="/guides/triet-long-ram-long-pcos-ipl-tai-nha/", crumb="Rậm lông v�
           ("Rậm lông có cần đi khám không?", "Nên đi khám, đặc biệt khi lông mọc nhiều đột ngột hoặc kèm kinh nguyệt không đều, mụn nặng, rụng tóc, giọng trầm đi. Bác sĩ nội tiết, sản phụ khoa hoặc da liễu sẽ tìm nguyên nhân."),
           ("Có triệt lông cằm, ria mép do PCOS bằng IPL được không?", "Được ở vùng cằm và môi trên với máy dùng được cho mặt như URMINE Trinity i15 Pro, bắt đầu ở mức thấp và đeo kính bảo hộ. Không triệt quanh mắt, lông mày. URMINE Ice Cooling không dùng cho mặt."),
           ("Máy URMINE nào phù hợp cho người rậm lông?", "URMINE Trinity i15 Pro (4.200.000 ₫) phù hợp nhất cho lông cứng ở mặt và thân nhờ 27J, PHR 4 xung, sapphire 2°C và số xung không giới hạn. URMINE Nova P5 (2.550.000 ₫) là lựa chọn tiết kiệm hơn.")])
+
+page(path="/guides/triet-long-da-nhay-cam-ipl-tai-nha/", crumb="Da nhạy cảm", parent=("/guides/", "Hướng dẫn"), eyebrow="Hướng dẫn theo đối tượng", schema="Article",
+     title="Da nhạy cảm có dùng máy triệt lông IPL tại nhà được không? Cách thử, mức năng lượng và chăm sóc",
+     desc="Hướng dẫn triệt lông IPL tại nhà cho da nhạy cảm, dễ đỏ, dễ kích ứng: thử trên vùng nhỏ, bắt đầu mức 1–2, làm lạnh, chăm sóc sau triệt, khi nào nên ngừng và đi khám, chọn máy URMINE.",
+     h1="Triệt lông IPL tại nhà cho da nhạy cảm",
+     answer="Da nhạy cảm vẫn có thể dùng máy triệt lông IPL tại nhà nếu da không đang viêm, kích ứng hay có bệnh da đang tiến triển. Hãy thử trên một vùng nhỏ ở mức thấp nhất và chờ 24 giờ, bắt đầu ở mức 1–2 trong 2–3 tuần đầu, chọn máy có làm lạnh tốt và tránh AHA, BHA, Retinol, cồn, hương liệu 12–24 giờ sau triệt. Người đang bị chàm (eczema), vảy nến, mụn viêm, cháy nắng hoặc dùng thuốc làm da nhạy cảm với ánh sáng nên hỏi bác sĩ da liễu trước. Với máy URMINE, Trinity i15 Pro (4.200.000 ₫) có mặt sapphire 16,6 cm² lạnh 2°C duy trì đến 60 phút; Nova P5 (2.550.000 ₫) có sapphire 4–15°C.",
+     body=[sec("Da nhạy cảm cần lưu ý gì khi triệt lông IPL", """<p>IPL dùng ánh sáng xung để tác động lên sắc tố trong nang lông, đồng thời tạo nhiệt trên bề mặt da. Da nhạy cảm, dễ đỏ hoặc có hàng rào bảo vệ yếu thường phản ứng mạnh hơn với nhiệt, với việc cạo lông và với mỹ phẩm sau triệt. Phản ứng thường gặp là đỏ nhẹ, ấm hoặc châm chích trong thời gian ngắn; phản ứng kéo dài, phồng rộp hoặc đau bất thường là dấu hiệu cần ngừng.</p>
+<p>Bài viết chỉ hướng dẫn sử dụng thiết bị làm đẹp gia dụng và không thay thế tư vấn y khoa. Tham khảo thêm: <a href="https://www.vinmec.com/vi/tin-tuc/thong-tin-suc-khoe/lam-dep/dieu-tri-da-bang-anh-sang-xung-cuong-do-cao-ipl/" rel="nofollow">Vinmec – Điều trị da bằng ánh sáng xung cường độ cao (IPL)</a>, <a href="https://nhathuoclongchau.com.vn/bai-viet/cach-su-dung-may-triet-long-an-toan-va-hieu-qua-tai-nha-70639.html" rel="nofollow">Nhà thuốc Long Châu – Cách sử dụng máy triệt lông an toàn tại nhà</a> (truy cập 26/10/2026).</p>"""),
+           sec("Khi nào nên hỏi bác sĩ da liễu trước", """<ul>
+<li>Da đang bị <strong>chàm (eczema), vảy nến, viêm da</strong> hoặc mụn viêm ở vùng định triệt.</li>
+<li>Da vừa <strong>cháy nắng</strong>, vừa peel, lăn kim hoặc điều trị laser.</li>
+<li>Đang dùng <strong>thuốc hoặc mỹ phẩm làm da nhạy cảm với ánh sáng</strong>, ví dụ Retinoid, một số kháng sinh.</li>
+<li>Có tiền sử sẹo lồi, rối loạn sắc tố hoặc từng bị phản ứng mạnh với ánh sáng.</li>
+<li>Đang mang thai hoặc cho con bú.</li>
+</ul>"""),
+           sec("Các bước triệt lông cho da nhạy cảm", """<ol>
+<li><strong>Thử trên một vùng nhỏ</strong> ở mức thấp nhất, chờ 24 giờ. Nếu da chỉ hơi ấm, đỏ nhẹ rồi hết, có thể tiếp tục.</li>
+<li><strong>Cạo nhẹ nhàng</strong> khi tắm, dùng dao cạo sạch, xuôi chiều lông mọc; không wax, nhổ hay dùng kem tẩy lông. Nếu da đỏ sau khi cạo, nên cạo trước buổi triệt vài giờ hoặc từ tối hôm trước.</li>
+<li><strong>Lau khô hoàn toàn</strong>, không thoa kem, dầu, nước hoa hay lăn khử mùi trước khi triệt.</li>
+<li><strong>Bắt đầu mức 1–2</strong> trong 2–3 tuần đầu; chỉ tăng thêm một mức khi buổi trước không gây phản ứng kéo dài.</li>
+<li><strong>Không chiếu chồng</strong> lên cùng một điểm nhiều lần trong một buổi; áp máy vuông góc 90° và đeo kính bảo hộ.</li>
+<li><strong>Làm dịu sau triệt</strong>: để da nguội, dùng sản phẩm dưỡng ẩm không cồn, không hương liệu.</li>
+</ol>"""),
+           sec("Lịch triệt và chăm sóc sau triệt", ROUTINE_VI + '<p>Với da nhạy cảm, nếu da còn đỏ ở buổi tiếp theo, hãy bỏ qua buổi đó và đợi da hồi phục. Xem chi tiết ở <a href="/guides/ipl-routine-and-aftercare/">lịch triệt và chăm sóc sau triệt</a>.</p>'),
+           sec("Ngừng dùng khi", """<ul>
+<li>Da phồng rộp, rỉ dịch, bỏng hoặc đau bất thường.</li>
+<li>Đỏ, rát kéo dài quá 24–48 giờ, hoặc xuất hiện vùng sẫm màu, bạc màu.</li>
+<li>Nổi mẩn ngứa lan rộng sau triệt.</li>
+</ul>
+<p>Khi gặp các dấu hiệu này, ngừng triệt và đi khám bác sĩ da liễu.</p>"""),
+           sec("Chọn máy URMINE cho da nhạy cảm", """<div class="table-scroll"><table><thead><tr><th>Máy</th><th>Giá niêm yết</th><th>Làm lạnh và điểm phù hợp</th></tr></thead><tbody>
+<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4.200.000 ₫</td><td>Sapphire 16,6 cm², lạnh 2°C, duy trì đến 60 phút; 5 mức năng lượng; chế độ mặt, body, bikini; app CTONE để ghi lại mức đã dùng</td></tr>
+<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2.550.000 ₫</td><td>Sapphire 4–15°C; dùng cho body, bikini, mặt; app CTONE</td></tr>
+<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1.550.000 ₫</td><td>Làm lạnh kim loại 5–15°C; <strong>chỉ dành cho body</strong>, không dùng cho mặt và bikini</td></tr>
+</tbody></table></div>
+<p>Giá và thông số theo <a href="https://urmine.shop">urmine.shop</a> (18/10/2026). Làm lạnh giúp da dễ chịu hơn nhưng không thay thế việc thử trên vùng nhỏ và bắt đầu ở mức thấp. Bảo hành 24 tháng khi mua tại kênh chính thức.</p>"""),
+           sec("Không triệt khi", AVOID_VI),
+           STORES_VI],
+     faq=[("Da nhạy cảm có triệt lông IPL tại nhà được không?", "Thường là được nếu da không đang viêm, kích ứng hay có bệnh da đang tiến triển. Hãy thử trên vùng nhỏ ở mức thấp nhất, chờ 24 giờ và bắt đầu ở mức 1–2."),
+          ("Triệt lông IPL xong da bị đỏ có sao không?", "Đỏ nhẹ, hơi ấm và hết trong vài giờ là phản ứng thường gặp. Nếu đỏ, rát kéo dài quá 24–48 giờ, phồng rộp hoặc đổi màu da, hãy ngừng dùng và đi khám bác sĩ da liễu."),
+          ("Bị chàm (eczema) hoặc vảy nến có dùng máy triệt lông IPL được không?", "Không triệt lên vùng da đang bị chàm, vảy nến hay viêm. Hãy hỏi bác sĩ da liễu trước và chỉ triệt khi da đã ổn định."),
+          ("Sau khi triệt lông bằng IPL nên tránh mỹ phẩm gì?", "Tránh sản phẩm có cồn, hương liệu, AHA, BHA, Retinol trong 12–24 giờ; không xông hơi, không tẩy da chết; tránh nắng 48 giờ và thoa SPF 30+."),
+          ("Máy URMINE nào phù hợp cho da nhạy cảm?", "URMINE Trinity i15 Pro (4.200.000 ₫) có sapphire 16,6 cm² lạnh 2°C duy trì đến 60 phút và 5 mức năng lượng để bắt đầu thấp. URMINE Nova P5 (2.550.000 ₫) có sapphire 4–15°C và là lựa chọn tiết kiệm hơn.")])
 
 # ---------------- COMPARE ----------------
 page(path="/compare/",crumb="So sánh", eyebrow="So sánh",
