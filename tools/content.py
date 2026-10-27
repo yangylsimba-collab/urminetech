@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-26"
+UPDATED = "2026-10-27"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -516,6 +516,7 @@ page(path="/compare/",crumb="So sánh", eyebrow="So sánh",
                   ("So sánh", "Trinity i15 Pro và máy IPL phổ thông", "Năng lượng, làm lạnh, tốc độ, giá", "/compare/trinity-i15-pro-vs-entry-ipl/"),
                   ("So sánh", "URMINE Trinity i15 Pro và Ulike Air 10", "Làm lạnh, chế độ, bảo hành, cách mua", "/compare/urmine-vs-ulike-air-10/"),
                   ("So sánh", "URMINE Trinity i15 Pro và Braun Silk-expert Pro 5", "Cảm biến da, làm lạnh, lịch triệt, giá", "/compare/urmine-vs-braun-silk-expert-pro-5/"),
+                  ("So sánh", "URMINE Trinity i15 Pro và Philips Lumea 8000/9000", "Cảm biến SmartSkin, làm lạnh, lịch triệt, giá tại Việt Nam", "/compare/urmine-vs-philips-lumea/"),
                   ("Chi phí", "Triệt lông IPL tại nhà và đi spa", "Bảng giá spa có nguồn, ví dụ tính nhanh", "/compare/ipl-tai-nha-vs-spa/"),
                   ("Dòng URMINE", "Trinity, Nova, Ice Cooling", "Bảng so sánh 3 dòng máy", "/products/")])])
 
@@ -611,6 +612,39 @@ page(path="/compare/urmine-vs-braun-silk-expert-pro-5/", crumb="URMINE và Braun
           ("SensoAdapt của Braun là gì?", "Theo Braun, SensoAdapt là cảm biến đọc màu da 80 lần mỗi giây và tự điều chỉnh cường độ từng xung, chỉ phát sáng khi an toàn với màu da (uk.braun.com, 20/10/2026)."),
           ("Braun Silk-expert Pro 5 giá bao nhiêu ở Việt Nam?", "Chúng tôi chưa xác minh được giá chính hãng tại Việt Nam. Mã PL5137 có giá £610 trên braunshop.co.uk ngày 20/10/2026. Hãy kiểm tra giá và bảo hành của nhà phân phối chính hãng trước khi mua."),
           ("Vì sao lịch triệt của URMINE dày hơn Braun?", "Mỗi hãng khuyến nghị lịch riêng cho thiết bị của mình. URMINE khuyến nghị 3–4 lần mỗi tuần trong 4 tuần đầu; Braun khuyến nghị 2 tuần một lần, tổng 6 lần. Hãy làm theo hướng dẫn của đúng thiết bị bạn dùng."),
+          ("Trinity i15 Pro bảo hành bao lâu?", "24 tháng khi mua qua kênh chính thức (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE), kèm chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả.")])
+
+page(path="/compare/urmine-vs-philips-lumea/", crumb="URMINE và Philips Lumea", parent=("/compare/", "So sánh"), eyebrow="So sánh", schema="Article",
+     title="URMINE Trinity i15 Pro và Philips Lumea IPL 8000/9000: so sánh máy triệt lông IPL",
+     desc="So sánh URMINE Trinity i15 Pro (27J, sapphire 2°C, PHR, 4.200.000 ₫, bảo hành 24 tháng tại Việt Nam) với Philips Lumea IPL 8000/9000 (cảm biến SmartSkin, SenseIQ, 5 mức, 450.000 xung) theo số liệu công bố, có ghi nguồn và ngày.",
+     h1="URMINE Trinity i15 Pro và Philips Lumea IPL 8000/9000",
+     answer="Philips Lumea là dòng IPL quốc tế lâu năm: Lumea 9000 có cảm biến SmartSkin đọc màu da, 5 mức cường độ, 4 đầu phụ, dùng được có dây hoặc pin, lịch 4 lần cách 2 tuần rồi dặm hàng tháng; Philips không ghi tính năng làm lạnh. Giá tham khảo tại một số nhà bán lẻ Việt Nam khoảng 12–14,4 triệu đồng. URMINE Trinity i15 Pro công bố 27J, mặt sapphire làm lạnh 2°C, chế độ PHR 4 xung, app CTONE, giá 4.200.000 ₫ và bảo hành 24 tháng tại Việt Nam. Chọn Philips nếu ưu tiên thương hiệu lâu năm và lịch triệt thưa; chọn Trinity nếu ưu tiên làm lạnh, ngân sách và hỗ trợ tại Việt Nam.",
+     body=[sec("Cách chúng tôi so sánh", "<p>Trang này do URMINE biên soạn và chỉ dùng số liệu do hãng công bố hoặc giá niêm yết có thể kiểm tra. Số liệu URMINE lấy từ <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026). Số liệu Philips Lumea IPL 9000 (BRI958/60) lấy từ trang sản phẩm chính thức <a href=\"https://www.philips.ae/c-p/BRI958_60/lumea-ipl-9000-series-ipl-hair-removal-device-with-senseiq\">philips.ae</a> (truy cập 27/10/2026). Số xung, đầu phụ và giá của Lumea IPL 8000 (BRI946/00) lấy từ nhà bán lẻ <a href=\"https://nhabep89.vn/san-pham/may-triet-long-ipl-philips-lumea-8000-bri946-00/\">nhabep89.vn</a>; giá Lumea IPL 9000 (BRI955/00) lấy từ <a href=\"https://telo.vn/products/may-triet-long-philips-lumea-series-ipl-9000-bri955-00\">telo.vn</a> (cùng truy cập 27/10/2026). Đây không phải kênh phân phối chính thức của Philips Việt Nam đã được chúng tôi xác minh; giá có thể thay đổi. Chúng tôi không tự đo đạc thiết bị Philips.</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>Tiêu chí</th><th class="col-hero">URMINE Trinity i15 Pro</th><th>Philips Lumea IPL 8000/9000</th></tr></thead><tbody>'
+           '<tr><td>Công nghệ</td><td class="col-hero">IPL đèn kép + PHR 4 xung</td><td>IPL với công nghệ SenseIQ, cảm biến SmartSkin đọc màu da và gợi ý mức phù hợp (philips.ae, Lumea 9000)</td></tr>'
+           '<tr><td>Năng lượng công bố</td><td class="col-hero num">27J (tối đa), 100W</td><td>5 mức cường độ; trang sản phẩm không công bố số Joule</td></tr>'
+           '<tr><td>Làm lạnh</td><td class="col-hero">Sapphire 16,6 cm², 2°C, duy trì đến 60 phút</td><td>Không ghi tính năng làm lạnh trên trang sản phẩm (philips.ae)</td></tr>'
+           '<tr><td>Đầu phụ</td><td class="col-hero">Chế độ mặt, body, bikini, PHR trên cùng một máy</td><td>Lumea 9000: 4 đầu (body, mặt, bikini, nách) (philips.ae). Lumea 8000 BRI946: 3 đầu – body 4,1 cm², mặt 2 cm², vùng nhỏ 3 cm² (nhabep89.vn)</td></tr>'
+           '<tr><td>Số xung</td><td class="col-hero">Không giới hạn</td><td>450.000 xung (nhabep89.vn, Lumea 8000). Philips ghi tuổi thọ đèn không nằm trong bảo hành 2 năm (philips.ae)</td></tr>'
+           '<tr><td>Lịch triệt khuyến nghị</td><td class="col-hero">3–4 lần/tuần trong 4 tuần đầu</td><td>4 lần đầu, mỗi lần cách 2 tuần, sau đó dặm lại hàng tháng (philips.ae)</td></tr>'
+           '<tr><td>Kết quả hãng công bố</td><td class="col-hero">Hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả</td><td>Sau 18 tháng: giảm 86% lông cẳng chân, 70% bikini, 67% nách, tính từ sau 3 lần triệt (philips.ae)</td></tr>'
+           '<tr><td>Nguồn điện</td><td class="col-hero">100–240V</td><td>Lumea 9000 dùng có dây hoặc pin; hãng khuyên cắm dây cho vùng rộng như chân (philips.ae)</td></tr>'
+           '<tr><td>App</td><td class="col-hero">CTONE qua Bluetooth</td><td>Ứng dụng Lumea IPL hướng dẫn sử dụng (philips.ae)</td></tr>'
+           '<tr><td>Bảo hành</td><td class="col-hero">24 tháng tại Việt Nam, kích hoạt qua Zalo</td><td>2 năm theo trang philips.ae; nhà bán lẻ nhabep89.vn ghi 12 tháng cho BRI946. Hãy hỏi rõ trước khi mua.</td></tr>'
+           '<tr><td>Giá</td><td class="col-hero num">4.200.000 ₫ (giá gốc 8.800.000 ₫)</td><td>Lumea 8000 BRI946/00: 12.000.000 ₫ (nhabep89.vn); Lumea 9000 BRI955/00: 14.400.000 ₫ (telo.vn), cùng ngày 27/10/2026</td></tr>'
+           '<tr><td>Kiểm nghiệm công bố</td><td class="col-hero">IEC 60601-1/62471 (DE25040077/080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA</td><td>Xem trên trang chính thức của Philips</td></tr>'
+           '</tbody></table></div>',
+           sec("Nên chọn máy nào", """<ul>
+<li><strong>Chọn URMINE Trinity i15 Pro</strong> nếu bạn muốn mặt lạnh sâu (2°C) để giảm cảm giác nóng ở bikini và nách, cần chế độ PHR cho lông cứng, ngân sách khoảng 4 triệu đồng, muốn theo dõi lịch triệt bằng app CTONE và cần bảo hành, hỗ trợ tiếng Việt qua Shopee Mall, TikTok Shop hoặc urmine.shop.</li>
+<li><strong>Chọn Philips Lumea 8000/9000</strong> nếu bạn ưu tiên thương hiệu lâu năm có công bố kết quả theo dõi 18 tháng, thích lịch triệt thưa (2 tuần một lần rồi hàng tháng), cần đầu phụ riêng cho từng vùng và chấp nhận mức giá trên 12 triệu đồng.</li>
+<li><strong>Với cả hai:</strong> IPL hiệu quả nhất khi lông sẫm hơn da; lông vàng nhạt, đỏ, bạc, trắng đáp ứng kém. Không chiếu lên hình xăm, nốt ruồi, bớt đậm màu; mua qua kênh chính hãng để được bảo hành.</li>
+</ul>"""),
+           sec("Lịch triệt với Trinity i15 Pro", ROUTINE_VI),
+           STORES_VI],
+     faq=[("URMINE và Philips Lumea máy nào có làm lạnh?", "URMINE Trinity i15 Pro công bố mặt sapphire làm lạnh đến 2°C, duy trì đến 60 phút. Trang sản phẩm Philips Lumea IPL 9000 không ghi tính năng làm lạnh (philips.ae, truy cập 27/10/2026)."),
+          ("Philips Lumea giá bao nhiêu ở Việt Nam?", "Ngày 27/10/2026, Lumea IPL 8000 BRI946/00 được niêm yết 12.000.000 ₫ tại nhabep89.vn và Lumea IPL 9000 BRI955/00 14.400.000 ₫ tại telo.vn. Giá thay đổi theo người bán; hãy kiểm tra bảo hành chính hãng trước khi mua."),
+          ("SenseIQ và SmartSkin của Philips là gì?", "Theo Philips, cảm biến SmartSkin đọc tông da và giúp chọn mức cường độ thoải mái trong 5 mức; SenseIQ là tên gọi công nghệ cảm biến của dòng Lumea 8000/9000 (philips.ae, 27/10/2026)."),
+          ("Vì sao lịch triệt của URMINE dày hơn Philips?", "Mỗi hãng khuyến nghị lịch riêng cho thiết bị của mình. URMINE khuyến nghị 3–4 lần mỗi tuần trong 4 tuần đầu; Philips khuyến nghị 4 lần đầu cách nhau 2 tuần, sau đó dặm lại hàng tháng. Hãy làm theo hướng dẫn của đúng thiết bị bạn dùng."),
           ("Trinity i15 Pro bảo hành bao lâu?", "24 tháng khi mua qua kênh chính thức (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE), kèm chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả.")])
 
 page(path="/compare/ipl-tai-nha-vs-spa/", crumb="IPL tại nhà và đi spa", parent=("/compare/", "So sánh"), eyebrow="So sánh chi phí", schema="Article",
