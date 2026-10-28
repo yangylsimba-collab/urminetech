@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-27"
+UPDATED = "2026-10-28"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -517,6 +517,7 @@ page(path="/compare/",crumb="So sánh", eyebrow="So sánh",
                   ("So sánh", "URMINE Trinity i15 Pro và Ulike Air 10", "Làm lạnh, chế độ, bảo hành, cách mua", "/compare/urmine-vs-ulike-air-10/"),
                   ("So sánh", "URMINE Trinity i15 Pro và Braun Silk-expert Pro 5", "Cảm biến da, làm lạnh, lịch triệt, giá", "/compare/urmine-vs-braun-silk-expert-pro-5/"),
                   ("So sánh", "URMINE Trinity i15 Pro và Philips Lumea 8000/9000", "Cảm biến SmartSkin, làm lạnh, lịch triệt, giá tại Việt Nam", "/compare/urmine-vs-philips-lumea/"),
+                  ("So sánh", "URMINE, Halio SilkGlow và Dr Glatt IPL Pro", "Ba máy 3,5–5 triệu tại Việt Nam: làm lạnh, năng lượng, bảo hành", "/compare/urmine-vs-halio-dr-glatt/"),
                   ("Chi phí", "Triệt lông IPL tại nhà và đi spa", "Bảng giá spa có nguồn, ví dụ tính nhanh", "/compare/ipl-tai-nha-vs-spa/"),
                   ("Dòng URMINE", "Trinity, Nova, Ice Cooling", "Bảng so sánh 3 dòng máy", "/products/")])])
 
@@ -645,6 +646,42 @@ page(path="/compare/urmine-vs-philips-lumea/", crumb="URMINE và Philips Lumea",
           ("Philips Lumea giá bao nhiêu ở Việt Nam?", "Ngày 27/10/2026, Lumea IPL 8000 BRI946/00 được niêm yết 12.000.000 ₫ tại nhabep89.vn và Lumea IPL 9000 BRI955/00 14.400.000 ₫ tại telo.vn. Giá thay đổi theo người bán; hãy kiểm tra bảo hành chính hãng trước khi mua."),
           ("SenseIQ và SmartSkin của Philips là gì?", "Theo Philips, cảm biến SmartSkin đọc tông da và giúp chọn mức cường độ thoải mái trong 5 mức; SenseIQ là tên gọi công nghệ cảm biến của dòng Lumea 8000/9000 (philips.ae, 27/10/2026)."),
           ("Vì sao lịch triệt của URMINE dày hơn Philips?", "Mỗi hãng khuyến nghị lịch riêng cho thiết bị của mình. URMINE khuyến nghị 3–4 lần mỗi tuần trong 4 tuần đầu; Philips khuyến nghị 4 lần đầu cách nhau 2 tuần, sau đó dặm lại hàng tháng. Hãy làm theo hướng dẫn của đúng thiết bị bạn dùng."),
+          ("Trinity i15 Pro bảo hành bao lâu?", "24 tháng khi mua qua kênh chính thức (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE), kèm chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả.")])
+
+page(path="/compare/urmine-vs-halio-dr-glatt/", crumb="URMINE, Halio và Dr Glatt", parent=("/compare/", "So sánh"), eyebrow="So sánh", schema="Article",
+     title="URMINE, Halio SilkGlow và Dr Glatt IPL Pro: so sánh máy triệt lông IPL bán tại Việt Nam",
+     desc="So sánh URMINE Trinity i15 Pro (27J, sapphire 2°C, 4.200.000 ₫, bảo hành 24 tháng), Halio SilkGlow IPL (24J, sapphire 10°C) và Dr Glatt IPL Pro (Ice-Cool 10°C, khoảng 1 triệu xung) theo số liệu công bố, có ghi nguồn và ngày.",
+     h1="URMINE Trinity i15 Pro, Halio SilkGlow và Dr Glatt IPL Pro",
+     answer="Ba máy cùng tầm giá 3,5–5 triệu đồng tại Việt Nam. URMINE Trinity i15 Pro (4.200.000 ₫) công bố 27J, mặt sapphire 16,6 cm² làm lạnh 2°C, chế độ PHR 4 xung, app CTONE và bảo hành 24 tháng. Halio SilkGlow IPL (khoảng 4,85–4,99 triệu đồng tại chuỗi điện máy) ghi 24J, sapphire 11,82 cm² 10°C, 5 chế độ, xung không giới hạn, bảo hành 1 năm theo sách hướng dẫn. Dr Glatt IPL Pro (3.500.000 ₫ trên drglatt.vn) ghi Ice-Cool làm vùng da xuống 10°C, 9 mức, khoảng 1 triệu xung, đầu phát 4 cm². Chọn URMINE nếu ưu tiên làm lạnh sâu và PHR cho lông cứng; chọn Halio nếu muốn mua trực tiếp tại chuỗi điện máy; chọn Dr Glatt nếu ngân sách khoảng 3,5 triệu.",
+     body=[sec("Cách chúng tôi so sánh", "<p>Trang này do URMINE biên soạn và chỉ dùng số liệu do hãng công bố hoặc nhà bán lẻ niêm yết có thể kiểm tra. Số liệu URMINE lấy từ <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026). Thông số Halio SilkGlow IPL lấy từ <a href=\"https://cdn.tgdd.vn/Products/PDF/3/358312/HDSD/sapphire-halio-silk-glow-ipl.pdf\">sách hướng dẫn sử dụng do Thế Giới Di Động đăng</a>; giá lấy từ <a href=\"https://cellphones.com.vn/may-triet-long-halio-silkglow-ipl-sapphire-cooling-hair-removal-device.html\">CellphoneS</a> (cùng truy cập 28/10/2026) và <a href=\"https://www.dienmayxanh.com/may-triet-long\">Điện Máy Xanh</a> (21/10/2026). Thông số và giá Dr Glatt IPL Pro lấy từ drglatt.vn (21/10/2026) và <a href=\"https://meta.vn/may-triet-long-va-tre-hoa-da-dr-glatt-ipl-pro-gl21-703-p83208\">meta.vn</a> (28/10/2026). Khi hai nguồn ghi khác nhau, chúng tôi ghi cả hai. Giá có thể thay đổi; chúng tôi không tự đo đạc thiết bị Halio hay Dr Glatt.</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>Tiêu chí</th><th class="col-hero">URMINE Trinity i15 Pro</th><th>Halio SilkGlow IPL</th><th>Dr Glatt IPL Pro</th></tr></thead><tbody>'
+           '<tr><td>Giá tham khảo</td><td class="col-hero num">4.200.000 ₫ (giá gốc 8.800.000 ₫)</td><td>4.850.000 ₫ (CellphoneS, 28/10/2026); 4.990.000 ₫ (Điện Máy Xanh, 21/10/2026)</td><td>3.500.000 ₫ (drglatt.vn, 21/10/2026); meta.vn ghi 3.870.000 ₫ và “hàng dừng bán” (28/10/2026)</td></tr>'
+           '<tr><td>Năng lượng công bố</td><td class="col-hero num">27J (tối đa), 100W</td><td>24J (sách hướng dẫn)</td><td>Không ghi số Joule trên các nguồn trên</td></tr>'
+           '<tr><td>Số mức / chế độ</td><td class="col-hero">5 mức; chế độ mặt, body, bikini, PHR</td><td>5 mức; 5 chế độ (triệt điểm, triệt trượt, xung đơn, xung kép, nhanh)</td><td>9 mức (meta.vn)</td></tr>'
+           '<tr><td>Làm lạnh</td><td class="col-hero">Sapphire 16,6 cm², 2°C, duy trì đến 60 phút</td><td>Sapphire 11,82 cm², 10°C (sách hướng dẫn)</td><td>Ice-Cool làm vùng triệt xuống 10°C (drglatt.vn, meta.vn)</td></tr>'
+           '<tr><td>Kích thước cửa sổ / đầu phát</td><td class="col-hero">Cửa sổ phát sáng 3,9 cm²</td><td>Sách hướng dẫn không ghi</td><td>Đầu phát 4 cm² (meta.vn)</td></tr>'
+           '<tr><td>Bước sóng</td><td class="col-hero">560–1200 nm</td><td>CellphoneS ghi 550–1200 nm; sách hướng dẫn không ghi</td><td>Không ghi</td></tr>'
+           '<tr><td>Số xung</td><td class="col-hero">Không giới hạn</td><td>Không giới hạn</td><td>Khoảng 1 triệu xung</td></tr>'
+           '<tr><td>Tốc độ</td><td class="col-hero">0,15 giây/xung (Auto Glide), toàn thân khoảng 10 phút</td><td>0,14 giây/xung ở mức 1, chế độ nhanh</td><td>Không ghi</td></tr>'
+           '<tr><td>Lịch triệt khuyến nghị</td><td class="col-hero">3–4 lần/tuần trong 4 tuần đầu</td><td>3 lần/tuần trong 2 tuần đầu, 2 lần/tuần tuần 3–4, sau đó 15–30 ngày một lần</td><td>Không ghi trên các nguồn trên</td></tr>'
+           '<tr><td>App</td><td class="col-hero">CTONE qua Bluetooth</td><td>Không ghi</td><td>Không ghi</td></tr>'
+           '<tr><td>Bảo hành</td><td class="col-hero">24 tháng tại Việt Nam, kích hoạt qua Zalo</td><td>1 năm (sách hướng dẫn)</td><td>drglatt.vn ghi 2 năm (1 đổi 1); meta.vn ghi 12 tháng. Hãy hỏi rõ trước khi mua.</td></tr>'
+           '<tr><td>Kiểm nghiệm công bố</td><td class="col-hero">IEC 60601-1/62471 (DE25040077/080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA</td><td>Xem tài liệu của hãng</td><td>Xem tài liệu của hãng</td></tr>'
+           '</tbody></table></div>',
+           sec("Nên chọn máy nào", """<ul>
+<li><strong>Chọn URMINE Trinity i15 Pro</strong> nếu bạn muốn mặt lạnh sâu nhất trong ba máy (2°C so với 10°C), mặt sapphire rộng 16,6 cm², chế độ PHR 4 xung cho lông cứng ở nách và bikini, theo dõi lịch triệt bằng app CTONE và bảo hành 24 tháng qua urmine.shop, Shopee Mall hoặc TikTok Shop.</li>
+<li><strong>Chọn Halio SilkGlow IPL</strong> nếu bạn muốn xem máy trực tiếp và mua tại các chuỗi điện máy lớn, thích có nhiều chế độ phát xung và lịch triệt thưa dần từ tháng thứ hai.</li>
+<li><strong>Chọn Dr Glatt IPL Pro</strong> nếu ngân sách khoảng 3,5 triệu đồng và bạn cần đầu phát 4 cm² với 9 mức năng lượng; hãy kiểm tra máy còn bán và thời hạn bảo hành tại người bán.</li>
+<li><strong>Ngân sách dưới 3 triệu:</strong> xem <a href="/products/nova-p5/">URMINE Nova P5</a> (2.550.000 ₫, 22J, sapphire 4–15°C, dùng được cho mặt và bikini) hoặc <a href="/guides/may-triet-long-ipl-theo-ngan-sach-2026/">hướng dẫn chọn máy theo ngân sách</a>.</li>
+<li><strong>Với mọi máy:</strong> IPL hiệu quả nhất khi lông sẫm hơn da; lông vàng nhạt, đỏ, bạc, trắng đáp ứng kém. Không chiếu lên hình xăm, nốt ruồi, bớt đậm màu; thử trên vùng da nhỏ trước khi triệt toàn bộ.</li>
+</ul>"""),
+           sec("Lịch triệt với Trinity i15 Pro", ROUTINE_VI),
+           sec("Không nên dùng khi", AVOID_VI),
+           STORES_VI],
+     faq=[("URMINE, Halio và Dr Glatt máy nào lạnh hơn?", "Theo số liệu công bố: URMINE Trinity i15 Pro làm lạnh sapphire đến 2°C; Halio SilkGlow IPL ghi sapphire 10°C (sách hướng dẫn); Dr Glatt IPL Pro ghi Ice-Cool làm vùng triệt xuống 10°C (drglatt.vn, meta.vn)."),
+          ("Halio SilkGlow giá bao nhiêu?", "Ngày 28/10/2026, CellphoneS niêm yết 4.850.000 ₫; ngày 21/10/2026, Điện Máy Xanh niêm yết 4.990.000 ₫. Giá thay đổi theo người bán và chương trình khuyến mãi."),
+          ("Dr Glatt IPL Pro bảo hành bao lâu?", "drglatt.vn ghi bảo hành 2 năm (1 đổi 1) ngày 21/10/2026, còn meta.vn ghi 12 tháng theo chính sách hãng ngày 28/10/2026. Hãy hỏi rõ người bán trước khi mua."),
+          ("Máy triệt lông nào có năng lượng cao nhất trong ba máy?", "URMINE Trinity i15 Pro công bố 27J tối đa; Halio SilkGlow IPL ghi 24J trong sách hướng dẫn; các nguồn chúng tôi kiểm tra không ghi số Joule của Dr Glatt IPL Pro. Năng lượng cao hơn không có nghĩa là nên dùng mức cao ngay; hãy bắt đầu ở mức thấp."),
           ("Trinity i15 Pro bảo hành bao lâu?", "24 tháng khi mua qua kênh chính thức (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE), kèm chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả.")])
 
 page(path="/compare/ipl-tai-nha-vs-spa/", crumb="IPL tại nhà và đi spa", parent=("/compare/", "So sánh"), eyebrow="So sánh chi phí", schema="Article",
