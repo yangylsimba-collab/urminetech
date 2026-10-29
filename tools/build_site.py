@@ -44,7 +44,7 @@ def head(title, desc, path, lang="vi", extra_ld=(), og_image=C.IMG_TRINITY, alte
     alt = ""
     if alternates:
         alt = "".join(f'<link rel="alternate" hreflang="{HREFLANG[k]}" href="{BASE}{p}">' for k, p in
-                      [("vi", "/markets/vietnam/"), ("th", "/markets/thailand/"), ("ms", "/markets/malaysia/"), ("id", "/markets/indonesia/")]) if path.startswith("/markets/") and path != "/markets/" else ""
+                      [("vi", "/markets/vietnam/"), ("th", "/markets/thailand/"), ("ms", "/markets/malaysia/"), ("id", "/markets/indonesia/")]) if path in ("/markets/vietnam/", "/markets/thailand/", "/markets/malaysia/", "/markets/indonesia/") else ""
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
@@ -86,8 +86,11 @@ def faq_ld(faqs):
     return {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub("<[^>]+>", "", a)}} for q, a in faqs]}
 
-def faq_html(faqs):
-    return '<div class="prose" style="max-width:860px"><h2>Câu hỏi thường gặp</h2></div><div class="faq">' + "".join(
+LABELS = {"vi": ("Tóm tắt", "Cập nhật", "Câu hỏi thường gặp"), "th": ("สรุป", "อัปเดต", "คำถามที่พบบ่อย"),
+          "ms": ("Ringkasan", "Dikemas kini", "Soalan lazim"), "id": ("Ringkasan", "Diperbarui", "Pertanyaan umum")}
+
+def faq_html(faqs, lang="vi"):
+    return f'<div class="prose" style="max-width:860px"><h2>{LABELS[lang][2]}</h2></div><div class="faq">' + "".join(
         f"<details{' open' if i == 0 else ''}><summary>{q}</summary><p>{a}</p></details>" for i, (q, a) in enumerate(faqs)) + "</div>"
 
 def write(path, text):
@@ -121,7 +124,7 @@ for p in C.PAGES:
     lds = [bc_ld]
     faqs = list(p["faq"])
     if p.get("faq_from_home"):
-        faqs = HOME_FAQ + [f for q in C.PAGES for f in q["faq"] if f not in HOME_FAQ]
+        faqs = HOME_FAQ + [f for q in C.PAGES if q["lang"] == "vi" for f in q["faq"] if f not in HOME_FAQ]
     if p.get("product"):
         lds.append(product_ld(p["product"]))
     if p["schema"] == "Article":
@@ -132,15 +135,15 @@ for p in C.PAGES:
         lds.append(faq_ld(faqs))
     crumb_html = " / ".join(f'<a href="{h}">{n}</a>' if h != path else f"<span>{n}</span>" for h, n in crumbs)
     market = path if path.startswith("/markets/") and path != "/markets/" else "/markets/vietnam/"
-    body = "\n".join(p["body"]) + (faq_html(faqs) if faqs else "")
+    body = "\n".join(p["body"]) + (faq_html(faqs, p["lang"]) if faqs else "")
     page_html = head(p["title"], p["desc"], path, lang=p["lang"], extra_ld=lds) + header(market) + f'''
 <main id="main">
 <section class="page-hero"><div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb">{crumb_html}</nav>
   <p class="eyebrow">{p["eyebrow"]}</p>
   <h1>{p["h1"]}</h1>
-  <p class="answer"><b>Tóm tắt</b>{p["answer"]}</p>
-  <p class="updated">Cập nhật {C.UPDATED}</p>
+  <p class="answer"><b>{LABELS[p["lang"]][0]}</b>{p["answer"]}</p>
+  <p class="updated">{LABELS[p["lang"]][1]} {C.UPDATED}</p>
 </div></section>
 <section class="page-body"><div class="wrap">
 {body}

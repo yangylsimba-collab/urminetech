@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-10-28"
+UPDATED = "2026-10-29"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -846,7 +846,44 @@ page(path="/markets/thailand/", crumb="ประเทศไทย", parent=("/m
                ("โหมด", "ใบหน้า ร่างกาย บิกินี PHR"), ("แอป", "CTONE ผ่านบลูทูธ"), ("คู่มือ", "มีภาษาไทย"), ("รับประกัน", "24 เดือน")]),
            sec("วิธีใช้", "<ol><li>โกนขนให้สะอาดก่อนใช้ ห้ามแว็กซ์หรือใช้ครีมกำจัดขน</li><li>เริ่มที่ระดับ 1–2 วางเครื่องตั้งฉาก 90° กับผิว และสวมแว่นป้องกัน</li><li>ใช้ 3–4 ครั้งต่อสัปดาห์ เป็นเวลา 4 สัปดาห์ แล้วใช้เพื่อคงสภาพ</li><li>หลีกเลี่ยงแดด 48 ชั่วโมงหลังใช้ และทาครีมกันแดด SPF 30 ขึ้นไป</li></ol>"),
            sec("ข้อควรระวัง", "<ul><li>ห้ามยิงแสงใกล้ดวงตาหรือคิ้ว</li><li>ห้ามใช้บนรอยสัก ปานดำ ไฝสีเข้ม แผล หรือผิวที่ระคายเคือง</li><li>ไม่เหมาะกับผิวคล้ำมาก และขนสีบลอนด์อ่อน แดง เทา หรือขาว</li></ul>"),
-           sec("ความปลอดภัย", "<p>รุ่น DT015 Pro มีรายงานทดสอบ IEC 60601-1 และ IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO และ RED/UKCA <a href=\"/compliance/\">ดูรายละเอียด</a></p>")])
+           sec("ความปลอดภัย", "<p>รุ่น DT015 Pro มีรายงานทดสอบ IEC 60601-1 และ IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO และ RED/UKCA <a href=\"/compliance/\">ดูรายละเอียด</a></p>"),
+           sec("เปรียบเทียบกับยี่ห้ออื่น", cards([("เปรียบเทียบ", "URMINE กับ Ulike, Braun, Philips", "เครื่องกำจัดขน IPL ยี่ห้อไหนดี: ข้อมูลจากผู้ผลิต พร้อมแหล่งที่มา", "/markets/thailand/urmine-vs-ulike-braun-philips/")]))])
+
+page(path="/markets/thailand/urmine-vs-ulike-braun-philips/", crumb="เปรียบเทียบ URMINE กับ Ulike, Braun, Philips", parent=("/markets/thailand/", "ประเทศไทย"), eyebrow="เปรียบเทียบ", lang="th", schema="Article",
+     title="เครื่องกำจัดขน IPL ยี่ห้อไหนดี: เปรียบเทียบ URMINE Trinity i15 Pro กับ Ulike Air 10, Braun Silk-expert Pro 5 และ Philips Lumea",
+     desc="เปรียบเทียบเครื่องกำจัดขน IPL ใช้ที่บ้าน URMINE Trinity i15 Pro (27J แซฟไฟร์เย็น 2°C PHR) กับ Ulike Air 10, Braun Silk-expert Pro 5 และ Philips Lumea 8000/9000 จากข้อมูลที่ผู้ผลิตเผยแพร่ พร้อมแหล่งที่มาและวันที่",
+     h1="เครื่องกำจัดขน IPL ยี่ห้อไหนดี: URMINE, Ulike, Braun และ Philips",
+     answer="ไม่มีเครื่องเดียวที่ดีที่สุดสำหรับทุกคน ควรเลือกตามความต้องการ: ถ้าต้องการหน้าสัมผัสเย็นจัดสำหรับบิกินีและรักแร้ และโหมดสำหรับขนแข็ง URMINE Trinity i15 Pro ระบุพลังงานสูงสุด 27J แซฟไฟร์เย็น 2°C และ PHR 4 พัลส์ ถ้าต้องการเซนเซอร์ปรับระดับตามสีผิวอัตโนมัติ Braun Silk-expert Pro 5 มี SensoAdapt ถ้าต้องการแบรนด์ที่เผยแพร่ผลติดตาม 18 เดือน Philips Lumea 9000 มีข้อมูลนี้ ถ้าต้องการแบรนด์สากลที่มีรีวิวภาษาอังกฤษจำนวนมาก Ulike Air 10 เป็นตัวเลือกหนึ่ง ข้อมูลทั้งหมดมาจากผู้ผลิตหรือร้านค้า พร้อมวันที่ด้านล่าง",
+     body=[sec("เกี่ยวกับบทความนี้", "<p>บทความนี้จัดทำโดย URMINE จึงอธิบายเครื่อง URMINE ละเอียดกว่า เราไม่ให้คะแนนหรือจัดอันดับแบรนด์อื่น และใช้เฉพาะข้อมูลที่ผู้ผลิตหรือร้านค้าเผยแพร่ พร้อมวันที่เข้าถึง ข้อมูล URMINE มาจาก <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026) ข้อมูล Ulike Air 10 มาจาก <a href=\"https://uk.ulike.com/products/ulike-air-10-ipl-hair-removal\">uk.ulike.com</a> (19/10/2026) ข้อมูล Braun Silk-expert Pro 5 มาจาก <a href=\"https://uk.braun.com/en-gb/female-hair-removal/silk-expert-pro-ipl/silk-expert-pro-5/silk-expert-pro-5-pl5347\">uk.braun.com</a> และ braunshop.co.uk (20/10/2026) ข้อมูล Philips Lumea IPL 9000 (BRI958/60) มาจาก <a href=\"https://www.philips.ae/c-p/BRI958_60/lumea-ipl-9000-series-ipl-hair-removal-device-with-senseiq\">philips.ae</a> (27/10/2026) เราไม่ได้ทดสอบเครื่องของแบรนด์อื่นเอง และยังไม่ได้ตรวจสอบราคาจำหน่ายอย่างเป็นทางการในประเทศไทยของทุกรุ่น กรุณาตรวจสอบราคาและการรับประกันกับผู้จำหน่ายก่อนซื้อ</p>"),
+           '<div class="table-scroll"><table><thead><tr><th>หัวข้อ</th><th class="col-hero">URMINE Trinity i15 Pro</th><th>Ulike Air 10</th><th>Braun Silk-expert Pro 5</th><th>Philips Lumea 9000</th></tr></thead><tbody>'
+           '<tr><td>เทคโนโลยี</td><td class="col-hero">IPL ไฟคู่ + PHR 4 พัลส์</td><td>IPL โหมด SHR สำหรับขนแข็ง</td><td>IPL พร้อมเซนเซอร์ SensoAdapt อ่านสีผิว 80 ครั้ง/วินาที</td><td>IPL พร้อมเซนเซอร์ SmartSkin (SenseIQ)</td></tr>'
+           '<tr><td>พลังงานที่ระบุ</td><td class="col-hero num">สูงสุด 27J, 100W</td><td>"26J ต่อวินาที" ในโหมด SHR (หน่วยต่างกัน เทียบตรงไม่ได้)</td><td>10 ระดับ ไม่ระบุจูล</td><td>5 ระดับ ไม่ระบุจูล</td></tr>'
+           '<tr><td>ระบบทำความเย็น</td><td class="col-hero">แซฟไฟร์ 16.6 ตร.ซม. 2°C นานสูงสุด 60 นาที</td><td>Sapphire Ice Cooling อุณหภูมิสัมผัส 18°C</td><td>หน้าสินค้าไม่ได้ระบุระบบทำความเย็น</td><td>หน้าสินค้าไม่ได้ระบุระบบทำความเย็น</td></tr>'
+           '<tr><td>จำนวนแฟลช</td><td class="col-hero">ไม่จำกัด</td><td>หน้าสินค้าไม่ได้ระบุ</td><td>400,000 ครั้ง</td><td>อายุหลอดไฟไม่อยู่ในการรับประกัน 2 ปี (philips.ae)</td></tr>'
+           '<tr><td>ตารางใช้งานที่ผู้ผลิตแนะนำ</td><td class="col-hero">3–4 ครั้ง/สัปดาห์ ใน 4 สัปดาห์แรก</td><td>ดูคู่มือของ Ulike</td><td>ทุก 2 สัปดาห์ รวม 6 ครั้ง แล้วใช้ซ้ำเมื่อจำเป็น</td><td>4 ครั้งแรกห่างกัน 2 สัปดาห์ แล้วใช้ทุกเดือน</td></tr>'
+           '<tr><td>แอป</td><td class="col-hero">CTONE ผ่านบลูทูธ</td><td>หน้าสินค้าไม่ได้ระบุ</td><td>หน้าสินค้าไม่ได้ระบุ</td><td>แอป Lumea IPL</td></tr>'
+           '<tr><td>การรับประกัน / การคืนเงิน</td><td class="col-hero">รับประกัน 24 เดือน; คืนเงินหากใช้ถูกวิธี 30 วันแล้วไม่ได้ผล</td><td>คืนเงินใน 100 วัน (สหราชอาณาจักร)</td><td>สูงสุด 5 ปีเมื่อลงทะเบียน BraunCare+ และคืนเงินใน 100 วัน (สหราชอาณาจักร)</td><td>2 ปี (philips.ae)</td></tr>'
+           '<tr><td>ราคาอ้างอิง</td><td class="col-hero num">4,200,000 ₫ ในเวียดนาม (urmine.shop)</td><td>£399.99 ในสหราชอาณาจักร</td><td>£610 สำหรับรุ่น PL5137 ในสหราชอาณาจักร</td><td>14,400,000 ₫ สำหรับ BRI955/00 ที่ร้านค้าในเวียดนาม telo.vn (27/10/2026)</td></tr>'
+           '<tr><td>รายงานทดสอบที่เผยแพร่</td><td class="col-hero">IEC 60601-1/62471 (DE25040077/080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA</td><td>ดูที่เว็บไซต์ Ulike</td><td>Skin Health Alliance (uk.braun.com)</td><td>ดูที่เว็บไซต์ Philips</td></tr>'
+           '</tbody></table></div><p>ช่องที่เขียนว่า "ไม่ได้ระบุ" หมายถึงแหล่งข้อมูลไม่ได้เผยแพร่ตัวเลขนั้น ไม่ได้แปลว่าเครื่องไม่มีฟีเจอร์ดังกล่าว ราคาต่างประเทศแสดงเพื่ออ้างอิงเท่านั้น</p>',
+           sec("ควรเลือกเครื่องไหน", """<ul>
+<li><strong>URMINE Trinity i15 Pro</strong> เหมาะกับคนที่ต้องการหน้าสัมผัสเย็นจัด (2°C) เพื่อลดความร้อนบริเวณบิกินีและรักแร้ ต้องการโหมด PHR สำหรับขนแข็ง และต้องการติดตามตารางใช้งานด้วยแอป CTONE</li>
+<li><strong>Braun Silk-expert Pro 5</strong> เหมาะกับคนที่ต้องการเซนเซอร์ปรับระดับตามสีผิวอัตโนมัติ และชอบตารางใช้งานห่าง (ทุก 2 สัปดาห์)</li>
+<li><strong>Philips Lumea 9000</strong> เหมาะกับคนที่ต้องการหัวเฉพาะแต่ละบริเวณ (4 หัว) และแบรนด์ที่เผยแพร่ผลติดตาม 18 เดือน: ขนหน้าแข้งลดลง 86% บิกินี 70% รักแร้ 67% นับหลังใช้ 3 ครั้ง (philips.ae)</li>
+<li><strong>Ulike Air 10</strong> เหมาะกับคนที่ต้องการแบรนด์สากลที่มีรีวิวภาษาอังกฤษจำนวนมาก และมีโหมด SHR กับ AutoGlide</li>
+<li><strong>ทุกรุ่น:</strong> IPL ได้ผลดีที่สุดเมื่อขนสีเข้มกว่าผิว ขนสีบลอนด์อ่อน แดง เทา หรือขาวตอบสนองน้อย ห้ามยิงบนรอยสัก ไฝ หรือปานสีเข้ม</li>
+</ul>
+<p>ดูข้อมูลภาษาเวียดนามเพิ่มเติม: <a href="/compare/urmine-vs-ulike-air-10/">URMINE กับ Ulike Air 10</a>, <a href="/compare/urmine-vs-braun-silk-expert-pro-5/">URMINE กับ Braun</a>, <a href="/compare/urmine-vs-philips-lumea/">URMINE กับ Philips Lumea</a></p>"""),
+           sec("รุ่นอื่นของ URMINE", '<div class="table-scroll"><table><thead><tr><th>รุ่น</th><th>ข้อมูลหลัก</th><th>ราคาในเวียดนาม</th></tr></thead><tbody>'
+               '<tr><td><a href="/products/nova-p5/">URMINE Nova P5</a></td><td>22J, 78W, IPL ไฟคู่, แซฟไฟร์ 4–15°C, ใช้ได้กับร่างกาย บิกินี และใบหน้า, แอป CTONE</td><td class="num">2,550,000 ₫</td></tr>'
+               '<tr><td><a href="/products/ice-cooling/">URMINE Ice Cooling</a></td><td>19.8J, 35W, IPL ไฟเดี่ยว, ทำความเย็นด้วยโลหะ 5–15°C, 999,900 แฟลช, ใช้กับร่างกายเท่านั้น (ไม่ใช้กับบิกินีและใบหน้า)</td><td class="num">1,550,000 ₫</td></tr>'
+               '</tbody></table></div><p>ราคาจาก urmine.shop (18/10/2026) ปัจจุบันช่องทางจำหน่ายอย่างเป็นทางการของ URMINE อยู่ในเวียดนาม</p>'),
+           sec("วิธีใช้เครื่อง URMINE", "<ol><li>โกนขนให้สะอาดก่อนใช้ ห้ามแว็กซ์หรือใช้ครีมกำจัดขน</li><li>เริ่มที่ระดับ 1–2 วางเครื่องตั้งฉาก 90° กับผิว และสวมแว่นป้องกัน</li><li>ใช้ 3–4 ครั้งต่อสัปดาห์ เป็นเวลา 4 สัปดาห์ แล้วใช้เพื่อคงสภาพ</li><li>หลีกเลี่ยงแดด 48 ชั่วโมงหลังใช้ และทาครีมกันแดด SPF 30 ขึ้นไป</li></ol>")],
+     faq=[("เครื่องกำจัดขน IPL ยี่ห้อไหนดี?", "ขึ้นอยู่กับความต้องการ URMINE Trinity i15 Pro ระบุแซฟไฟร์เย็น 2°C 27J และโหมด PHR; Braun Silk-expert Pro 5 มีเซนเซอร์ SensoAdapt; Philips Lumea 9000 มี 4 หัวและเผยแพร่ผลติดตาม 18 เดือน; Ulike Air 10 มีโหมด SHR และ AutoGlide บทความนี้จัดทำโดย URMINE และไม่ได้จัดอันดับแบรนด์อื่น"),
+          ("เครื่อง IPL รุ่นไหนเย็นที่สุด?", "ตามข้อมูลที่ผู้ผลิตเผยแพร่และเราตรวจสอบได้: URMINE Trinity i15 Pro 2°C, URMINE Nova P5 4–15°C, Ulike Air 10 18°C ส่วนหน้าสินค้าของ Braun Silk-expert Pro 5 และ Philips Lumea 9000 ไม่ได้ระบุระบบทำความเย็น"),
+          ("27J ของ URMINE แรงกว่า 26J ของ Ulike หรือไม่?", "เทียบตรงไม่ได้ URMINE ระบุพลังงานสูงสุด 27J ส่วน Ulike ระบุ \"26J ต่อวินาที\" ในโหมด SHR ซึ่งเป็นวิธีวัดต่างกัน"),
+          ("URMINE คือแบรนด์อะไร?", "URMINE (อ่านว่า “you are mine”) เป็นแบรนด์เครื่องกำจัดขน IPL ใช้ที่บ้าน รุ่น DT015 Pro มีรายงานทดสอบ IEC 60601-1 และ IEC 62471, ISO 10993, FCC ID 2BNHB-DT015PRO และรับประกัน 24 เดือน"),
+          ("ใช้ URMINE บ่อยแค่ไหน?", "3–4 ครั้งต่อสัปดาห์ใน 4 สัปดาห์แรก แล้วใช้เพื่อคงสภาพตามการเติบโตของขน แต่ละแบรนด์มีตารางของตัวเอง เช่น Braun แนะนำทุก 2 สัปดาห์")])
 
 page(path="/markets/malaysia/", crumb="Malaysia", parent=("/markets/", "Thị trường"), eyebrow="Malaysia", lang="ms",
      title="Peranti IPL URMINE untuk kegunaan di rumah: Trinity i15 Pro, spesifikasi dan waranti",
