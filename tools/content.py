@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-11-01"
+UPDATED = "2026-11-02"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -933,7 +933,8 @@ page(path="/markets/malaysia/", crumb="Malaysia", parent=("/markets/", "Thị tr
            sec("Cara guna", "<ol><li>Cukur bulu dengan bersih. Jangan wax atau guna krim penghilang bulu.</li><li>Mulakan pada tahap 1–2, letakkan peranti tegak 90° pada kulit dan pakai cermin mata pelindung.</li><li>Guna 3–4 kali seminggu selama 4 minggu, kemudian teruskan untuk penyelenggaraan.</li><li>Elakkan matahari 48 jam selepas rawatan dan sapukan SPF 30+.</li></ol>"),
            sec("Jangan guna", "<ul><li>Berhampiran mata atau kening.</li><li>Pada tatu, tanda lahir gelap, tahi lalat gelap, luka atau kulit yang merengsa.</li><li>Pada kulit sangat gelap, atau bulu perang muda, merah, kelabu atau putih.</li></ul>"),
            sec("Keselamatan", "<p>Model DT015 Pro mempunyai laporan ujian IEC 60601-1 dan IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO dan RED/UKCA. <a href=\"/compliance/\">Lihat butiran</a></p>"),
-           sec("Perbandingan dengan jenama lain", cards([("Perbandingan", "URMINE vs Ulike, Braun, Philips", "Peranti IPL terbaik untuk di rumah: data pengeluar dengan sumber dan tarikh", "/markets/malaysia/urmine-vs-ulike-braun-philips/")]))])
+           sec("Perbandingan dengan jenama lain", cards([("Perbandingan", "URMINE vs Ulike, Braun, Philips", "Peranti IPL terbaik untuk di rumah: data pengeluar dengan sumber dan tarikh", "/markets/malaysia/urmine-vs-ulike-braun-philips/"),
+                                                   ("Panduan membeli", "Pilih peranti IPL ikut bajet 2026", "Mulakan dengan kawasan badan, kemudian bajet: URMINE dan harga rujukan jenama antarabangsa", "/markets/malaysia/ipl-budget-guide-2026/")]))])
 
 page(path="/markets/malaysia/urmine-vs-ulike-braun-philips/", crumb="URMINE vs Ulike, Braun, Philips", parent=("/markets/malaysia/", "Malaysia"), eyebrow="Perbandingan", lang="ms", schema="Article",
      title="Peranti IPL terbaik untuk di rumah: perbandingan URMINE Trinity i15 Pro, Ulike Air 10, Braun Silk-expert Pro 5 dan Philips Lumea",
@@ -970,6 +971,42 @@ page(path="/markets/malaysia/urmine-vs-ulike-braun-philips/", crumb="URMINE vs U
           ("Adakah 27J URMINE lebih kuat daripada 26J Ulike?", "Tidak boleh dibanding terus. URMINE menyatakan tenaga maksimum 27J, manakala Ulike menyatakan \"26J per saat\" dalam mod SHR, iaitu cara pengukuran yang berbeza."),
           ("Apakah jenama URMINE?", "URMINE (disebut “you are mine”) ialah jenama peranti penghilang bulu IPL untuk kegunaan di rumah. Model DT015 Pro mempunyai laporan ujian IEC 60601-1 dan IEC 62471, ISO 10993, FCC ID 2BNHB-DT015PRO dan waranti 24 bulan."),
           ("Berapa kerap perlu guna URMINE?", "3–4 kali seminggu selama 4 minggu pertama, kemudian untuk penyelenggaraan mengikut pertumbuhan bulu. Setiap jenama ada jadual sendiri, contohnya Braun mengesyorkan setiap 2 minggu.")])
+
+page(path="/markets/malaysia/ipl-budget-guide-2026/", crumb="Pilih peranti IPL ikut bajet 2026", parent=("/markets/malaysia/", "Malaysia"), eyebrow="Panduan membeli", lang="ms", schema="Article",
+     title="Peranti IPL di rumah 2026: cara memilih ikut bajet dan kawasan badan",
+     desc="Panduan memilih peranti penghilang bulu IPL untuk kegunaan di rumah 2026 ikut bajet: URMINE Ice Cooling, Nova P5, Trinity i15 Pro serta harga rujukan Ulike, Braun dan Philips dengan sumber dan tarikh. Harga dalam ringgit belum disahkan.",
+     h1="Memilih peranti penghilang bulu IPL di rumah ikut bajet (2026)",
+     answer="Pilih dahulu ikut kawasan badan, kemudian ikut bajet: jika hanya untuk lengan, kaki dan badan, pilihan paling murah ialah URMINE Ice Cooling (1,550,000 ₫ di Vietnam, untuk badan sahaja). Jika mahu guna juga pada muka dan bikini dengan bajet sederhana, pilih URMINE Nova P5 (2,550,000 ₫, 22J, nilam 4–15°C). Jika mahu permukaan yang sangat sejuk untuk ketiak, bikini dan bulu kasar, pilih URMINE Trinity i15 Pro (4,200,000 ₫, 27J, nilam 2°C, PHR, waranti 24 bulan). Jenama antarabangsa seperti Ulike Air 10, Braun Silk-expert Pro 5 dan Philips Lumea 9000 mempunyai harga rujukan yang lebih tinggi. Semua harga ialah harga di Vietnam atau UK; harga dalam ringgit di Malaysia belum disahkan.",
+     body=[sec("Tentang artikel ini", "<p>Artikel ini ditulis oleh URMINE, jadi peranti URMINE diterangkan dengan lebih terperinci. Kami tidak memberi skor atau ranking kepada jenama lain. Data dan harga URMINE diambil daripada <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026) dalam dong Vietnam (₫), kerana saluran jualan rasmi URMINE pada masa ini berada di Vietnam. Kami belum mengesahkan harga dalam ringgit dan penjual di Malaysia, jadi harga tidak ditukar ke ringgit. Harga jenama lain diambil daripada pengeluar atau peruncit pada tarikh yang dinyatakan. Sila semak harga dan waranti dengan penjual sebelum membeli.</p>"),
+           sec("Langkah pertama: pilih ikut kawasan badan", """<ul>
+<li><strong>Lengan, kaki dan badan sahaja:</strong> peranti asas untuk badan sudah mencukupi.</li>
+<li><strong>Muka (bibir atas, dagu) dan bikini:</strong> pilih peranti yang ada mod untuk kawasan ini. Peranti yang dinyatakan untuk badan sahaja tidak patut digunakan pada muka atau bikini.</li>
+<li><strong>Ketiak, bikini, bulu kasar atau takut rasa panas:</strong> lihat suhu permukaan yang dinyatakan pengeluar dan mod untuk bulu kasar.</li>
+</ul>"""),
+           sec("Peranti URMINE ikut tahap harga", '<div class="table-scroll"><table><thead><tr><th>Tahap</th><th>Model</th><th>Maklumat utama</th><th>Harga di Vietnam</th></tr></thead><tbody>'
+               '<tr><td>Asas</td><td><a href="/products/ice-cooling/">URMINE Ice Cooling</a></td><td>19.8J, 35W, IPL lampu tunggal, penyejukan logam 5–15°C, 999,900 denyar, untuk badan sahaja (bukan muka atau bikini)</td><td class="num">1,550,000 ₫</td></tr>'
+               '<tr><td>Sederhana</td><td><a href="/products/nova-p5/">URMINE Nova P5</a></td><td>22J, 78W, IPL lampu berkembar, nilam 4–15°C, untuk badan, bikini dan muka, aplikasi CTONE</td><td class="num">2,550,000 ₫</td></tr>'
+               '<tr><td>Tinggi</td><td><a href="/products/trinity-i15-pro/">URMINE Trinity i15 Pro</a></td><td>27J, 100W, lampu berkembar + PHR 4 denyut, nilam 16.6 cm² 2°C sehingga 60 minit, 560–1200 nm, Auto Glide seluruh badan kira-kira 10 minit, aplikasi CTONE, waranti 24 bulan, wang dikembalikan jika tiada kesan selepas 30 hari penggunaan yang betul</td><td class="num">4,200,000 ₫</td></tr>'
+               '</tbody></table></div><p>Harga daripada urmine.shop (18/10/2026). Semua model diberi waranti 24 bulan.</p>'),
+           sec("Harga rujukan jenama antarabangsa", '<div class="table-scroll"><table><thead><tr><th>Model</th><th>Data yang dinyatakan pengeluar</th><th>Harga rujukan</th><th>Sumber</th></tr></thead><tbody>'
+               '<tr><td>Ulike Air 10</td><td>Sapphire Ice Cooling 18°C, mod SHR dan AutoGlide</td><td class="num">£399.99 (UK)</td><td>uk.ulike.com, 19/10/2026</td></tr>'
+               '<tr><td>Braun Silk-expert Pro 5</td><td>Sensor SensoAdapt membaca warna kulit 80 kali/saat, 10 tahap, 400,000 denyar; halaman produk tidak menyatakan sistem penyejukan</td><td class="num">£610 untuk PL5137 (UK)</td><td>uk.braun.com, braunshop.co.uk, 20/10/2026</td></tr>'
+               '<tr><td>Philips Lumea 9000</td><td>Sensor SmartSkin, 5 tahap, 4 kepala, aplikasi Lumea IPL, waranti 2 tahun; halaman produk tidak menyatakan sistem penyejukan</td><td class="num">14,400,000 ₫ untuk BRI955/00 (peruncit di Vietnam)</td><td>philips.ae, telo.vn, 27/10/2026</td></tr>'
+               '</tbody></table></div><p>Kami belum menyemak harga jualan rasmi model-model ini di Malaysia. Harga luar negara dipaparkan sebagai rujukan sahaja. Perbandingan terperinci: <a href="/markets/malaysia/urmine-vs-ulike-braun-philips/">URMINE vs Ulike, Braun, Philips</a>. Versi lain: <a href="/markets/thailand/ipl-budget-guide-2026/">ภาษาไทย</a>, <a href="/guides/may-triet-long-ipl-theo-ngan-sach-2026/">Tiếng Việt</a>.</p>'),
+           sec("5 kriteria memilih peranti", """<ol>
+<li><strong>Kawasan yang boleh digunakan:</strong> muka dan bikini memerlukan mod khas.</li>
+<li><strong>Sistem penyejukan:</strong> suhu permukaan yang dinyatakan pengeluar memudahkan perbandingan (URMINE Trinity i15 Pro: 2°C).</li>
+<li><strong>Spesifikasi yang jelas:</strong> tenaga, panjang gelombang dan bilangan denyar. Jika tidak dinyatakan, sukar untuk dibandingkan.</li>
+<li><strong>Laporan ujian:</strong> contohnya IEC 60601-1, IEC 62471, ISO 10993. Lihat <a href="/compliance/">laporan ujian URMINE</a>.</li>
+<li><strong>Waranti dan saluran pembelian:</strong> pastikan penjual memberi waranti di negara anda.</li>
+</ol>"""),
+           sec("Perhatian", "<ul><li>IPL paling berkesan apabila bulu lebih gelap daripada kulit. Bulu perang muda, merah, kelabu atau putih kurang bertindak balas, dan IPL tidak sesuai untuk kulit sangat gelap.</li><li>Jangan guna berhampiran mata atau kening, atau pada tatu, tanda lahir gelap, tahi lalat gelap, luka atau kulit yang merengsa.</li><li>Elakkan matahari 48 jam selepas rawatan dan sapukan SPF 30+.</li></ul>"),
+           sec("Cara guna peranti URMINE", "<ol><li>Cukur bulu dengan bersih. Jangan wax atau guna krim penghilang bulu.</li><li>Mulakan pada tahap 1–2, letakkan peranti tegak 90° pada kulit dan pakai cermin mata pelindung.</li><li>Guna 3–4 kali seminggu selama 4 minggu, kemudian teruskan untuk penyelenggaraan.</li></ol>")],
+     faq=[("Peranti IPL bajet rendah mana yang patut dipilih?", "Jika hanya untuk lengan, kaki dan badan, URMINE Ice Cooling (1,550,000 ₫ di Vietnam) boleh digunakan pada badan tetapi bukan pada muka dan bikini. Jika mahu guna juga pada muka dan bikini, pilih URMINE Nova P5 (2,550,000 ₫, 22J, nilam 4–15°C)."),
+          ("Apa yang perlu ada pada peranti IPL untuk ketiak dan bikini?", "Mod untuk bikini dan sistem penyejukan dengan suhu yang dinyatakan dengan jelas. URMINE Trinity i15 Pro menyatakan nilam sejuk 2°C sehingga 60 minit dan mod PHR 4 denyut untuk bulu kasar."),
+          ("Berapakah harga URMINE di Malaysia?", "Belum disahkan. Saluran jualan rasmi URMINE pada masa ini berada di Vietnam. Harga di urmine.shop (18/10/2026): Trinity i15 Pro 4,200,000 ₫, Nova P5 2,550,000 ₫, Ice Cooling 1,550,000 ₫."),
+          ("Adakah peranti yang lebih mahal sentiasa lebih berkesan?", "Tidak semestinya. Perbezaan biasanya pada kawasan yang boleh digunakan, sistem penyejukan, spesifikasi yang diterbitkan, laporan ujian dan waranti. Hasil juga bergantung pada warna bulu, warna kulit dan konsistensi penggunaan."),
+          ("Mengapa artikel ini tidak memberi ranking jenama?", "Artikel ini ditulis oleh URMINE. Untuk bersikap adil, kami hanya memaparkan spesifikasi dan harga daripada sumber awam dengan tarikh, dan tidak memberi skor kepada peranti jenama lain.")])
 
 page(path="/markets/indonesia/", crumb="Indonesia", parent=("/markets/", "Thị trường"), eyebrow="Indonesia", lang="id",
      title="Alat IPL rumahan URMINE: Trinity i15 Pro, spesifikasi, cara pakai, garansi",
