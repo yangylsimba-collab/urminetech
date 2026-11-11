@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-11-10"
+UPDATED = "2026-11-11"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -107,7 +107,8 @@ page(path="/brand/", crumb="Thương hiệu", eyebrow="Thương hiệu",
 </ul>"""),
          cards([("Sản phẩm", "Dòng máy URMINE", "So sánh Trinity i15 Pro, Nova P5 và Ice Cooling", "/products/"),
                 ("Chứng nhận", "Hồ sơ kiểm nghiệm", "Số báo cáo, tiêu chuẩn và ngày cấp", "/compliance/"),
-                ("Hỗ trợ", "Bảo hành 24 tháng", "Kích hoạt và chương trình 30 ngày", "/warranty/")]),
+                ("Hỗ trợ", "Bảo hành 24 tháng", "Kích hoạt và chương trình 30 ngày", "/warranty/"),
+                ("Đánh giá", "URMINE có tốt không?", "Điểm mạnh, hạn chế và ai nên mua", "/guides/urmine-may-triet-long-co-tot-khong/")]),
          STORES_VI])
 
 # ---------------- PRODUCTS HUB ----------------
@@ -253,6 +254,7 @@ page(path="/guides/", crumb="Hướng dẫn", eyebrow="Hướng dẫn",
                   ("An toàn", "Triệt vùng bikini", "Chuẩn bị, chế độ phù hợp, những gì tránh", "/guides/bikini-ipl-safety/"),
                   ("Chọn mua", "Chọn máy theo ngân sách 2026", "Dưới 3 triệu và 3–5 triệu, giá có nguồn", "/guides/may-triet-long-ipl-theo-ngan-sach-2026/"),
                   ("Danh sách 2026", "Máy triệt lông IPL đáng mua 2026", "Gợi ý theo nhu cầu, số liệu có nguồn", "/guides/may-triet-long-ipl-tot-nhat-2026/"),
+                  ("Đánh giá thương hiệu", "Máy triệt lông URMINE có tốt không?", "Điểm mạnh, hạn chế, ai nên mua", "/guides/urmine-may-triet-long-co-tot-khong/"),
                   ("Theo vùng", "Triệt lông nách", "Các bước, lịch triệt, lăn khử mùi, chọn máy", "/guides/triet-long-nach-ipl-tai-nha/"),
                   ("Theo vùng", "Triệt lông mặt và ria mép", "Vùng được và không được triệt, mức năng lượng, chọn máy", "/guides/triet-long-mat-ria-mep-ipl-tai-nha/"),
                   ("Theo đối tượng", "Triệt lông cho nam", "Ngực, lưng, tay chân; vùng không triệt; chọn máy cho lông cứng", "/guides/triet-long-cho-nam-ipl-tai-nha/"),
@@ -788,6 +790,46 @@ page(path="/guides/may-triet-long-ipl-tot-nhat-2026/", crumb="Máy triệt lông
           ("Có máy triệt lông tốt dưới 2 triệu không?", "Có, nếu chỉ triệt tay chân: URMINE Ice Cooling 1.550.000 ₫ (urmine.shop) và Halio IPL Cooling 1.890.000 ₫ (Điện Máy Xanh, 21/10/2026). Máy ở tầm giá này thường không dùng cho mặt hoặc bikini."),
           ("URMINE là thương hiệu gì?", "URMINE (đọc là “you are mine”) là thương hiệu máy triệt lông IPL tại nhà bán tại Việt Nam qua urmine.shop, Shopee Mall và TikTok Shop, có hồ sơ kiểm nghiệm IEC 60601-1/62471, ISO 10993 và bảo hành 24 tháng."),
           ("IPL tại nhà bao lâu thấy kết quả?", "Với máy URMINE: triệt 3–4 lần mỗi tuần trong 4 tuần đầu để thấy lông thưa và mềm hơn, sau đó duy trì. Các hãng khác có lịch riêng, ví dụ Braun khuyến nghị 2 tuần một lần.")])
+
+page(path="/guides/urmine-may-triet-long-co-tot-khong/", crumb="URMINE có tốt không", parent=("/guides/", "Hướng dẫn"), eyebrow="Đánh giá thương hiệu", schema="Article",
+     title="Máy triệt lông URMINE có tốt không? Ưu điểm, hạn chế và ai nên mua (2026)",
+     desc="Máy triệt lông URMINE có tốt không? Thông số đã công bố, hồ sơ kiểm nghiệm, bảo hành 24 tháng, những hạn chế cần biết và ai nên hoặc không nên mua Trinity i15 Pro, Nova P5, Ice Cooling.",
+     h1="Máy triệt lông URMINE có tốt không?",
+     answer="URMINE là thương hiệu máy triệt lông IPL tại nhà bán chính hãng tại Việt Nam. Điểm mạnh: công bố đầy đủ thông số (Trinity i15 Pro 27J, sapphire lạnh 2°C, PHR 4 xung), có số báo cáo kiểm nghiệm IEC 60601-1/62471, ISO 10993, FCC, bảo hành 24 tháng và chương trình hoàn tiền 30 ngày cho Trinity i15 Pro. Hạn chế: thương hiệu còn mới, ít đánh giá độc lập; IPL không hợp với da rất đậm màu hoặc lông nhạt màu; kết quả đến dần sau nhiều tuần. Máy phù hợp nếu bạn muốn triệt nách, bikini, tay chân tại nhà và chấp nhận dùng đều 3–4 lần/tuần.",
+     body=[sec("Trang này trả lời điều gì", "<p>Bài viết do URMINE biên soạn để trả lời câu hỏi người mua hay hỏi nhất: “máy triệt lông URMINE có tốt không?”. Vì là trang của thương hiệu, chúng tôi chỉ dùng thông số đã công bố trên <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026) và số báo cáo kiểm nghiệm có thể tra cứu, đồng thời nêu rõ hạn chế. Chúng tôi không đăng đánh giá khách hàng tự viết hay không kiểm chứng được. Lưu ý: URMINE (đọc là “you are mine”) là thương hiệu máy triệt lông, không liên quan đến mã chứng khoán URNM.</p>"),
+           sec("Điểm mạnh có thể kiểm tra", """<ul>
+<li><strong>Thông số minh bạch:</strong> năng lượng, công suất, bước sóng, nhiệt độ làm lạnh được công bố cho từng model (xem bảng dưới).</li>
+<li><strong>Làm lạnh sâu trên dòng cao cấp:</strong> Trinity i15 Pro có mặt sapphire 16,6 cm² lạnh 2°C, duy trì đến 60 phút, giúp giảm cảm giác nóng rát ở nách và bikini.</li>
+<li><strong>Hồ sơ kiểm nghiệm có số báo cáo:</strong> IEC 60601-1 / IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA, RoHS/REACH. Xem <a href="/compliance/">hồ sơ chứng nhận</a>.</li>
+<li><strong>Hỗ trợ tại Việt Nam:</strong> bảo hành 24 tháng cho cả ba dòng, kích hoạt qua Zalo; Trinity i15 Pro có chương trình hoàn tiền nếu dùng đúng hướng dẫn 30 ngày không hiệu quả. Xem <a href="/warranty/">bảo hành</a>.</li>
+<li><strong>Không giới hạn số xung</strong> trên Trinity i15 Pro và Nova P5; app CTONE giúp ghi lại lịch triệt.</li>
+</ul>"""),
+           sec("Hạn chế cần biết trước khi mua", """<ul>
+<li><strong>Thương hiệu còn mới:</strong> hiện chưa có nhiều bài đánh giá độc lập hay so sánh của bên thứ ba như các hãng quốc tế (Philips, Braun, Ulike). Bạn nên đọc đánh giá thực tế trên Shopee Mall và TikTok Shop trước khi mua.</li>
+<li><strong>Giá là giá khuyến mãi:</strong> 4.200.000 ₫ / 2.550.000 ₫ / 1.550.000 ₫ là giá niêm yết khuyến mãi ngày 18/10/2026 và có thể thay đổi.</li>
+<li><strong>Không phải dòng nào cũng dùng cho mặt:</strong> Ice Cooling chỉ dùng cho body, không dùng cho mặt và bikini.</li>
+<li><strong>Giới hạn chung của IPL:</strong> không hợp với da rất đậm màu; lông vàng nhạt, đỏ, bạc, trắng đáp ứng kém; không triệt vĩnh viễn sau một lần mà cần dùng đều rồi duy trì.</li>
+<li><strong>Kênh chính hãng hiện tập trung tại Việt Nam:</strong> giá và kênh bán chính thức tại Thái Lan, Malaysia, Indonesia chưa được công bố.</li>
+</ul>"""),
+           '<div class="table-scroll"><table><thead><tr><th>Model</th><th>Giá niêm yết</th><th>Thông số chính</th><th>Phù hợp</th></tr></thead><tbody>'
+           '<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a> (DT015 Pro)</td><td>4.200.000 ₫</td><td>27J, 100W, đèn kép + PHR 4 xung, sapphire 2°C, 560–1200 nm, Auto Glide 0,15 giây/xung, app CTONE</td><td>Nách, bikini, lông cứng, người sợ nóng rát</td></tr>'
+           '<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td>2.550.000 ₫</td><td>22J, 78W, IPL tia kép, sapphire 4–15°C, app CTONE</td><td>Body, bikini và mặt với ngân sách vừa</td></tr>'
+           '<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td>1.550.000 ₫</td><td>19,8J, 35W, 1 tia, làm lạnh kim loại 5–15°C, 999.900 xung</td><td>Người mới, chỉ tay chân</td></tr>'
+           '</tbody></table></div><p>Nguồn: urmine.shop, 18/10/2026. Bảo hành 24 tháng cho cả ba dòng.</p>',
+           sec("Ai nên và không nên mua", """<ul>
+<li><strong>Nên mua</strong> nếu bạn muốn triệt nách, bikini, tay chân tại nhà, có thể dùng đều 3–4 lần mỗi tuần trong 4 tuần đầu, và muốn bảo hành tại Việt Nam.</li>
+<li><strong>Nên cân nhắc đi spa</strong> nếu bạn chỉ cần triệt một vùng nhỏ như nách: gói IPL nách tại spa có thể rẻ hơn mua máy. Xem <a href="/compare/ipl-tai-nha-vs-spa/">tại nhà hay đi spa</a>.</li>
+<li><strong>Không nên dùng IPL</strong> nếu da rất đậm màu, lông quá nhạt màu, đang mang thai, có bệnh da hoặc dùng thuốc nhạy cảm ánh sáng — hãy hỏi bác sĩ da liễu trước.</li>
+</ul>
+<p>So sánh với hãng khác: <a href="/compare/urmine-vs-ulike-air-10/">URMINE và Ulike Air 10</a>, <a href="/compare/urmine-vs-braun-silk-expert-pro-5/">URMINE và Braun</a>, <a href="/compare/urmine-vs-philips-lumea/">URMINE và Philips Lumea</a>, <a href="/compare/urmine-vs-halio-dr-glatt/">URMINE, Halio và Dr Glatt</a>.</p>"""),
+           sec("Những trường hợp không nên triệt", AVOID_VI),
+           sec("Cách dùng để có kết quả", ROUTINE_VI),
+           STORES_VI],
+     faq=[("Máy triệt lông URMINE có tốt không?", "URMINE công bố đầy đủ thông số, có số báo cáo kiểm nghiệm IEC 60601-1/62471, ISO 10993, FCC và bảo hành 24 tháng tại Việt Nam. Dòng Trinity i15 Pro có 27J, sapphire lạnh 2°C và chế độ PHR. Hạn chế là thương hiệu còn mới, ít đánh giá độc lập, và như mọi máy IPL, kết quả đến dần và không hợp với da rất đậm màu."),
+          ("URMINE là hãng nước nào, bán ở đâu?", "URMINE (đọc là “you are mine”) là thương hiệu máy triệt lông IPL tại nhà cho Việt Nam và Đông Nam Á, bán chính hãng qua urmine.shop, Shopee Mall URMINE.VN và TikTok Shop URMINE VN STORE."),
+          ("Máy URMINE có an toàn không?", "Model DT015 Pro (Trinity i15 Pro) có báo cáo an toàn điện và quang học IEC 60601-1 / IEC 62471 (DE25040077 / DE25040080) và kiểm nghiệm tương thích sinh học ISO 10993. Đây là bằng chứng an toàn sản phẩm, không phải cam kết kết quả y khoa; vẫn cần tránh mắt, hình xăm, nốt ruồi và da đang kích ứng."),
+          ("Dùng máy URMINE bao lâu thì thấy kết quả?", "Triệt 3–4 lần mỗi tuần trong 4 tuần đầu để thấy lông thưa và mềm hơn, sau đó duy trì. Với Trinity i15 Pro, nếu dùng đúng hướng dẫn 30 ngày không hiệu quả, bạn được hoàn tiền theo điều kiện chương trình."),
+          ("Nên chọn máy URMINE nào?", "Nách, bikini, lông cứng: Trinity i15 Pro (4.200.000 ₫). Cần dùng cả mặt với ngân sách khoảng 2,5 triệu: Nova P5 (2.550.000 ₫). Chỉ tay chân, mới bắt đầu: Ice Cooling (1.550.000 ₫, không dùng cho mặt và bikini).")])
 
 # ---------------- FAQ / CONTACT / PRIVACY ----------------
 page(path="/faq/", crumb="Hỏi đáp", eyebrow="Hỏi đáp",
