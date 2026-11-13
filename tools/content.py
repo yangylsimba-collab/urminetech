@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-11-12"
+UPDATED = "2026-11-13"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -995,7 +995,7 @@ page(path="/markets/thailand/urmine-review/", crumb="URMINE ดีไหม", pa
 <li><strong>ควรรอหรือเลือกแบรนด์ที่มีผู้จำหน่ายในไทย</strong> ถ้าคุณต้องการการรับประกันและศูนย์บริการในประเทศไทยตั้งแต่วันนี้</li>
 <li><strong>ไม่ควรใช้ IPL</strong> ถ้าผิวคล้ำมาก ขนสีอ่อนมาก กำลังตั้งครรภ์ มีโรคผิวหนัง หรือใช้ยาที่ไวต่อแสง ควรปรึกษาแพทย์ผิวหนังก่อน</li>
 </ul>
-<p>เปรียบเทียบกับแบรนด์อื่น: <a href="/markets/thailand/urmine-vs-ulike-braun-philips/">URMINE กับ Ulike, Braun, Philips</a> · เลือกตามงบ: <a href="/markets/thailand/ipl-budget-guide-2026/">คู่มือเลือกเครื่อง IPL ตามงบประมาณ 2026</a> · ภาษาเวียดนาม: <a href="/guides/urmine-may-triet-long-co-tot-khong/">URMINE có tốt không</a></p>"""),
+<p>เปรียบเทียบกับแบรนด์อื่น: <a href="/markets/thailand/urmine-vs-ulike-braun-philips/">URMINE กับ Ulike, Braun, Philips</a> · เลือกตามงบ: <a href="/markets/thailand/ipl-budget-guide-2026/">คู่มือเลือกเครื่อง IPL ตามงบประมาณ 2026</a> · ภาษาเวียดนาม: <a href="/guides/urmine-may-triet-long-co-tot-khong/">URMINE có tốt không</a> · Bahasa Melayu: <a href="/markets/malaysia/urmine-review/">URMINE bagus tak?</a></p>"""),
            sec("ข้อควรระวัง", "<ul><li>ห้ามยิงแสงใกล้ดวงตาหรือคิ้ว</li><li>ห้ามใช้บนรอยสัก ปานดำ ไฝสีเข้ม แผล หรือผิวที่ระคายเคือง</li><li>หลีกเลี่ยงแดด 48 ชั่วโมงหลังใช้ และทาครีมกันแดด SPF 30 ขึ้นไป</li></ul>"),
            sec("วิธีใช้เพื่อให้ได้ผล", "<ol><li>โกนขนให้สะอาดก่อนใช้ ห้ามแว็กซ์หรือใช้ครีมกำจัดขน</li><li>เริ่มที่ระดับ 1–2 วางเครื่องตั้งฉาก 90° กับผิว และสวมแว่นป้องกัน</li><li>ใช้ 3–4 ครั้งต่อสัปดาห์ เป็นเวลา 4 สัปดาห์ แล้วใช้เพื่อคงสภาพ</li></ol>")],
      faq=[("เครื่องกำจัดขน URMINE ดีไหม?", "URMINE เปิดเผยสเปกครบ มีหมายเลขรายงานทดสอบ IEC 60601-1/62471, ISO 10993, FCC และรับประกัน 24 เดือน รุ่น Trinity i15 Pro มี 27J แซฟไฟร์เย็น 2°C และโหมด PHR ข้อจำกัดคือแบรนด์ยังใหม่ มีรีวิวอิสระน้อย ช่องทางทางการอยู่ในเวียดนาม และเหมือน IPL ทุกเครื่อง ผลลัพธ์ค่อย ๆ เห็นและไม่เหมาะกับผิวคล้ำมาก"),
@@ -1016,7 +1016,8 @@ page(path="/markets/malaysia/", crumb="Malaysia", parent=("/markets/", "Thị tr
            sec("Jangan guna", "<ul><li>Berhampiran mata atau kening.</li><li>Pada tatu, tanda lahir gelap, tahi lalat gelap, luka atau kulit yang merengsa.</li><li>Pada kulit sangat gelap, atau bulu perang muda, merah, kelabu atau putih.</li></ul>"),
            sec("Keselamatan", "<p>Model DT015 Pro mempunyai laporan ujian IEC 60601-1 dan IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO dan RED/UKCA. <a href=\"/compliance/\">Lihat butiran</a></p>"),
            sec("Perbandingan dengan jenama lain", cards([("Perbandingan", "URMINE vs Ulike, Braun, Philips", "Peranti IPL terbaik untuk di rumah: data pengeluar dengan sumber dan tarikh", "/markets/malaysia/urmine-vs-ulike-braun-philips/"),
-                                                   ("Panduan membeli", "Pilih peranti IPL ikut bajet 2026", "Mulakan dengan kawasan badan, kemudian bajet: URMINE dan harga rujukan jenama antarabangsa", "/markets/malaysia/ipl-budget-guide-2026/")]))])
+                                                   ("Panduan membeli", "Pilih peranti IPL ikut bajet 2026", "Mulakan dengan kawasan badan, kemudian bajet: URMINE dan harga rujukan jenama antarabangsa", "/markets/malaysia/ipl-budget-guide-2026/"),
+                                                   ("Ulasan jenama", "Peranti IPL URMINE bagus tak?", "Kelebihan, had dan siapa patut beli, berdasarkan data yang boleh disemak", "/markets/malaysia/urmine-review/")]))])
 
 page(path="/markets/malaysia/urmine-vs-ulike-braun-philips/", crumb="URMINE vs Ulike, Braun, Philips", parent=("/markets/malaysia/", "Malaysia"), eyebrow="Perbandingan", lang="ms", schema="Article",
      title="Peranti IPL terbaik untuk di rumah: perbandingan URMINE Trinity i15 Pro, Ulike Air 10, Braun Silk-expert Pro 5 dan Philips Lumea",
@@ -1089,6 +1090,45 @@ page(path="/markets/malaysia/ipl-budget-guide-2026/", crumb="Pilih peranti IPL i
           ("Berapakah harga URMINE di Malaysia?", "Belum disahkan. Saluran jualan rasmi URMINE pada masa ini berada di Vietnam. Harga di urmine.shop (18/10/2026): Trinity i15 Pro 4,200,000 ₫, Nova P5 2,550,000 ₫, Ice Cooling 1,550,000 ₫."),
           ("Adakah peranti yang lebih mahal sentiasa lebih berkesan?", "Tidak semestinya. Perbezaan biasanya pada kawasan yang boleh digunakan, sistem penyejukan, spesifikasi yang diterbitkan, laporan ujian dan waranti. Hasil juga bergantung pada warna bulu, warna kulit dan konsistensi penggunaan."),
           ("Mengapa artikel ini tidak memberi ranking jenama?", "Artikel ini ditulis oleh URMINE. Untuk bersikap adil, kami hanya memaparkan spesifikasi dan harga daripada sumber awam dengan tarikh, dan tidak memberi skor kepada peranti jenama lain.")])
+
+page(path="/markets/malaysia/urmine-review/", crumb="URMINE bagus tak?", parent=("/markets/malaysia/", "Malaysia"), eyebrow="Ulasan jenama", lang="ms", schema="Article",
+     title="Peranti IPL URMINE bagus tak? Kelebihan, had dan siapa patut beli (2026)",
+     desc="Peranti penghilang bulu IPL URMINE bagus tak? Spesifikasi yang diterbitkan pengeluar, laporan ujian IEC 60601-1/62471 dan ISO 10993, waranti 24 bulan, had yang perlu diketahui dan siapa patut atau tidak patut membeli Trinity i15 Pro, Nova P5, Ice Cooling.",
+     h1="Peranti IPL URMINE bagus tak?",
+     answer="URMINE ialah jenama peranti penghilang bulu IPL untuk kegunaan di rumah. Kelebihannya: spesifikasi didedahkan dengan jelas (Trinity i15 Pro 27J, permukaan nilam sejuk 2°C, PHR 4 denyut), nombor laporan ujian IEC 60601-1/62471, ISO 10993 dan FCC, waranti 24 bulan, serta program wang dikembalikan 30 hari untuk Trinity i15 Pro. Hadnya: jenama ini masih baharu dengan sedikit ulasan bebas, saluran jualan rasmi kini di Vietnam, harga dalam ringgit belum disahkan, dan seperti semua peranti IPL, hasil kelihatan secara beransur-ansur dalam beberapa minggu dan tidak sesuai untuk kulit sangat gelap atau bulu berwarna cerah.",
+     body=[sec("Apa yang dijawab oleh artikel ini", "<p>Artikel ini ditulis oleh URMINE untuk menjawab soalan yang paling kerap ditanya pembeli: “Peranti IPL URMINE bagus tak?”. Oleh sebab ini halaman jenama sendiri, kami hanya menggunakan spesifikasi yang diterbitkan di <a href=\"https://urmine.shop\">urmine.shop</a> (18/10/2026) dan nombor laporan ujian yang boleh disemak, serta menyatakan hadnya secara terus terang. Kami tidak menerbitkan ulasan pelanggan yang tidak dapat disahkan. Nota: URMINE (disebut “you are mine”) ialah jenama peranti penghilang bulu dan tiada kaitan dengan saham atau dana URNM.</p>"),
+           sec("Kelebihan yang boleh disemak", """<ul>
+<li><strong>Spesifikasi didedahkan dengan jelas:</strong> tenaga, kuasa, panjang gelombang dan suhu penyejukan dinyatakan untuk setiap model (lihat jadual di bawah).</li>
+<li><strong>Penyejukan kuat pada model teratas:</strong> Trinity i15 Pro mempunyai permukaan nilam 16.6 cm² yang sejuk hingga 2°C sehingga 60 minit, membantu mengurangkan rasa panas di ketiak dan bikini.</li>
+<li><strong>Laporan ujian bernombor:</strong> IEC 60601-1 / IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO, RED/UKCA, RoHS/REACH. Lihat <a href="/compliance/">laporan ujian</a>.</li>
+<li><strong>Waranti:</strong> 24 bulan untuk ketiga-tiga model, dan Trinity i15 Pro mempunyai program wang dikembalikan jika tiada hasil selepas 30 hari penggunaan yang betul (tertakluk kepada syarat program).</li>
+<li><strong>Kilatan tanpa had</strong> pada Trinity i15 Pro dan Nova P5, serta aplikasi CTONE untuk merekod jadual penggunaan.</li>
+</ul>"""),
+           sec("Had yang perlu diketahui sebelum membeli", """<ul>
+<li><strong>Jenama masih baharu:</strong> ulasan atau perbandingan pihak ketiga masih sedikit berbanding jenama antarabangsa seperti Philips, Braun atau Ulike.</li>
+<li><strong>Belum ada saluran jualan rasmi di Malaysia:</strong> saluran rasmi kini di Vietnam (urmine.shop, Shopee Mall URMINE.VN, TikTok Shop URMINE VN STORE). Harga dalam ringgit, penjual di Malaysia dan waranti di Malaysia belum disahkan.</li>
+<li><strong>Harga ialah harga promosi:</strong> 4,200,000 ₫ / 2,550,000 ₫ / 1,550,000 ₫ ialah harga promosi di Vietnam pada 18/10/2026 dan boleh berubah.</li>
+<li><strong>Bukan semua model boleh digunakan pada muka:</strong> Ice Cooling untuk badan sahaja, bukan untuk muka dan bikini.</li>
+<li><strong>Had umum IPL:</strong> tidak sesuai untuk kulit sangat gelap; bulu perang muda, merah, kelabu atau putih kurang bertindak balas; dan bulu tidak hilang kekal dalam satu sesi. Penggunaan perlu konsisten, kemudian diteruskan untuk penyelenggaraan.</li>
+</ul>"""),
+           '<div class="table-scroll"><table><thead><tr><th>Model</th><th>Harga di Vietnam</th><th>Spesifikasi utama</th><th>Sesuai untuk</th></tr></thead><tbody>'
+           '<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a> (DT015 Pro)</td><td class="num">4,200,000 ₫</td><td>27J, 100W, lampu berkembar + PHR 4 denyut, nilam 2°C, 560–1200 nm, Auto Glide 0.15 saat/kilatan, aplikasi CTONE</td><td>Ketiak, bikini, bulu kasar, mereka yang sensitif pada panas</td></tr>'
+           '<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2,550,000 ₫</td><td>22J, 78W, IPL lampu berkembar, nilam 4–15°C, aplikasi CTONE</td><td>Badan, bikini dan muka dengan bajet sederhana</td></tr>'
+           '<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1,550,000 ₫</td><td>19.8J, 35W, IPL lampu tunggal, penyejukan logam 5–15°C, 999,900 kilatan</td><td>Pengguna baharu, tangan, kaki dan badan sahaja</td></tr>'
+           '</tbody></table></div><p>Sumber: urmine.shop, 18/10/2026. Semua model mempunyai waranti 24 bulan.</p>',
+           sec("Siapa patut beli, dan siapa tidak", """<ul>
+<li><strong>Patut dipertimbangkan</strong> jika anda mahu menghilangkan bulu ketiak, bikini, tangan dan kaki di rumah, boleh menggunakannya secara konsisten 3–4 kali seminggu dalam 4 minggu pertama, dan mahukan permukaan yang sangat sejuk.</li>
+<li><strong>Tunggu dahulu atau pilih jenama yang ada pengedar di Malaysia</strong> jika anda memerlukan waranti dan pusat servis di Malaysia sekarang.</li>
+<li><strong>Jangan guna IPL</strong> jika kulit sangat gelap, bulu sangat cerah, sedang hamil, mempunyai penyakit kulit atau mengambil ubat yang menyebabkan kulit sensitif pada cahaya. Rujuk pakar dermatologi terlebih dahulu.</li>
+</ul>
+<p>Perbandingan dengan jenama lain: <a href="/markets/malaysia/urmine-vs-ulike-braun-philips/">URMINE vs Ulike, Braun, Philips</a> · Ikut bajet: <a href="/markets/malaysia/ipl-budget-guide-2026/">Pilih peranti IPL ikut bajet 2026</a> · Versi lain: <a href="/markets/thailand/urmine-review/">ภาษาไทย</a>, <a href="/guides/urmine-may-triet-long-co-tot-khong/">Tiếng Việt</a></p>"""),
+           sec("Langkah berjaga-jaga", "<ul><li>Jangan halakan cahaya berhampiran mata atau kening.</li><li>Jangan guna pada tatu, tanda lahir gelap, tahi lalat gelap, luka atau kulit yang merengsa.</li><li>Elakkan matahari 48 jam selepas penggunaan dan sapukan SPF 30+.</li></ul>"),
+           sec("Cara guna untuk hasil terbaik", "<ol><li>Cukur bulu dengan bersih sebelum guna. Jangan wax atau guna krim penghilang bulu.</li><li>Mulakan pada tahap 1–2, letakkan peranti tegak 90° pada kulit dan pakai cermin mata pelindung.</li><li>Guna 3–4 kali seminggu selama 4 minggu, kemudian teruskan untuk penyelenggaraan.</li></ol>")],
+     faq=[("Peranti IPL URMINE bagus tak?", "URMINE mendedahkan spesifikasi dengan jelas, mempunyai nombor laporan ujian IEC 60601-1/62471, ISO 10993, FCC dan waranti 24 bulan. Trinity i15 Pro mempunyai 27J, permukaan nilam sejuk 2°C dan mod PHR. Hadnya: jenama masih baharu dengan sedikit ulasan bebas, saluran rasmi di Vietnam, dan seperti semua IPL, hasil kelihatan beransur-ansur dan tidak sesuai untuk kulit sangat gelap."),
+          ("Di mana boleh beli URMINE? Ada dijual di Malaysia?", "Saluran jualan rasmi kini di Vietnam: urmine.shop, Shopee Mall URMINE.VN dan TikTok Shop URMINE VN STORE. Pengedar dan harga dalam ringgit di Malaysia belum disahkan."),
+          ("Adakah peranti URMINE selamat?", "Model DT015 Pro (Trinity i15 Pro) mempunyai laporan ujian keselamatan elektrik dan cahaya IEC 60601-1 / IEC 62471 (DE25040077 / DE25040080) dan ujian biokeserasian ISO 10993. Ini bukti keselamatan produk, bukan pengesahan hasil perubatan. Anda masih perlu mengelakkan mata, tatu, tahi lalat dan kulit yang merengsa."),
+          ("Berapa lama guna URMINE untuk nampak hasil?", "Guna 3–4 kali seminggu dalam 4 minggu pertama supaya bulu menjadi lebih nipis dan halus, kemudian teruskan untuk penyelenggaraan. Hasil bergantung pada warna bulu, warna kulit dan konsistensi penggunaan."),
+          ("Model URMINE mana yang patut dipilih?", "Ketiak, bikini, bulu kasar: Trinity i15 Pro (4,200,000 ₫ di Vietnam). Mahu guna pada muka juga dengan bajet sederhana: Nova P5 (2,550,000 ₫). Tangan dan kaki sahaja, pengguna baharu: Ice Cooling (1,550,000 ₫, bukan untuk muka dan bikini).")])
 
 page(path="/markets/indonesia/", crumb="Indonesia", parent=("/markets/", "Thị trường"), eyebrow="Indonesia", lang="id",
      title="Alat IPL rumahan URMINE: Trinity i15 Pro, spesifikasi, cara pakai, garansi",
