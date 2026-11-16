@@ -6,7 +6,7 @@ TIKTOK = "https://vt.tiktok.com/ZSg6XRrhD/?page=TikTokShop"
 SHOP = "https://urmine.shop"
 FB = "https://www.facebook.com/urminevietnam"
 EMAIL = "jlmcompany2024@gmail.com"
-UPDATED = "2026-11-15"
+UPDATED = "2026-11-16"
 IMG_TRINITY = "https://zvvqxnzyjfzcsinqbdxt.supabase.co/storage/v1/object/public/product-media/dt015-pro/1789982966138-may-vang.webp"
 
 
@@ -1037,7 +1037,7 @@ page(path="/markets/thailand/ipl-underarm-guide/", crumb="กำจัดขน�
 <tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1,550,000 ₫</td><td>19.8J ทำความเย็นด้วยโลหะ 5–15°C ผู้ผลิตระบุให้ใช้กับร่างกาย (ไม่ใช้กับใบหน้าและบิกินี) ไม่มีหน้าสัมผัสแซฟไฟร์ อ่าน<a href="/manuals/">คู่มือ</a>ก่อนใช้กับรักแร้</td></tr>
 </tbody></table></div>
 <p>ราคาและสเปกจาก <a href="https://urmine.shop">urmine.shop</a> (18/10/2026) เป็นราคาโปรโมชันในเวียดนาม ยังไม่มีราคาเงินบาทและผู้จำหน่ายอย่างเป็นทางการในประเทศไทยที่ยืนยันแล้ว ทุกรุ่นรับประกัน 24 เดือนเมื่อซื้อจากช่องทางทางการ</p>"""),
-           sec("ทำแค่รักแร้: ซื้อเครื่องหรือไปคลินิก?", '<p>ถ้าคุณต้องการกำจัดขนเฉพาะรักแร้ แพ็กเกจ IPL รักแร้ที่คลินิกอาจคุ้มกว่าการซื้อเครื่อง ควรเปรียบเทียบราคาแพ็กเกจในพื้นที่ของคุณก่อน เครื่องที่บ้านจะคุ้มกว่าเมื่อคุณกำจัดขนบริเวณอื่นด้วย เช่น บิกินี แขน ขา หรือใบหน้า และต้องการใช้คงสภาพเอง ดูเพิ่มเติม: <a href="/markets/thailand/ipl-budget-guide-2026/">คู่มือเลือกเครื่อง IPL ตามงบประมาณ 2026</a> · <a href="/markets/thailand/urmine-review/">URMINE ดีไหม</a> · ภาษาเวียดนาม: <a href="/guides/triet-long-nach-ipl-tai-nha/">Triệt lông nách IPL tại nhà</a></p>'),
+           sec("ทำแค่รักแร้: ซื้อเครื่องหรือไปคลินิก?", '<p>ถ้าคุณต้องการกำจัดขนเฉพาะรักแร้ แพ็กเกจ IPL รักแร้ที่คลินิกอาจคุ้มกว่าการซื้อเครื่อง ควรเปรียบเทียบราคาแพ็กเกจในพื้นที่ของคุณก่อน เครื่องที่บ้านจะคุ้มกว่าเมื่อคุณกำจัดขนบริเวณอื่นด้วย เช่น บิกินี แขน ขา หรือใบหน้า และต้องการใช้คงสภาพเอง ดูเพิ่มเติม: <a href="/markets/thailand/ipl-budget-guide-2026/">คู่มือเลือกเครื่อง IPL ตามงบประมาณ 2026</a> · <a href="/markets/thailand/urmine-review/">URMINE ดีไหม</a> · ภาษามลายู: <a href="/markets/malaysia/ipl-underarm-guide/">Buang bulu ketiak dengan IPL</a> · ภาษาเวียดนาม: <a href="/guides/triet-long-nach-ipl-tai-nha/">Triệt lông nách IPL tại nhà</a></p>'),
            sec("ไม่ควรใช้เมื่อ", "<ul><li>ตั้งครรภ์หรือให้นมบุตร</li><li>มีรอยสัก ปานดำ ไฝสีเข้ม แผล หรือผิวที่ระคายเคืองในบริเวณนั้น</li><li>ผิวไหม้แดดหรือเพิ่งอาบแดด</li><li>ใช้ยาที่ทำให้ไวต่อแสง หรือมีโรคผิวหนัง ควรปรึกษาแพทย์ผิวหนังก่อน</li><li>ผิวคล้ำมาก หรือขนสีบลอนด์อ่อน แดง เทา ขาว (IPL ได้ผลน้อย)</li></ul>")],
      faq=[("กำจัดขนรักแร้ด้วยเครื่อง IPL ที่บ้านได้ผลไหม?", "ได้ผลกับคนส่วนใหญ่ที่มีขนรักแร้สีดำหรือน้ำตาลและผิวขาวถึงสองสี IPL ทำให้รากขนอ่อนแอลงทีละรอบ สำหรับเครื่อง URMINE ใช้ 3–4 ครั้งต่อสัปดาห์ใน 4 สัปดาห์แรกเพื่อให้ขนบางและนุ่มลง แล้วใช้เพื่อคงสภาพ"),
           ("กำจัดขนรักแร้ด้วย IPL เจ็บไหม?", "รักแร้บอบบางกว่าแขนขา อาจรู้สึกร้อนคล้ายหนังยางดีด ให้เริ่มที่ระดับ 1–2 และใช้เครื่องที่มีหน้าสัมผัสแซฟไฟร์เย็น เช่น URMINE Trinity i15 Pro (2°C) หรือ Nova P5 (4–15°C) เพื่อลดความรู้สึกร้อน"),
@@ -1058,7 +1058,8 @@ page(path="/markets/malaysia/", crumb="Malaysia", parent=("/markets/", "Thị tr
            sec("Keselamatan", "<p>Model DT015 Pro mempunyai laporan ujian IEC 60601-1 dan IEC 62471 (DE25040077 / DE25040080), ISO 10993, FCC ID 2BNHB-DT015PRO dan RED/UKCA. <a href=\"/compliance/\">Lihat butiran</a></p>"),
            sec("Perbandingan dengan jenama lain", cards([("Perbandingan", "URMINE vs Ulike, Braun, Philips", "Peranti IPL terbaik untuk di rumah: data pengeluar dengan sumber dan tarikh", "/markets/malaysia/urmine-vs-ulike-braun-philips/"),
                                                    ("Panduan membeli", "Pilih peranti IPL ikut bajet 2026", "Mulakan dengan kawasan badan, kemudian bajet: URMINE dan harga rujukan jenama antarabangsa", "/markets/malaysia/ipl-budget-guide-2026/"),
-                                                   ("Ulasan jenama", "Peranti IPL URMINE bagus tak?", "Kelebihan, had dan siapa patut beli, berdasarkan data yang boleh disemak", "/markets/malaysia/urmine-review/")]))])
+                                                   ("Ulasan jenama", "Peranti IPL URMINE bagus tak?", "Kelebihan, had dan siapa patut beli, berdasarkan data yang boleh disemak", "/markets/malaysia/urmine-review/"),
+                                                   ("Panduan ikut kawasan", "Buang bulu ketiak dengan IPL di rumah", "Cara guna, jadual, penjagaan selepas rawatan dan pilihan peranti", "/markets/malaysia/ipl-underarm-guide/")]))])
 
 page(path="/markets/malaysia/urmine-vs-ulike-braun-philips/", crumb="URMINE vs Ulike, Braun, Philips", parent=("/markets/malaysia/", "Malaysia"), eyebrow="Perbandingan", lang="ms", schema="Article",
      title="Peranti IPL terbaik untuk di rumah: perbandingan URMINE Trinity i15 Pro, Ulike Air 10, Braun Silk-expert Pro 5 dan Philips Lumea",
@@ -1170,6 +1171,46 @@ page(path="/markets/malaysia/urmine-review/", crumb="URMINE bagus tak?", parent=
           ("Adakah peranti URMINE selamat?", "Model DT015 Pro (Trinity i15 Pro) mempunyai laporan ujian keselamatan elektrik dan cahaya IEC 60601-1 / IEC 62471 (DE25040077 / DE25040080) dan ujian biokeserasian ISO 10993. Ini bukti keselamatan produk, bukan pengesahan hasil perubatan. Anda masih perlu mengelakkan mata, tatu, tahi lalat dan kulit yang merengsa."),
           ("Berapa lama guna URMINE untuk nampak hasil?", "Guna 3–4 kali seminggu dalam 4 minggu pertama supaya bulu menjadi lebih nipis dan halus, kemudian teruskan untuk penyelenggaraan. Hasil bergantung pada warna bulu, warna kulit dan konsistensi penggunaan."),
           ("Model URMINE mana yang patut dipilih?", "Ketiak, bikini, bulu kasar: Trinity i15 Pro (4,200,000 ₫ di Vietnam). Mahu guna pada muka juga dengan bajet sederhana: Nova P5 (2,550,000 ₫). Tangan dan kaki sahaja, pengguna baharu: Ice Cooling (1,550,000 ₫, bukan untuk muka dan bikini).")])
+
+page(path="/markets/malaysia/ipl-underarm-guide/", crumb="Buang bulu ketiak dengan IPL di rumah", parent=("/markets/malaysia/", "Malaysia"), eyebrow="Panduan ikut kawasan", lang="ms", schema="Article",
+     title="Buang bulu ketiak dengan peranti IPL di rumah: cara guna, jadual dan pilihan peranti",
+     desc="Cara buang bulu ketiak dengan IPL di rumah: cukur dan keringkan kulit, angkat lengan supaya kulit tegang, mulakan tahap 1–2, guna 3–4 kali seminggu selama 4 minggu, penjagaan selepas rawatan dan pilihan peranti URMINE untuk ketiak.",
+     h1="Buang bulu ketiak dengan peranti IPL di rumah",
+     answer="Cukur bulu ketiak dengan bersih, keringkan kulit dan jangan sapu deodoran atau krim sebelum rawatan. Angkat lengan ke atas kepala supaya kulit tegang, letakkan peranti tegak 90° supaya tetingkap cahaya rapat pada kulit, dan mulakan pada tahap 1–2. Untuk peranti URMINE, guna 3–4 kali seminggu selama 4 minggu pertama, kemudian teruskan untuk penyelenggaraan. Selepas rawatan, elakkan deodoran yang mengandungi alkohol atau pewangi selama 12–24 jam dan elakkan matahari selama 48 jam. Ketiak ialah kawasan sensitif dan bulunya biasanya kasar; peranti dengan permukaan nilam sejuk seperti URMINE Trinity i15 Pro (27J, nilam 2°C, mod PHR) membantu rawatan terasa lebih selesa.",
+     body=[sec("Kenapa ketiak perlu lebih berhati-hati", """<ul>
+<li><strong>Bulu biasanya kasar dan gelap:</strong> bulu gelap menyerap cahaya IPL dengan baik, tetapi juga menghasilkan lebih banyak haba, jadi lebih mudah terasa panas.</li>
+<li><strong>Kulit nipis dan berlipat:</strong> kulit perlu ditegangkan supaya tetingkap cahaya rapat sepenuhnya dan tidak menyinar secara condong.</li>
+<li><strong>Bulu tumbuh ke pelbagai arah:</strong> cukur dari beberapa arah supaya tiada bulu tertinggal di permukaan kulit.</li>
+<li><strong>Kulit ketiak mungkin lebih gelap daripada kawasan sekitar:</strong> IPL tidak sesuai untuk kulit yang sangat gelap. Jika ketiak anda gelap, uji dahulu pada tahap rendah di kawasan kecil.</li>
+</ul>"""),
+           sec("Langkah buang bulu ketiak di rumah", """<ol>
+<li><strong>Cukur bulu dengan bersih.</strong> Jangan wax, cabut atau guna krim penghilang bulu, kerana IPL memerlukan akar bulu yang masih ada dalam folikel.</li>
+<li><strong>Cuci dan keringkan:</strong> bersihkan sisa deodoran, krim atau minyak pada kulit.</li>
+<li><strong>Pakai cermin mata pelindung</strong> yang disertakan bersama peranti.</li>
+<li><strong>Angkat lengan ke atas kepala</strong> supaya kulit ketiak tegang.</li>
+<li><strong>Mulakan pada tahap 1–2</strong> dalam 2–3 minggu pertama, kemudian naikkan perlahan-lahan jika kulit tidak merah atau pedih berpanjangan.</li>
+<li><strong>Letakkan tegak 90°</strong> supaya tetingkap cahaya rapat pada kulit, gerakkan satu petak demi satu petak dan jangan menyinar tempat yang sama berulang kali dalam satu sesi.</li>
+<li><strong>Berhenti</strong> jika terasa sakit luar biasa, melepuh atau kulit merengsa.</li>
+</ol>"""),
+           sec("Jadual dan penjagaan selepas rawatan", """<ul>
+<li><strong>4 minggu pertama:</strong> 3–4 kali seminggu (cadangan URMINE), kemudian guna untuk penyelenggaraan apabila bulu semakin jarang.</li>
+<li><strong>Selepas rawatan:</strong> elakkan deodoran roll-on atau semburan yang mengandungi alkohol atau pewangi selama 12–24 jam.</li>
+<li><strong>Matahari:</strong> elakkan matahari 48 jam selepas rawatan dan sapukan pelindung matahari SPF 30+ jika perlu keluar.</li>
+<li><strong>Jika kulit sedikit merah:</strong> tuam sejuk atau sapukan gel lidah buaya tanpa pewangi.</li>
+</ul>"""),
+           sec("Pilih peranti URMINE untuk ketiak", """<div class="table-scroll"><table><thead><tr><th>Model</th><th>Harga di Vietnam</th><th>Ciri berkaitan ketiak</th></tr></thead><tbody>
+<tr><td><a href="/products/trinity-i15-pro/">Trinity i15 Pro</a></td><td class="num">4,200,000 ₫</td><td>27J lampu berkembar + PHR 4 denyut untuk bulu kasar, nilam 16.6 cm² sejuk 2°C sehingga 60 minit, Auto Glide 0.15 saat/denyar, aplikasi CTONE</td></tr>
+<tr><td><a href="/products/nova-p5/">Nova P5</a></td><td class="num">2,550,000 ₫</td><td>22J IPL lampu berkembar, nilam 4–15°C, boleh digunakan untuk badan, bikini dan muka, aplikasi CTONE</td></tr>
+<tr><td><a href="/products/ice-cooling/">Ice Cooling</a></td><td class="num">1,550,000 ₫</td><td>19.8J, penyejukan logam 5–15°C, pengeluar menyatakan untuk badan sahaja (bukan muka dan bikini), tiada permukaan nilam. Baca <a href="/manuals/">manual</a> sebelum digunakan pada ketiak</td></tr>
+</tbody></table></div>
+<p>Harga dan spesifikasi daripada <a href="https://urmine.shop">urmine.shop</a> (18/10/2026) ialah harga promosi di Vietnam. Belum ada harga dalam ringgit atau pengedar rasmi di Malaysia yang disahkan. Semua model mempunyai waranti 24 bulan apabila dibeli melalui saluran rasmi.</p>"""),
+           sec("Ketiak sahaja: beli peranti atau pergi ke klinik?", '<p>Jika anda hanya mahu membuang bulu ketiak, pakej IPL ketiak di klinik mungkin lebih menjimatkan daripada membeli peranti. Bandingkan harga pakej di kawasan anda dahulu. Peranti di rumah lebih berbaloi apabila anda juga merawat kawasan lain seperti bikini, lengan, kaki atau muka dan mahu melakukan penyelenggaraan sendiri. Lihat juga: <a href="/markets/malaysia/ipl-budget-guide-2026/">Pilih peranti IPL ikut bajet 2026</a> · <a href="/markets/malaysia/urmine-review/">Peranti IPL URMINE bagus tak?</a> · Bahasa Thai: <a href="/markets/thailand/ipl-underarm-guide/">กำจัดขนรักแร้ด้วย IPL ที่บ้าน</a> · Bahasa Vietnam: <a href="/guides/triet-long-nach-ipl-tai-nha/">Triệt lông nách IPL tại nhà</a></p>'),
+           sec("Jangan guna jika", "<ul><li>Hamil atau menyusukan anak.</li><li>Ada tatu, tanda lahir gelap, tahi lalat gelap, luka atau kulit merengsa di kawasan tersebut.</li><li>Kulit terbakar matahari atau baru berjemur.</li><li>Mengambil ubat yang menyebabkan kepekaan terhadap cahaya, atau mempunyai penyakit kulit: rujuk pakar dermatologi dahulu.</li><li>Kulit sangat gelap, atau bulu perang muda, merah, kelabu atau putih (IPL kurang berkesan).</li></ul>")],
+     faq=[("Adakah buang bulu ketiak dengan IPL di rumah berkesan?", "Berkesan bagi kebanyakan orang yang mempunyai bulu ketiak hitam atau perang dan kulit cerah hingga sawo matang. IPL melemahkan akar bulu secara beransur-ansur. Untuk peranti URMINE, guna 3–4 kali seminggu selama 4 minggu pertama supaya bulu menjadi jarang dan halus, kemudian teruskan untuk penyelenggaraan."),
+          ("Adakah IPL ketiak sakit?", "Ketiak lebih sensitif daripada lengan dan kaki, jadi mungkin terasa panas seperti dipetik getah. Mulakan pada tahap 1–2 dan gunakan peranti dengan permukaan nilam sejuk seperti URMINE Trinity i15 Pro (2°C) atau Nova P5 (4–15°C) untuk mengurangkan rasa panas."),
+          ("Bila boleh pakai deodoran selepas IPL?", "Tunggu 12–24 jam sebelum memakai deodoran yang mengandungi alkohol atau pewangi. Sebelum rawatan, cuci deodoran dan keringkan kulit."),
+          ("Ketiak gelap boleh guna IPL?", "IPL tidak sesuai untuk kulit yang sangat gelap. Jika kulit ketiak lebih gelap daripada kawasan sekitar, uji pada tahap rendah di kawasan kecil dan perhatikan kulit. Berhenti jika terasa sakit luar biasa atau merengsa. Jangan menyinar pada tahi lalat gelap, luka atau kulit yang merengsa."),
+          ("Model URMINE mana yang sesuai untuk ketiak?", "URMINE Trinity i15 Pro (4,200,000 ₫ di Vietnam) paling sesuai untuk bulu ketiak yang kasar dengan 27J, mod PHR 4 denyut dan nilam 2°C. Nova P5 (2,550,000 ₫) ialah pilihan lebih jimat dengan nilam 4–15°C dan boleh digunakan untuk muka dan bikini.")])
 
 page(path="/markets/indonesia/", crumb="Indonesia", parent=("/markets/", "Thị trường"), eyebrow="Indonesia", lang="id",
      title="Alat IPL rumahan URMINE: Trinity i15 Pro, spesifikasi, cara pakai, garansi",
